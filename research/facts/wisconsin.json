@@ -1,0 +1,312 @@
+{
+ "name": "Wisconsin",
+ "slug": "wisconsin",
+ "terr": false,
+ "counties": 72,
+ "all": 117,
+ "std": 89,
+ "mapd": 59,
+ "zero": 28,
+ "snp": 28,
+ "dsnp": 22,
+ "csnp": 4,
+ "isnp": 2,
+ "moopMin": 2750.0,
+ "moopMed": 5650.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 63,
+ "premMax": 300.0,
+ "orgs": 12,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 17,
+ "orgList": [
+  [
+   "Humana Inc.",
+   17
+  ],
+  [
+   "Medica Holding Company",
+   13
+  ],
+  [
+   "University of Wisconsin Hospitals and Clincs Autho",
+   12
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   11
+  ],
+  [
+   "Network Health, Inc.",
+   9
+  ],
+  [
+   "CVS Health Corporation",
+   8
+  ]
+ ],
+ "lowMoop": {
+  "n": "Dean Advantage Complete (HMO)",
+  "o": "Dean Advantage",
+  "moop": 2750.0,
+  "m": 276.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4200.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5200.0
+ },
+ "hmo": 36,
+ "ppo": 37,
+ "pffs": 1,
+ "std26": 94,
+ "pdp": 8,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 189.1,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 10.850000000000001,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 81669,
+ "st": "WI",
+ "countiesMostPlans": [
+  {
+   "slug": "shawano",
+   "name": "Shawano",
+   "std": 37,
+   "zero": 15,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 25,
+   "snp": 13,
+   "std26": 39,
+   "gone": 5,
+   "new": 3
+  },
+  {
+   "slug": "sheboygan",
+   "name": "Sheboygan",
+   "std": 35,
+   "zero": 15,
+   "moopMin": 3400.0,
+   "moopMed": 5650.0,
+   "star4": 25,
+   "snp": 19,
+   "std26": 37,
+   "gone": 3,
+   "new": 1
+  },
+  {
+   "slug": "waupaca",
+   "name": "Waupaca",
+   "std": 34,
+   "zero": 13,
+   "moopMin": 3000.0,
+   "moopMed": 6000.0,
+   "star4": 24,
+   "snp": 18,
+   "std26": 36,
+   "gone": 5,
+   "new": 3
+  },
+  {
+   "slug": "brown",
+   "name": "Brown",
+   "std": 33,
+   "zero": 14,
+   "moopMin": 3400.0,
+   "moopMed": 5900.0,
+   "star4": 22,
+   "snp": 17,
+   "std26": 39,
+   "gone": 7,
+   "new": 1
+  },
+  {
+   "slug": "forest",
+   "name": "Forest",
+   "std": 33,
+   "zero": 11,
+   "moopMin": 3000.0,
+   "moopMed": 5700.0,
+   "star4": 25,
+   "snp": 9,
+   "std26": 34,
+   "gone": 4,
+   "new": 3
+  },
+  {
+   "slug": "manitowoc",
+   "name": "Manitowoc",
+   "std": 33,
+   "zero": 14,
+   "moopMin": 3400.0,
+   "moopMed": 5900.0,
+   "star4": 22,
+   "snp": 17,
+   "std26": 35,
+   "gone": 3,
+   "new": 1
+  },
+  {
+   "slug": "marinette",
+   "name": "Marinette",
+   "std": 33,
+   "zero": 13,
+   "moopMin": 3000.0,
+   "moopMed": 5375.0,
+   "star4": 24,
+   "snp": 12,
+   "std26": 34,
+   "gone": 4,
+   "new": 3
+  },
+  {
+   "slug": "milwaukee",
+   "name": "Milwaukee",
+   "std": 33,
+   "zero": 17,
+   "moopMin": 4200.0,
+   "moopMed": 5650.0,
+   "star4": 24,
+   "snp": 19,
+   "std26": 34,
+   "gone": 2,
+   "new": 1
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "crawford",
+   "name": "Crawford",
+   "std": 12,
+   "zero": 1,
+   "moopMin": 4200.0,
+   "snp": 10
+  },
+  {
+   "slug": "grant",
+   "name": "Grant",
+   "std": 12,
+   "zero": 1,
+   "moopMin": 5900.0,
+   "snp": 12
+  },
+  {
+   "slug": "jackson",
+   "name": "Jackson",
+   "std": 12,
+   "zero": 1,
+   "moopMin": 3000.0,
+   "snp": 10
+  },
+  {
+   "slug": "bayfield",
+   "name": "Bayfield",
+   "std": 11,
+   "zero": 1,
+   "moopMin": 4450.0,
+   "snp": 7
+  },
+  {
+   "slug": "vernon",
+   "name": "Vernon",
+   "std": 11,
+   "zero": 2,
+   "moopMin": 5200.0,
+   "snp": 10
+  },
+  {
+   "slug": "richland",
+   "name": "Richland",
+   "std": 10,
+   "zero": 1,
+   "moopMin": 4200.0,
+   "snp": 10
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 11.4,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 22.3,
+   "dd": 687.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 129.9,
+   "dd": 350.0,
+   "d26": 110.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 189.1,
+   "dd": 300.0,
+   "d26": 113.9,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 36,
+  "ppo": 37,
+  "pffs": 1
+ },
+ "costPlans": 14
+}

@@ -1,0 +1,57 @@
+---
+/**
+ * Home, in its own order: the county finder first (every plan of a county at once, no ZIP code), the
+ * enrollment calendar strip, the folded answer, why the county decides, the 52-row state table, the
+ * calculators by family, long text in accordions, FAQ. Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { HOME } from '../content/home';
+import { route } from '../i18n/routes';
+import { GROUPS } from '../i18n/nav';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { GUIDES, STATE_PAGES, stateId } from '../lib/pages';
+import { STATE_LIST, stateSummary, P } from '../lib/data';
+import { usd, num, day } from '../lib/fmt';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const rows = STATE_LIST.map((s) => { const v = stateSummary(s.st); const has = STATE_PAGES.some((p) => p.slug === s.slug); return [has ? `<a href="${route(stateId(s.slug), lang)}">${s.name}</a>` : s.name, v.std, v.zero, v.moopMed === null ? 'none' : usd(v.moopMed), v.snp, v.pdp]; });
+const aep = P.periods.aep;
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{x.h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{x.intro}</p>
+    <p class="mt-1 text-sm text-navy-600">CMS landscape file of September 2026 and star ratings of October 8, 2026, checked <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">How the data is read</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+  </header>
+  <div data-outil data-chrome><Tool kind="finder" idPrefix="home" /></div>
+  <p class="my-4 rounded-lg border-l-4 border-accent-600 bg-accent-50 px-4 py-3 text-sm text-navy-800"><strong>Open enrollment:</strong> {day(aep.start)} to {day(aep.end)} for coverage on {day(aep.effective)}. Independent site, not affiliated with the government or any insurer; no agent will call you.</p>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <section class="prose prose-slate max-w-none prose-headings:font-serif"><Fragment set:html={x.why(h)} /></section>
+  <section class="mt-10 prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+    <Fragment set:html={table(['State', 'Open to all', '$0 with drugs', 'Median max out of pocket', 'Special needs plans', 'Drug plans (PDP)'], rows, 'CMS CY2027 landscape file (202609.1). Puerto Rico included; the four smaller territories are in the finder.', ['l', 'r', 'r', 'r', 'r', 'r'])} />
+  </section>
+  <section class="mt-10" data-chrome>
+    {GROUPS.map((g) => (
+      <div class="mb-6">
+        <h2 class="font-serif text-xl font-bold text-navy-900">{g.label}</h2>
+        <ul class="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+          {GUIDES.filter((p) => p.group === g.id).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.nav}</a><span class="block text-navy-600">{p.card}</span></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+  <section class="mt-10">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">Before you choose</h2>
+    {x.sections(h).map((s) => <details class="fold"><summary><h3 class="fold-h">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
+</PageLayout>

@@ -1,0 +1,707 @@
+{
+ "state": "texas",
+ "county": "harris",
+ "name": "Harris",
+ "all": 99,
+ "std": 49,
+ "mapd": 41,
+ "zero": 33,
+ "snp": 50,
+ "dsnp": 23,
+ "csnp": 20,
+ "isnp": 7,
+ "moopMin": 1500.0,
+ "moopMed": 6000.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 24,
+ "premMax": 138.0,
+ "orgs": 10,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 15,
+ "orgList": [
+  [
+   "Humana Inc.",
+   15
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   9
+  ],
+  [
+   "CVS Health Corporation",
+   6
+  ],
+  [
+   "Health Care Service Corporation",
+   6
+  ],
+  [
+   "Devoted Health, Inc.",
+   5
+  ],
+  [
+   "Centene Corporation",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "MedCare Classic (HMO)",
+  "o": "MedCare Partners Health Plan of Texas",
+  "moop": 1500.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Wellcare TexanPlus Classic Simple (HMO-POS)",
+  "o": "Wellcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 3400.0
+ },
+ "best": {
+  "n": "Humana Gold Plus H0028-042 (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3950.0
+ },
+ "hmo": 32,
+ "ppo": 16,
+ "pffs": 1,
+ "std26": 69,
+ "zero26": 40,
+ "gone": 23,
+ "new": 3,
+ "openPlans": [
+  {
+   "n": "MedCare Classic (HMO)",
+   "o": "MedCare Partners Health Plan of Texas",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1500.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Verda Noble Care (HMO)",
+   "o": "Verda Health Plan of Texas",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 1599.0,
+   "star": 2.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Classic Texas (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 2900.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare TexanPlus Classic Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3400.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Walmart Health Advantage (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 3500.0,
+   "star": "nd",
+   "m26": null
+  },
+  {
+   "n": "HealthSpring Alliance (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 3600.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 019 TX (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 3650.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 001 TX (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 3700.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H0028-042 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 440.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H0028-072 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 440.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Total Complete (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 440.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Total Complete (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 440.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 4000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "KelseyCare Advantage Signature (HMO)",
+   "o": "KelseyCare Advantage",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 4150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Courage (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4300.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime Care (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellpoint Medicare Advantage Select 1 (HMO-POS)",
+   "o": "Wellpoint",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "KelseyCare Advantage Core (HMO)",
+   "o": "KelseyCare Advantage",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4500.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC TX-001P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 114 TX (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5600.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "HumanaChoice R4182-001 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC TX-0009 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-043 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6800.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6800.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6800.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "KelseyCare Advantage Freedom (HMO-POS)",
+   "o": "KelseyCare Advantage",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 6850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC TX-0015 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 6900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx TX-MA01 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 7200.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Extra Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 7500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5216-358 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 50.0,
+   "moop": 8300.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 50.0,
+   "moop": 8300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 006 TX (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 8300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellpoint Medicare Advantage 2 (HMO-POS)",
+   "o": "Wellpoint",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 105.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Choice H8145-126 (PFFS)",
+   "o": "Humana",
+   "t": "PFFS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED PREMIUM 002 TX (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 5.0,
+   "dd": 650.0,
+   "moop": 4150.0,
+   "star": 4.5,
+   "m26": 4.8
+  },
+  {
+   "n": "Aetna Medicare Value Plus (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 6.3,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 4.8
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC TX-4P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 36.0,
+   "dd": 595.0,
+   "moop": 3900.0,
+   "star": 4.0,
+   "m26": 34.0
+  },
+  {
+   "n": "HumanaChoice R4182-004 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 46.0,
+   "dd": 700.0,
+   "moop": 8200.0,
+   "star": 3.5,
+   "m26": 44.0
+  },
+  {
+   "n": "HumanaChoice H5216-042 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 62.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 60.0
+  },
+  {
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 65.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 45.0
+  },
+  {
+   "n": "HumanaChoice R4182-003 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 100.0,
+   "dd": 700.0,
+   "moop": 8200.0,
+   "star": 3.5,
+   "m26": 97.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC TX-61 (Regional PPO)",
+   "o": "UnitedHealthcare",
+   "t": "Regional PPO",
+   "m": 138.0,
+   "dd": 685.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 102.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0174-009-0",
+   "n": "Wellcare Assist (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H0174-019-0",
+   "n": "Wellcare Giveback (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H1278-014-0",
+   "n": "AARP Medicare Advantage from UHC TX-0006 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H1278-021-0",
+   "n": "AARP Medicare Advantage Giveback from UHC TX-31 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H1278-027-0",
+   "n": "AARP Medicare Advantage Patriot No Rx TX-MA05 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H1666-003-0",
+   "n": "Blue Cross Medicare Advantage Choice Premier (PPO)",
+   "o": "Blue Cross and Blue Shield of NM, TX",
+   "same": false
+  },
+  {
+   "k": "H1666-022-0",
+   "n": "Blue Cross Medicare Advantage Optimum (PPO)",
+   "o": "Blue Cross and Blue Shield of NM, TX",
+   "same": false
+  },
+  {
+   "k": "H4506-010-0",
+   "n": "Wellcare TexanPlus Patriot Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H5216-128-0",
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5652-001-0",
+   "n": "Erickson Advantage Signature (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-002-0",
+   "n": "Erickson Advantage Liberty no Rx (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-006-0",
+   "n": "Erickson Advantage Freedom (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-008-0",
+   "n": "Erickson Advantage Liberty (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H7115-001-0",
+   "n": "Memorial Hermann Advantage (HMO)",
+   "o": "Memorial Hermann Health Plan",
+   "same": false
+  },
+  {
+   "k": "H7115-006-0",
+   "n": "Memorial Hermann Prime Value MA Only (HMO)",
+   "o": "Memorial Hermann Health Plan",
+   "same": false
+  },
+  {
+   "k": "H7323-012-0",
+   "n": "Wellcare Simple Open (PPO)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H8133-001-0",
+   "n": "Blue Cross Medicare Advantage Basic (HMO)",
+   "o": "Blue Cross and Blue Shield of Texas",
+   "same": false
+  },
+  {
+   "k": "H8145-084-0",
+   "n": "Humana Gold Choice H8145-084 (PFFS)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H8634-033-0",
+   "n": "Blue Cross Medicare Advantage Preferred (PPO)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "same": false
+  },
+  {
+   "k": "H8902-011-0",
+   "n": "SCAN MyChoice Texas (HMO)",
+   "o": "SCAN Health Plan",
+   "same": true
+  },
+  {
+   "k": "H9706-005-0",
+   "n": "Blue Cross Medicare Advantage Secure (HMO)",
+   "o": "Blue Cross and Blue Shield of Texas",
+   "same": false
+  },
+  {
+   "k": "H9706-007-0",
+   "n": "Blue Cross Medicare Advantage Dental Value (HMO)",
+   "o": "Blue Cross and Blue Shield of Texas",
+   "same": false
+  },
+  {
+   "k": "H9706-008-0",
+   "n": "Blue Cross Medicare Advantage Saver (HMO)",
+   "o": "Blue Cross and Blue Shield of Texas",
+   "same": false
+  }
+ ]
+}

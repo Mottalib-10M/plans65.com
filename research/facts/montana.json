@@ -1,0 +1,308 @@
+{
+ "name": "Montana",
+ "slug": "montana",
+ "terr": false,
+ "counties": 47,
+ "all": 23,
+ "std": 19,
+ "mapd": 14,
+ "zero": 4,
+ "snp": 4,
+ "dsnp": 4,
+ "csnp": 0,
+ "isnp": 0,
+ "moopMin": 5000.0,
+ "moopMed": 6750.0,
+ "moopMax": 9150.0,
+ "starMax": 4.5,
+ "star4": 14,
+ "premMax": 169.0,
+ "orgs": 3,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 14,
+ "orgList": [
+  [
+   "Humana Inc.",
+   14
+  ],
+  [
+   "Gemstone Holdings, Inc.",
+   3
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "HumanaChoice H5216-457 (PPO)",
+  "o": "Humana",
+  "moop": 5000.0,
+  "m": 28.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 6200.0
+ },
+ "best": {
+  "n": "Humana Essentials Plus Giveback (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 8400.0
+ },
+ "hmo": 2,
+ "ppo": 14,
+ "pffs": 3,
+ "std26": 28,
+ "pdp": 9,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 222.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 33.3,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 33448,
+ "st": "MT",
+ "countiesMostPlans": [
+  {
+   "slug": "cascade",
+   "name": "Cascade",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5200.0,
+   "moopMed": 6750.0,
+   "star4": 11,
+   "snp": 4,
+   "std26": 17,
+   "gone": 6,
+   "new": 2
+  },
+  {
+   "slug": "flathead",
+   "name": "Flathead",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5200.0,
+   "moopMed": 6750.0,
+   "star4": 11,
+   "snp": 4,
+   "std26": 21,
+   "gone": 10,
+   "new": 2
+  },
+  {
+   "slug": "lewis-and-clark",
+   "name": "Lewis and Clark",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5850.0,
+   "moopMed": 6750.0,
+   "star4": 11,
+   "snp": 3,
+   "std26": 13,
+   "gone": 2,
+   "new": 2
+  },
+  {
+   "slug": "yellowstone",
+   "name": "Yellowstone",
+   "std": 12,
+   "zero": 4,
+   "moopMin": 5200.0,
+   "moopMed": 6725.0,
+   "star4": 10,
+   "snp": 4,
+   "std26": 22,
+   "gone": 12,
+   "new": 2
+  },
+  {
+   "slug": "missoula",
+   "name": "Missoula",
+   "std": 11,
+   "zero": 4,
+   "moopMin": 5850.0,
+   "moopMed": 6750.0,
+   "star4": 11,
+   "snp": 3,
+   "std26": 13,
+   "gone": 2,
+   "new": 0
+  },
+  {
+   "slug": "teton",
+   "name": "Teton",
+   "std": 10,
+   "zero": 0,
+   "moopMin": 5000.0,
+   "moopMed": 6875.0,
+   "star4": 8,
+   "snp": 4,
+   "std26": 14,
+   "gone": 6,
+   "new": 2
+  },
+  {
+   "slug": "gallatin",
+   "name": "Gallatin",
+   "std": 9,
+   "zero": 4,
+   "moopMin": 5200.0,
+   "moopMed": 6700.0,
+   "star4": 9,
+   "snp": 4,
+   "std26": 11,
+   "gone": 2,
+   "new": 0
+  },
+  {
+   "slug": "jefferson",
+   "name": "Jefferson",
+   "std": 9,
+   "zero": 0,
+   "moopMin": 5000.0,
+   "moopMed": 6750.0,
+   "star4": 7,
+   "snp": 3,
+   "std26": 9,
+   "gone": 2,
+   "new": 2
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "petroleum",
+   "name": "Petroleum",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  },
+  {
+   "slug": "phillips",
+   "name": "Phillips",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  },
+  {
+   "slug": "powder-river",
+   "name": "Powder River",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  },
+  {
+   "slug": "prairie",
+   "name": "Prairie",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  },
+  {
+   "slug": "roosevelt",
+   "name": "Roosevelt",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  },
+  {
+   "slug": "valley",
+   "name": "Valley",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 0
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 9.6,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 5.3,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 12.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 18.3,
+   "dd": 700.0,
+   "d26": 4.7,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 33.3,
+   "dd": 687.0,
+   "d26": 20.8,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 117.1,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 123.0,
+   "dd": 350.0,
+   "d26": 103.7,
+   "star": 4.5
+  },
+  {
+   "n": "MedicareBlue Rx Standard (PDP)",
+   "o": "MedicareBlue Rx",
+   "d": 179.1,
+   "dd": 700.0,
+   "d26": 101.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 222.9,
+   "dd": 300.0,
+   "d26": 140.2,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 2,
+  "ppo": 14,
+  "pffs": 3
+ },
+ "costPlans": 0
+}

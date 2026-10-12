@@ -1,0 +1,312 @@
+{
+ "name": "Maine",
+ "slug": "maine",
+ "terr": false,
+ "counties": 16,
+ "all": 50,
+ "std": 32,
+ "mapd": 26,
+ "zero": 8,
+ "snp": 18,
+ "dsnp": 14,
+ "csnp": 3,
+ "isnp": 1,
+ "moopMin": 4950.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 18,
+ "premMax": 110.0,
+ "orgs": 6,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 9,
+ "orgList": [
+  [
+   "Humana Inc.",
+   9
+  ],
+  [
+   "Martin's Point Health Care, Inc.",
+   9
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   5
+  ],
+  [
+   "CVS Health Corporation",
+   4
+  ],
+  [
+   "Elevance Health, Inc.",
+   3
+  ],
+  [
+   "Centene Corporation",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "moop": 4950.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "HumanaChoice H5216-175 (PPO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 19,
+ "ppo": 13,
+ "pffs": 0,
+ "std26": 36,
+ "pdp": 8,
+ "pdp26": 9,
+ "pdpMin": 5.3,
+ "pdpMax": 175.8,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 37.7,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 30672,
+ "st": "ME",
+ "countiesMostPlans": [
+  {
+   "slug": "kennebec",
+   "name": "Kennebec",
+   "std": 23,
+   "zero": 7,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 15,
+   "snp": 15,
+   "std26": 26,
+   "gone": 9,
+   "new": 6
+  },
+  {
+   "slug": "cumberland",
+   "name": "Cumberland",
+   "std": 22,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 14,
+   "snp": 16,
+   "std26": 26,
+   "gone": 9,
+   "new": 5
+  },
+  {
+   "slug": "york",
+   "name": "York",
+   "std": 22,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 14,
+   "snp": 16,
+   "std26": 25,
+   "gone": 8,
+   "new": 5
+  },
+  {
+   "slug": "androscoggin",
+   "name": "Androscoggin",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 12,
+   "snp": 14,
+   "std26": 24,
+   "gone": 9,
+   "new": 5
+  },
+  {
+   "slug": "lincoln",
+   "name": "Lincoln",
+   "std": 19,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 12,
+   "snp": 12,
+   "std26": 24,
+   "gone": 10,
+   "new": 5
+  },
+  {
+   "slug": "knox",
+   "name": "Knox",
+   "std": 18,
+   "zero": 6,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 11,
+   "snp": 12,
+   "std26": 22,
+   "gone": 8,
+   "new": 4
+  },
+  {
+   "slug": "penobscot",
+   "name": "Penobscot",
+   "std": 18,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 10,
+   "std26": 21,
+   "gone": 8,
+   "new": 5
+  },
+  {
+   "slug": "sagadahoc",
+   "name": "Sagadahoc",
+   "std": 18,
+   "zero": 7,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 11,
+   "snp": 12,
+   "std26": 25,
+   "gone": 10,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "waldo",
+   "name": "Waldo",
+   "std": 17,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 11
+  },
+  {
+   "slug": "aroostook",
+   "name": "Aroostook",
+   "std": 13,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 8
+  },
+  {
+   "slug": "piscataquis",
+   "name": "Piscataquis",
+   "std": 11,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 11
+  },
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 11,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 6
+  },
+  {
+   "slug": "hancock",
+   "name": "Hancock",
+   "std": 10,
+   "zero": 4,
+   "moopMin": 4950.0,
+   "snp": 8
+  },
+  {
+   "slug": "somerset",
+   "name": "Somerset",
+   "std": 9,
+   "zero": 4,
+   "moopMin": 4950.0,
+   "snp": 4
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 14.7,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 60.7,
+   "dd": 687.0,
+   "d26": 54.4,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 162.7,
+   "dd": 700.0,
+   "d26": 82.4,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 169.2,
+   "dd": 350.0,
+   "d26": 150.2,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 175.8,
+   "dd": 300.0,
+   "d26": 104.3,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 19,
+  "ppo": 13,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

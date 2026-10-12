@@ -1,0 +1,366 @@
+{
+ "name": "Kansas",
+ "slug": "kansas",
+ "terr": false,
+ "counties": 105,
+ "all": 80,
+ "std": 60,
+ "mapd": 52,
+ "zero": 41,
+ "snp": 20,
+ "dsnp": 7,
+ "csnp": 10,
+ "isnp": 3,
+ "moopMin": 2800.0,
+ "moopMed": 5500.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 30,
+ "premMax": 155.0,
+ "orgs": 6,
+ "topOrg": "CVS Health Corporation",
+ "topOrgN": 20,
+ "orgList": [
+  [
+   "CVS Health Corporation",
+   20
+  ],
+  [
+   "Humana Inc.",
+   17
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   12
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "Blue Cross Blue Shield of Kansas",
+   4
+  ],
+  [
+   "Centene Corporation",
+   1
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Total Complete (HMO-POS)",
+  "o": "Humana",
+  "moop": 2800.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO-POS)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 2800.0
+ },
+ "best": {
+  "n": "Humana Total Complete Giveback (HMO-POS)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4200.0
+ },
+ "hmo": 21,
+ "ppo": 35,
+ "pffs": 4,
+ "std26": 68,
+ "pdp": 12,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 264.5,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 59.3,
+ "pdpBench": 4,
+ "pdpZeroDed": 0,
+ "bytes": 69013,
+ "st": "KS",
+ "countiesMostPlans": [
+  {
+   "slug": "jefferson",
+   "name": "Jefferson",
+   "std": 29,
+   "zero": 20,
+   "moopMin": 2800.0,
+   "moopMed": 5250.0,
+   "star4": 15,
+   "snp": 13,
+   "std26": 36,
+   "gone": 10,
+   "new": 3
+  },
+  {
+   "slug": "johnson",
+   "name": "Johnson",
+   "std": 29,
+   "zero": 18,
+   "moopMin": 2800.0,
+   "moopMed": 5500.0,
+   "star4": 15,
+   "snp": 14,
+   "std26": 36,
+   "gone": 10,
+   "new": 3
+  },
+  {
+   "slug": "wyandotte",
+   "name": "Wyandotte",
+   "std": 29,
+   "zero": 18,
+   "moopMin": 2800.0,
+   "moopMed": 5500.0,
+   "star4": 15,
+   "snp": 14,
+   "std26": 32,
+   "gone": 6,
+   "new": 3
+  },
+  {
+   "slug": "leavenworth",
+   "name": "Leavenworth",
+   "std": 28,
+   "zero": 18,
+   "moopMin": 2800.0,
+   "moopMed": 5475.0,
+   "star4": 15,
+   "snp": 13,
+   "std26": 35,
+   "gone": 10,
+   "new": 3
+  },
+  {
+   "slug": "miami",
+   "name": "Miami",
+   "std": 27,
+   "zero": 18,
+   "moopMin": 2800.0,
+   "moopMed": 5500.0,
+   "star4": 14,
+   "snp": 13,
+   "std26": 34,
+   "gone": 10,
+   "new": 3
+  },
+  {
+   "slug": "shawnee",
+   "name": "Shawnee",
+   "std": 27,
+   "zero": 17,
+   "moopMin": 2800.0,
+   "moopMed": 5000.0,
+   "star4": 14,
+   "snp": 10,
+   "std26": 28,
+   "gone": 2,
+   "new": 1
+  },
+  {
+   "slug": "franklin",
+   "name": "Franklin",
+   "std": 26,
+   "zero": 18,
+   "moopMin": 2800.0,
+   "moopMed": 5375.0,
+   "star4": 13,
+   "snp": 12,
+   "std26": 33,
+   "gone": 10,
+   "new": 3
+  },
+  {
+   "slug": "jackson",
+   "name": "Jackson",
+   "std": 26,
+   "zero": 17,
+   "moopMin": 3950.0,
+   "moopMed": 5250.0,
+   "star4": 9,
+   "snp": 12,
+   "std26": 26,
+   "gone": 2,
+   "new": 2
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "seward",
+   "name": "Seward",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "stanton",
+   "name": "Stanton",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 2
+  },
+  {
+   "slug": "stevens",
+   "name": "Stevens",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "trego",
+   "name": "Trego",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "wallace",
+   "name": "Wallace",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 2
+  },
+  {
+   "slug": "wichita",
+   "name": "Wichita",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  }
+ ],
+ "countiesNoOpenPlan": [
+  "Clark",
+  "Finney",
+  "Ford",
+  "Gove",
+  "Graham",
+  "Grant",
+  "Gray",
+  "Greeley",
+  "Hamilton",
+  "Haskell",
+  "Hodgeman",
+  "Kearny",
+  "Meade",
+  "Morton",
+  "Ness",
+  "Seward",
+  "Stanton",
+  "Stevens",
+  "Trego",
+  "Wallace",
+  "Wichita"
+ ],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 9.6,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Value (PDP)",
+   "o": "Blue Cross and Blue Shield of Kansas",
+   "d": 15.3,
+   "dd": 700.0,
+   "d26": 0.7,
+   "star": 4.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 20.3,
+   "dd": 700.0,
+   "d26": 14.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 21.8,
+   "dd": 700.0,
+   "d26": 15.5,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 24.5,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Blue MedicareRx Essentials (PDP)",
+   "o": "Blue Cross and Blue Shield of Kansas",
+   "d": 45.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 73.3,
+   "dd": 687.0,
+   "d26": 55.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 126.5,
+   "dd": 700.0,
+   "d26": 105.4,
+   "star": 3.0
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 131.3,
+   "dd": 700.0,
+   "d26": 88.3,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 135.6,
+   "dd": 350.0,
+   "d26": 116.3,
+   "star": 4.5
+  },
+  {
+   "n": "Blue MedicareRx Plus (PDP)",
+   "o": "Blue Cross and Blue Shield of Kansas",
+   "d": 167.0,
+   "dd": 350.0,
+   "d26": 67.4,
+   "star": 4.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 264.5,
+   "dd": 300.0,
+   "d26": 147.0,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 21,
+  "ppo": 35,
+  "pffs": 4
+ },
+ "costPlans": 0
+}

@@ -1,0 +1,320 @@
+{
+ "name": "Virginia",
+ "slug": "virginia",
+ "terr": false,
+ "counties": 133,
+ "all": 148,
+ "std": 106,
+ "mapd": 94,
+ "zero": 66,
+ "snp": 42,
+ "dsnp": 18,
+ "csnp": 19,
+ "isnp": 5,
+ "moopMin": 2250.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 69,
+ "premMax": 158.0,
+ "orgs": 8,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 36,
+ "orgList": [
+  [
+   "Humana Inc.",
+   36
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   26
+  ],
+  [
+   "CVS Health Corporation",
+   14
+  ],
+  [
+   "Elevance Health, Inc.",
+   10
+  ],
+  [
+   "Devoted Health, Inc.",
+   9
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   7
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Gold Plus H5619-090 (HMO)",
+  "o": "Humana",
+  "moop": 2250.0,
+  "m": 106.0
+ },
+ "cheapHigh": {
+  "n": "AARP Medicare Advantage Essentials from UHC TC-2 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4200.0
+ },
+ "best": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 66,
+ "ppo": 37,
+ "pffs": 3,
+ "std26": 103,
+ "pdp": 9,
+ "pdp26": 9,
+ "pdpMin": 5.3,
+ "pdpMax": 173.4,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 100.8,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 113423,
+ "st": "VA",
+ "countiesMostPlans": [
+  {
+   "slug": "richmond-city",
+   "name": "Richmond City",
+   "std": 43,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 8250.0,
+   "star4": 27,
+   "snp": 31,
+   "std26": 43,
+   "gone": 6,
+   "new": 6
+  },
+  {
+   "slug": "chesapeake-city",
+   "name": "Chesapeake City",
+   "std": 42,
+   "zero": 24,
+   "moopMin": 3400.0,
+   "moopMed": 8950.0,
+   "star4": 31,
+   "snp": 28,
+   "std26": 40,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "henrico",
+   "name": "Henrico",
+   "std": 42,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 8075.0,
+   "star4": 27,
+   "snp": 31,
+   "std26": 42,
+   "gone": 6,
+   "new": 6
+  },
+  {
+   "slug": "petersburg-city",
+   "name": "Petersburg City",
+   "std": 42,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 8075.0,
+   "star4": 27,
+   "snp": 30,
+   "std26": 42,
+   "gone": 7,
+   "new": 7
+  },
+  {
+   "slug": "portsmouth-city",
+   "name": "Portsmouth City",
+   "std": 42,
+   "zero": 24,
+   "moopMin": 3400.0,
+   "moopMed": 8950.0,
+   "star4": 31,
+   "snp": 28,
+   "std26": 40,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "virginia-beach-city",
+   "name": "Virginia Beach City",
+   "std": 42,
+   "zero": 24,
+   "moopMin": 3400.0,
+   "moopMed": 8950.0,
+   "star4": 31,
+   "snp": 28,
+   "std26": 40,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "botetourt",
+   "name": "Botetourt",
+   "std": 41,
+   "zero": 24,
+   "moopMin": 3400.0,
+   "moopMed": 8950.0,
+   "star4": 27,
+   "snp": 28,
+   "std26": 36,
+   "gone": 4,
+   "new": 9
+  },
+  {
+   "slug": "hampton-city",
+   "name": "Hampton City",
+   "std": 41,
+   "zero": 24,
+   "moopMin": 3400.0,
+   "moopMed": 8950.0,
+   "star4": 31,
+   "snp": 28,
+   "std26": 39,
+   "gone": 1,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "rockingham",
+   "name": "Rockingham",
+   "std": 20,
+   "zero": 11,
+   "moopMin": 5850.0,
+   "snp": 21
+  },
+  {
+   "slug": "accomack",
+   "name": "Accomack",
+   "std": 19,
+   "zero": 9,
+   "moopMin": 3400.0,
+   "snp": 21
+  },
+  {
+   "slug": "bath",
+   "name": "Bath",
+   "std": 19,
+   "zero": 10,
+   "moopMin": 5850.0,
+   "snp": 25
+  },
+  {
+   "slug": "lancaster",
+   "name": "Lancaster",
+   "std": 19,
+   "zero": 8,
+   "moopMin": 5900.0,
+   "snp": 25
+  },
+  {
+   "slug": "shenandoah",
+   "name": "Shenandoah",
+   "std": 14,
+   "zero": 6,
+   "moopMin": 3400.0,
+   "snp": 22
+  },
+  {
+   "slug": "harrisonburg-city",
+   "name": "Harrisonburg City",
+   "std": 12,
+   "zero": 6,
+   "moopMin": 5850.0,
+   "snp": 22
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 19.3,
+   "dd": 687.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 100.8,
+   "dd": 700.0,
+   "d26": 78.2,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 106.9,
+   "dd": 350.0,
+   "d26": 87.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 121.9,
+   "dd": 700.0,
+   "d26": 39.6,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 141.2,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 173.4,
+   "dd": 300.0,
+   "d26": 100.8,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 66,
+  "ppo": 37,
+  "pffs": 3
+ },
+ "costPlans": 0
+}

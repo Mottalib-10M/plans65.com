@@ -1,0 +1,282 @@
+{
+ "name": "Vermont",
+ "slug": "vermont",
+ "terr": false,
+ "counties": 6,
+ "all": 5,
+ "std": 5,
+ "mapd": 4,
+ "zero": 2,
+ "snp": 0,
+ "dsnp": 0,
+ "csnp": 0,
+ "isnp": 0,
+ "moopMin": 4950.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 5,
+ "premMax": 113.0,
+ "orgs": 1,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 5,
+ "orgList": [
+  [
+   "Humana Inc.",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "moop": 4950.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "HumanaChoice Giveback H7617-046 (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "HumanaChoice Giveback H7617-046 (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 0,
+ "ppo": 5,
+ "pffs": 0,
+ "std26": 3,
+ "pdp": 10,
+ "pdp26": 11,
+ "pdpMin": 13.3,
+ "pdpMax": 284.7,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 114.75,
+ "pdpBench": 3,
+ "pdpZeroDed": 1,
+ "bytes": 4037,
+ "st": "VT",
+ "countiesMostPlans": [
+  {
+   "slug": "bennington",
+   "name": "Bennington",
+   "std": 5,
+   "zero": 2,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 3,
+   "gone": 0,
+   "new": 2
+  },
+  {
+   "slug": "windham",
+   "name": "Windham",
+   "std": 5,
+   "zero": 2,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 3,
+   "gone": 0,
+   "new": 2
+  },
+  {
+   "slug": "orange",
+   "name": "Orange",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4950.0,
+   "moopMed": 6525.0,
+   "star4": 4,
+   "snp": 0,
+   "std26": 2,
+   "gone": 0,
+   "new": 2
+  },
+  {
+   "slug": "windsor",
+   "name": "Windsor",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4950.0,
+   "moopMed": 6525.0,
+   "star4": 4,
+   "snp": 0,
+   "std26": 2,
+   "gone": 0,
+   "new": 2
+  },
+  {
+   "slug": "essex",
+   "name": "Essex",
+   "std": 2,
+   "zero": 2,
+   "moopMin": 7150.0,
+   "moopMed": 7150.0,
+   "star4": 2,
+   "snp": 0,
+   "std26": 3,
+   "gone": 1,
+   "new": 0
+  },
+  {
+   "slug": "caledonia",
+   "name": "Caledonia",
+   "std": 1,
+   "zero": 1,
+   "moopMin": 7150.0,
+   "moopMed": 7150.0,
+   "star4": 1,
+   "snp": 0,
+   "std26": 2,
+   "gone": 1,
+   "new": 0
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "bennington",
+   "name": "Bennington",
+   "std": 5,
+   "zero": 2,
+   "moopMin": 4950.0,
+   "snp": 0
+  },
+  {
+   "slug": "windham",
+   "name": "Windham",
+   "std": 5,
+   "zero": 2,
+   "moopMin": 4950.0,
+   "snp": 0
+  },
+  {
+   "slug": "orange",
+   "name": "Orange",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4950.0,
+   "snp": 0
+  },
+  {
+   "slug": "windsor",
+   "name": "Windsor",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4950.0,
+   "snp": 0
+  },
+  {
+   "slug": "essex",
+   "name": "Essex",
+   "std": 2,
+   "zero": 2,
+   "moopMin": 7150.0,
+   "snp": 0
+  },
+  {
+   "slug": "caledonia",
+   "name": "Caledonia",
+   "std": 1,
+   "zero": 1,
+   "moopMin": 7150.0,
+   "snp": 0
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 13.3,
+   "dd": 700.0,
+   "d26": 16.4,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 21.3,
+   "dd": 700.0,
+   "d26": 21.7,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Value Plus (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 25.5,
+   "dd": 700.0,
+   "d26": 20.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 26.1,
+   "dd": 700.0,
+   "d26": 8.4,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 107.3,
+   "dd": 687.0,
+   "d26": 73.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 122.2,
+   "dd": 700.0,
+   "d26": 38.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 146.3,
+   "dd": 350.0,
+   "d26": 138.6,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 158.6,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 239.8,
+   "dd": 300.0,
+   "d26": 155.1,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Premier (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 284.7,
+   "dd": 0.0,
+   "d26": 238.6,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 0,
+  "ppo": 5,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

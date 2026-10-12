@@ -1,0 +1,320 @@
+{
+ "name": "Arizona",
+ "slug": "arizona",
+ "terr": false,
+ "counties": 15,
+ "all": 148,
+ "std": 90,
+ "mapd": 81,
+ "zero": 71,
+ "snp": 58,
+ "dsnp": 11,
+ "csnp": 42,
+ "isnp": 5,
+ "moopMin": 1899.0,
+ "moopMed": 5450.0,
+ "moopMax": 9800.0,
+ "starMax": 4.5,
+ "star4": 53,
+ "premMax": 127.0,
+ "orgs": 13,
+ "topOrg": "Devoted Health, Inc.",
+ "topOrgN": 21,
+ "orgList": [
+  [
+   "Devoted Health, Inc.",
+   21
+  ],
+  [
+   "Humana Inc.",
+   20
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   15
+  ],
+  [
+   "CVS Health Corporation",
+   6
+  ],
+  [
+   "Blue Cross Blue Shield of Arizona",
+   5
+  ],
+  [
+   "Eternal Health of Delaware, Inc.",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "Alignment Health ONE 008 (HMO)",
+  "o": "Alignment Health Plan",
+  "moop": 1899.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Alignment Health ONE 008 (HMO)",
+  "o": "Alignment Health Plan",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 1899.0
+ },
+ "best": {
+  "n": "DEVOTED CORE 098 AZ (HMO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6050.0
+ },
+ "hmo": 65,
+ "ppo": 25,
+ "pffs": 0,
+ "std26": 84,
+ "pdp": 9,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 191.5,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 22.3,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 43908,
+ "st": "AZ",
+ "countiesMostPlans": [
+  {
+   "slug": "maricopa",
+   "name": "Maricopa",
+   "std": 52,
+   "zero": 39,
+   "moopMin": 2000.0,
+   "moopMed": 4825.0,
+   "star4": 28,
+   "snp": 40,
+   "std26": 52,
+   "gone": 8,
+   "new": 8
+  },
+  {
+   "slug": "pima",
+   "name": "Pima",
+   "std": 52,
+   "zero": 39,
+   "moopMin": 1899.0,
+   "moopMed": 5185.0,
+   "star4": 27,
+   "snp": 36,
+   "std26": 50,
+   "gone": 10,
+   "new": 12
+  },
+  {
+   "slug": "pinal",
+   "name": "Pinal",
+   "std": 47,
+   "zero": 35,
+   "moopMin": 2000.0,
+   "moopMed": 5220.0,
+   "star4": 27,
+   "snp": 24,
+   "std26": 46,
+   "gone": 6,
+   "new": 7
+  },
+  {
+   "slug": "yavapai",
+   "name": "Yavapai",
+   "std": 20,
+   "zero": 11,
+   "moopMin": 4150.0,
+   "moopMed": 6875.0,
+   "star4": 14,
+   "snp": 11,
+   "std26": 21,
+   "gone": 4,
+   "new": 3
+  },
+  {
+   "slug": "graham",
+   "name": "Graham",
+   "std": 19,
+   "zero": 10,
+   "moopMin": 4000.0,
+   "moopMed": 7000.0,
+   "star4": 10,
+   "snp": 13,
+   "std26": 21,
+   "gone": 5,
+   "new": 3
+  },
+  {
+   "slug": "santa-cruz",
+   "name": "Santa Cruz",
+   "std": 17,
+   "zero": 10,
+   "moopMin": 2499.0,
+   "moopMed": 7000.0,
+   "star4": 9,
+   "snp": 11,
+   "std26": 20,
+   "gone": 4,
+   "new": 1
+  },
+  {
+   "slug": "yuma",
+   "name": "Yuma",
+   "std": 17,
+   "zero": 10,
+   "moopMin": 4150.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 11,
+   "std26": 16,
+   "gone": 3,
+   "new": 4
+  },
+  {
+   "slug": "cochise",
+   "name": "Cochise",
+   "std": 15,
+   "zero": 9,
+   "moopMin": 5150.0,
+   "moopMed": 7150.0,
+   "star4": 8,
+   "snp": 13,
+   "std26": 14,
+   "gone": 3,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "coconino",
+   "name": "Coconino",
+   "std": 13,
+   "zero": 7,
+   "moopMin": 5150.0,
+   "snp": 11
+  },
+  {
+   "slug": "mohave",
+   "name": "Mohave",
+   "std": 12,
+   "zero": 5,
+   "moopMin": 4150.0,
+   "snp": 5
+  },
+  {
+   "slug": "gila",
+   "name": "Gila",
+   "std": 9,
+   "zero": 3,
+   "moopMin": 4150.0,
+   "snp": 13
+  },
+  {
+   "slug": "greenlee",
+   "name": "Greenlee",
+   "std": 8,
+   "zero": 2,
+   "moopMin": 4150.0,
+   "snp": 7
+  },
+  {
+   "slug": "navajo",
+   "name": "Navajo",
+   "std": 8,
+   "zero": 2,
+   "moopMin": 4150.0,
+   "snp": 8
+  },
+  {
+   "slug": "apache",
+   "name": "Apache",
+   "std": 7,
+   "zero": 1,
+   "moopMin": 4150.0,
+   "snp": 5
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 22.3,
+   "dd": 687.0,
+   "d26": 2.5,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 79.8,
+   "dd": 700.0,
+   "d26": 38.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 137.6,
+   "dd": 350.0,
+   "d26": 119.2,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 152.7,
+   "dd": 700.0,
+   "d26": 94.9,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 191.5,
+   "dd": 300.0,
+   "d26": 97.5,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 65,
+  "ppo": 25,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

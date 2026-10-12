@@ -1,0 +1,324 @@
+{
+ "name": "Minnesota",
+ "slug": "minnesota",
+ "terr": false,
+ "counties": 87,
+ "all": 66,
+ "std": 53,
+ "mapd": 35,
+ "zero": 9,
+ "snp": 13,
+ "dsnp": 8,
+ "csnp": 5,
+ "isnp": 0,
+ "moopMin": 3000.0,
+ "moopMed": 6500.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 31,
+ "premMax": 218.0,
+ "orgs": 7,
+ "topOrg": "Medica Holding Company",
+ "topOrgN": 18,
+ "orgList": [
+  [
+   "Medica Holding Company",
+   18
+  ],
+  [
+   "Aware Integrated, Inc.",
+   13
+  ],
+  [
+   "Allina Health and Aetna Insurance Holding Company",
+   6
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   5
+  ],
+  [
+   "University of Wisconsin Hospitals and Clincs Autho",
+   5
+  ],
+  [
+   "HealthPartners, Inc.",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "Platinum Blue Complete Plan (Cost)",
+  "o": "Blue Cross and Blue Shield of Minnesota",
+  "moop": 3000.0,
+  "m": 252.0
+ },
+ "cheapHigh": {
+  "n": "Gundersen MN Quartz Med Advantage Basic D (w/Rx) (HMO)",
+  "o": "Quartz Medicare Advantage (HMO)",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Gundersen MN Quartz Med Advantage Basic D (w/Rx) (HMO)",
+  "o": "Quartz Medicare Advantage (HMO)",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 5,
+ "ppo": 35,
+ "pffs": 0,
+ "std26": 69,
+ "pdp": 9,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 222.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 33.3,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 106807,
+ "st": "MN",
+ "countiesMostPlans": [
+  {
+   "slug": "anoka",
+   "name": "Anoka",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "carver",
+   "name": "Carver",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "dakota",
+   "name": "Dakota",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "ramsey",
+   "name": "Ramsey",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "scott",
+   "name": "Scott",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 30,
+   "gone": 18,
+   "new": 8
+  },
+  {
+   "slug": "wright",
+   "name": "Wright",
+   "std": 20,
+   "zero": 5,
+   "moopMin": 3900.0,
+   "moopMed": 6100.0,
+   "star4": 13,
+   "snp": 7,
+   "std26": 24,
+   "gone": 12,
+   "new": 8
+  },
+  {
+   "slug": "chisago",
+   "name": "Chisago",
+   "std": 18,
+   "zero": 4,
+   "moopMin": 3900.0,
+   "moopMed": 6325.0,
+   "star4": 12,
+   "snp": 5,
+   "std26": 23,
+   "gone": 11,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "mahnomen",
+   "name": "Mahnomen",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 7150.0,
+   "snp": 2
+  },
+  {
+   "slug": "polk",
+   "name": "Polk",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 7150.0,
+   "snp": 2
+  },
+  {
+   "slug": "red-lake",
+   "name": "Red Lake",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 7150.0,
+   "snp": 2
+  },
+  {
+   "slug": "crow-wing",
+   "name": "Crow Wing",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 2
+  },
+  {
+   "slug": "lake-of-the-woods",
+   "name": "Lake of the Woods",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 2
+  },
+  {
+   "slug": "wadena",
+   "name": "Wadena",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 2
+  }
+ ],
+ "countiesNoOpenPlan": [
+  "Crow Wing",
+  "Lake of the Woods",
+  "Wadena"
+ ],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 9.6,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 5.3,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 12.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 18.3,
+   "dd": 700.0,
+   "d26": 4.7,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 33.3,
+   "dd": 687.0,
+   "d26": 20.8,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 117.1,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 123.0,
+   "dd": 350.0,
+   "d26": 103.7,
+   "star": 4.5
+  },
+  {
+   "n": "MedicareBlue Rx Standard (PDP)",
+   "o": "MedicareBlue Rx",
+   "d": 179.1,
+   "dd": 700.0,
+   "d26": 101.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 222.9,
+   "dd": 300.0,
+   "d26": 140.2,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 5,
+  "ppo": 35,
+  "pffs": 0
+ },
+ "costPlans": 13
+}

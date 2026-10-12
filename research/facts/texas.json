@@ -1,0 +1,328 @@
+{
+ "name": "Texas",
+ "slug": "texas",
+ "terr": false,
+ "counties": 254,
+ "all": 421,
+ "std": 228,
+ "mapd": 209,
+ "zero": 166,
+ "snp": 193,
+ "dsnp": 119,
+ "csnp": 67,
+ "isnp": 7,
+ "moopMin": 1500.0,
+ "moopMed": 6500.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 138,
+ "premMax": 258.0,
+ "orgs": 16,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 56,
+ "orgList": [
+  [
+   "Humana Inc.",
+   56
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   50
+  ],
+  [
+   "CVS Health Corporation",
+   31
+  ],
+  [
+   "Devoted Health, Inc.",
+   24
+  ],
+  [
+   "Health Care Service Corporation",
+   20
+  ],
+  [
+   "Baylor Scott & White Health",
+   11
+  ]
+ ],
+ "lowMoop": {
+  "n": "MedCare Classic (HMO)",
+  "o": "MedCare Partners Health Plan of Texas",
+  "moop": 1500.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Alignment Health BRIDGE 013 (HMO-POS)",
+  "o": "Alignment Health Plan",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 2800.0
+ },
+ "best": {
+  "n": "Clover Health Choice (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 6350.0
+ },
+ "hmo": 157,
+ "ppo": 70,
+ "pffs": 1,
+ "std26": 272,
+ "pdp": 10,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 199.0,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 104.7,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 359306,
+ "st": "TX",
+ "countiesMostPlans": [
+  {
+   "slug": "harris",
+   "name": "Harris",
+   "std": 49,
+   "zero": 33,
+   "moopMin": 1500.0,
+   "moopMed": 6000.0,
+   "star4": 24,
+   "snp": 50,
+   "std26": 69,
+   "gone": 23,
+   "new": 3
+  },
+  {
+   "slug": "bexar",
+   "name": "Bexar",
+   "std": 48,
+   "zero": 27,
+   "moopMin": 2800.0,
+   "moopMed": 6475.0,
+   "star4": 26,
+   "snp": 50,
+   "std26": 59,
+   "gone": 17,
+   "new": 6
+  },
+  {
+   "slug": "montgomery",
+   "name": "Montgomery",
+   "std": 43,
+   "zero": 30,
+   "moopMin": 1599.0,
+   "moopMed": 6800.0,
+   "star4": 20,
+   "snp": 36,
+   "std26": 53,
+   "gone": 15,
+   "new": 5
+  },
+  {
+   "slug": "dallas",
+   "name": "Dallas",
+   "std": 42,
+   "zero": 20,
+   "moopMin": 2399.0,
+   "moopMed": 6850.0,
+   "star4": 22,
+   "snp": 42,
+   "std26": 58,
+   "gone": 20,
+   "new": 4
+  },
+  {
+   "slug": "el-paso",
+   "name": "El Paso",
+   "std": 42,
+   "zero": 26,
+   "moopMin": 2950.0,
+   "moopMed": 6625.0,
+   "star4": 22,
+   "snp": 47,
+   "std26": 52,
+   "gone": 11,
+   "new": 1
+  },
+  {
+   "slug": "comal",
+   "name": "Comal",
+   "std": 41,
+   "zero": 21,
+   "moopMin": 2800.0,
+   "moopMed": 6500.0,
+   "star4": 25,
+   "snp": 42,
+   "std26": 52,
+   "gone": 15,
+   "new": 4
+  },
+  {
+   "slug": "medina",
+   "name": "Medina",
+   "std": 41,
+   "zero": 21,
+   "moopMin": 3400.0,
+   "moopMed": 6750.0,
+   "star4": 23,
+   "snp": 36,
+   "std26": 53,
+   "gone": 14,
+   "new": 2
+  },
+  {
+   "slug": "collin",
+   "name": "Collin",
+   "std": 40,
+   "zero": 20,
+   "moopMin": 2399.0,
+   "moopMed": 6750.0,
+   "star4": 22,
+   "snp": 41,
+   "std26": 59,
+   "gone": 25,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "mitchell",
+   "name": "Mitchell",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 7
+  },
+  {
+   "slug": "ochiltree",
+   "name": "Ochiltree",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 5
+  },
+  {
+   "slug": "parmer",
+   "name": "Parmer",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 5
+  },
+  {
+   "slug": "scurry",
+   "name": "Scurry",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 5
+  },
+  {
+   "slug": "terrell",
+   "name": "Terrell",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 5
+  },
+  {
+   "slug": "winkler",
+   "name": "Winkler",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 6000.0,
+   "snp": 8
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 41.7,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 33.2,
+   "dd": 687.0,
+   "d26": 22.9,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 98.0,
+   "dd": 700.0,
+   "d26": 104.7,
+   "star": 2.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 111.4,
+   "dd": 700.0,
+   "d26": 94.8,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 115.7,
+   "dd": 700.0,
+   "d26": 89.2,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 137.5,
+   "dd": 350.0,
+   "d26": 118.2,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Extra RX (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 164.7,
+   "dd": 700.0,
+   "d26": 167.4,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 199.0,
+   "dd": 300.0,
+   "d26": 114.8,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 157,
+  "ppo": 70,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

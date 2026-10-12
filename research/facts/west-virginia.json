@@ -1,0 +1,312 @@
+{
+ "name": "West Virginia",
+ "slug": "west-virginia",
+ "terr": false,
+ "counties": 55,
+ "all": 70,
+ "std": 51,
+ "mapd": 43,
+ "zero": 22,
+ "snp": 19,
+ "dsnp": 15,
+ "csnp": 1,
+ "isnp": 3,
+ "moopMin": 4750.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 27,
+ "premMax": 172.0,
+ "orgs": 7,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 13,
+ "orgList": [
+  [
+   "Humana Inc.",
+   13
+  ],
+  [
+   "CVS Health Corporation",
+   11
+  ],
+  [
+   "Highmark Health",
+   9
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   7
+  ],
+  [
+   "West Virginia United Health System, Inc.",
+   6
+  ],
+  [
+   "The Health Plan of West Virginia, Inc.",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "HumanaChoice R0110-007 (Regional PPO)",
+  "o": "Humana",
+  "moop": 4750.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "AARP Medicare Advantage from UHC WV-5 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Peak Advantage Vista (PPO)",
+  "o": "Peak Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 7500.0
+ },
+ "hmo": 11,
+ "ppo": 39,
+ "pffs": 1,
+ "std26": 55,
+ "pdp": 8,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 184.4,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 65.05,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 70568,
+ "st": "WV",
+ "countiesMostPlans": [
+  {
+   "slug": "cabell",
+   "name": "Cabell",
+   "std": 38,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 21,
+   "snp": 19,
+   "std26": 38,
+   "gone": 5,
+   "new": 5
+  },
+  {
+   "slug": "kanawha",
+   "name": "Kanawha",
+   "std": 38,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 21,
+   "snp": 19,
+   "std26": 38,
+   "gone": 7,
+   "new": 7
+  },
+  {
+   "slug": "mingo",
+   "name": "Mingo",
+   "std": 38,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7325.0,
+   "star4": 21,
+   "snp": 18,
+   "std26": 36,
+   "gone": 5,
+   "new": 7
+  },
+  {
+   "slug": "putnam",
+   "name": "Putnam",
+   "std": 38,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 21,
+   "snp": 18,
+   "std26": 38,
+   "gone": 7,
+   "new": 7
+  },
+  {
+   "slug": "wayne",
+   "name": "Wayne",
+   "std": 38,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 21,
+   "snp": 18,
+   "std26": 38,
+   "gone": 5,
+   "new": 5
+  },
+  {
+   "slug": "fayette",
+   "name": "Fayette",
+   "std": 37,
+   "zero": 14,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 20,
+   "snp": 18,
+   "std26": 37,
+   "gone": 7,
+   "new": 7
+  },
+  {
+   "slug": "greenbrier",
+   "name": "Greenbrier",
+   "std": 37,
+   "zero": 15,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 20,
+   "snp": 18,
+   "std26": 37,
+   "gone": 5,
+   "new": 5
+  },
+  {
+   "slug": "mason",
+   "name": "Mason",
+   "std": 37,
+   "zero": 14,
+   "moopMin": 4750.0,
+   "moopMed": 7150.0,
+   "star4": 20,
+   "snp": 18,
+   "std26": 37,
+   "gone": 5,
+   "new": 5
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "tyler",
+   "name": "Tyler",
+   "std": 25,
+   "zero": 9,
+   "moopMin": 4750.0,
+   "snp": 15
+  },
+  {
+   "slug": "tucker",
+   "name": "Tucker",
+   "std": 24,
+   "zero": 8,
+   "moopMin": 4750.0,
+   "snp": 15
+  },
+  {
+   "slug": "wetzel",
+   "name": "Wetzel",
+   "std": 24,
+   "zero": 8,
+   "moopMin": 4750.0,
+   "snp": 16
+  },
+  {
+   "slug": "barbour",
+   "name": "Barbour",
+   "std": 23,
+   "zero": 7,
+   "moopMin": 4750.0,
+   "snp": 12
+  },
+  {
+   "slug": "morgan",
+   "name": "Morgan",
+   "std": 23,
+   "zero": 7,
+   "moopMin": 4750.0,
+   "snp": 11
+  },
+  {
+   "slug": "mineral",
+   "name": "Mineral",
+   "std": 21,
+   "zero": 5,
+   "moopMin": 4750.0,
+   "snp": 9
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 8.2,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 14.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 6.6,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 31.7,
+   "dd": 687.0,
+   "d26": 19.4,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 98.4,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 140.6,
+   "dd": 700.0,
+   "d26": 43.5,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 142.8,
+   "dd": 350.0,
+   "d26": 123.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 184.4,
+   "dd": 300.0,
+   "d26": 121.9,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 11,
+  "ppo": 39,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

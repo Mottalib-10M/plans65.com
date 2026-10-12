@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const code = `<iframe src="${SITE_URL}/embed/plan-finder/" title="2027 Medicare Advantage plans by county" width="100%" height="1200" style="border:0;max-width:1100px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the 2027 county plan finder on your own site, for free" description="Libraries, senior centers, newsrooms and SHIP volunteers can embed the 2027 Advantage plan finder with one iframe line. No cookie, no tracking, no phone number, no agent referral." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Embed the plan finder', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed the plan finder' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">Embed the plan finder</h1>
+    <p class="mt-3 text-lg text-navy-700">One line of code. When CMS revises its landscape file, the embedded finder updates by itself.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <p>Terms: keep the credit line under the finder visible, do not change the frame, and do not place it next to an enrollment form or an agent's phone number. The frame sets no cookie and sends nothing about your visitors to us. Questions: <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Every 2027 Advantage plan of a county</h2>
+    <p>For: public libraries, senior centers, local newsrooms during open enrollment, counseling volunteers.</p>
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code}</code></pre>
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200">
+    <iframe src="/embed/plan-finder/" title="2027 Medicare Advantage plans by county" width="100%" height="1200" style="border:0" loading="lazy"></iframe>
+  </div>
+</PageLayout>

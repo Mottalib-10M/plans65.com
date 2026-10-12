@@ -1,0 +1,312 @@
+{
+ "name": "North Dakota",
+ "slug": "north-dakota",
+ "terr": false,
+ "counties": 53,
+ "all": 23,
+ "std": 18,
+ "mapd": 10,
+ "zero": 3,
+ "snp": 5,
+ "dsnp": 2,
+ "csnp": 1,
+ "isnp": 2,
+ "moopMin": 3300.0,
+ "moopMed": 7150.0,
+ "moopMax": 7150.0,
+ "starMax": 4.5,
+ "star4": 10,
+ "premMax": 181.0,
+ "orgs": 4,
+ "topOrg": "Medica Holding Company",
+ "topOrgN": 10,
+ "orgList": [
+  [
+   "Medica Holding Company",
+   10
+  ],
+  [
+   "CVS Health Corporation",
+   3
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   3
+  ],
+  [
+   "Sanford Health",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Medica Advantage Preferred (PPO)",
+  "o": "Medica",
+  "moop": 3300.0,
+  "m": 181.0
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Signature Classic Extra (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "AARP Medicare Advantage Patriot No Rx FG-MA01 (PPO)",
+  "o": "UnitedHealthcare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5900.0
+ },
+ "hmo": 0,
+ "ppo": 12,
+ "pffs": 0,
+ "std26": 23,
+ "pdp": 9,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 222.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 33.3,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 43943,
+ "st": "ND",
+ "countiesMostPlans": [
+  {
+   "slug": "cass",
+   "name": "Cass",
+   "std": 14,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 7,
+   "snp": 5,
+   "std26": 19,
+   "gone": 8,
+   "new": 3
+  },
+  {
+   "slug": "mclean",
+   "name": "McLean",
+   "std": 14,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 7,
+   "snp": 4,
+   "std26": 19,
+   "gone": 8,
+   "new": 3
+  },
+  {
+   "slug": "ransom",
+   "name": "Ransom",
+   "std": 14,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 7,
+   "snp": 3,
+   "std26": 19,
+   "gone": 8,
+   "new": 3
+  },
+  {
+   "slug": "traill",
+   "name": "Traill",
+   "std": 14,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 7,
+   "snp": 4,
+   "std26": 19,
+   "gone": 8,
+   "new": 3
+  },
+  {
+   "slug": "walsh",
+   "name": "Walsh",
+   "std": 14,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 7,
+   "snp": 4,
+   "std26": 19,
+   "gone": 8,
+   "new": 3
+  },
+  {
+   "slug": "barnes",
+   "name": "Barnes",
+   "std": 13,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 6,
+   "snp": 4,
+   "std26": 19,
+   "gone": 9,
+   "new": 3
+  },
+  {
+   "slug": "burleigh",
+   "name": "Burleigh",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 3300.0,
+   "moopMed": 6825.0,
+   "star4": 10,
+   "snp": 4,
+   "std26": 15,
+   "gone": 6,
+   "new": 3
+  },
+  {
+   "slug": "kidder",
+   "name": "Kidder",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 5,
+   "snp": 2,
+   "std26": 17,
+   "gone": 6,
+   "new": 1
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "rolette",
+   "name": "Rolette",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 0
+  },
+  {
+   "slug": "slope",
+   "name": "Slope",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 0
+  },
+  {
+   "slug": "stark",
+   "name": "Stark",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 4
+  },
+  {
+   "slug": "towner",
+   "name": "Towner",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 0
+  },
+  {
+   "slug": "ward",
+   "name": "Ward",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 4
+  },
+  {
+   "slug": "williams",
+   "name": "Williams",
+   "std": 6,
+   "zero": 0,
+   "moopMin": 3900.0,
+   "snp": 1
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 9.6,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 5.3,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 12.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 18.3,
+   "dd": 700.0,
+   "d26": 4.7,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 33.3,
+   "dd": 687.0,
+   "d26": 20.8,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 117.1,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 123.0,
+   "dd": 350.0,
+   "d26": 103.7,
+   "star": 4.5
+  },
+  {
+   "n": "MedicareBlue Rx Standard (PDP)",
+   "o": "MedicareBlue Rx",
+   "d": 179.1,
+   "dd": 700.0,
+   "d26": 101.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 222.9,
+   "dd": 300.0,
+   "d26": 140.2,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 0,
+  "ppo": 12,
+  "pffs": 0
+ },
+ "costPlans": 6
+}

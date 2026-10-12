@@ -1,0 +1,261 @@
+{
+ "name": "Hawaii",
+ "slug": "hawaii",
+ "terr": false,
+ "counties": 5,
+ "all": 46,
+ "std": 37,
+ "mapd": 33,
+ "zero": 15,
+ "snp": 9,
+ "dsnp": 6,
+ "csnp": 3,
+ "isnp": 0,
+ "moopMin": 5200.0,
+ "moopMed": 7150.0,
+ "moopMax": 9450.0,
+ "starMax": 4.5,
+ "star4": 14,
+ "premMax": 240.0,
+ "orgs": 5,
+ "topOrg": "Devoted Health, Inc.",
+ "topOrgN": 16,
+ "orgList": [
+  [
+   "Devoted Health, Inc.",
+   16
+  ],
+  [
+   "Humana Inc.",
+   6
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   6
+  ],
+  [
+   "Hawaii Medical Service Association",
+   5
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "HMSA Akamai Advantage Select Plus (HMO)",
+  "o": "HMSA Akamai Advantage",
+  "moop": 5200.0,
+  "m": 45.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6300.0
+ },
+ "best": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6300.0
+ },
+ "hmo": 12,
+ "ppo": 25,
+ "pffs": 0,
+ "std26": 35,
+ "pdp": 8,
+ "pdp26": 8,
+ "pdpMin": 10.3,
+ "pdpMax": 201.1,
+ "pdpMinName": "AARP Medicare Rx Saver from UHC (PDP)",
+ "pdpMed": 32.2,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 13987,
+ "st": "HI",
+ "countiesMostPlans": [
+  {
+   "slug": "honolulu",
+   "name": "Honolulu",
+   "std": 22,
+   "zero": 8,
+   "moopMin": 5200.0,
+   "moopMed": 7150.0,
+   "star4": 11,
+   "snp": 7,
+   "std26": 20,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "maui",
+   "name": "Maui",
+   "std": 19,
+   "zero": 7,
+   "moopMin": 5700.0,
+   "moopMed": 7150.0,
+   "star4": 9,
+   "snp": 7,
+   "std26": 17,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "kauai",
+   "name": "Kauai",
+   "std": 18,
+   "zero": 7,
+   "moopMin": 5700.0,
+   "moopMed": 7150.0,
+   "star4": 8,
+   "snp": 6,
+   "std26": 16,
+   "gone": 1,
+   "new": 3
+  },
+  {
+   "slug": "hawaii",
+   "name": "Hawaii",
+   "std": 12,
+   "zero": 5,
+   "moopMin": 6200.0,
+   "moopMed": 7425.0,
+   "star4": 2,
+   "snp": 6,
+   "std26": 10,
+   "gone": 2,
+   "new": 4
+  },
+  {
+   "slug": "kalawao",
+   "name": "Kalawao",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6200.0,
+   "moopMed": 7200.0,
+   "star4": 0,
+   "snp": 4,
+   "std26": 2,
+   "gone": 1,
+   "new": 1
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "honolulu",
+   "name": "Honolulu",
+   "std": 22,
+   "zero": 8,
+   "moopMin": 5200.0,
+   "snp": 7
+  },
+  {
+   "slug": "maui",
+   "name": "Maui",
+   "std": 19,
+   "zero": 7,
+   "moopMin": 5700.0,
+   "snp": 7
+  },
+  {
+   "slug": "kauai",
+   "name": "Kauai",
+   "std": 18,
+   "zero": 7,
+   "moopMin": 5700.0,
+   "snp": 6
+  },
+  {
+   "slug": "hawaii",
+   "name": "Hawaii",
+   "std": 12,
+   "zero": 5,
+   "moopMin": 6200.0,
+   "snp": 6
+  },
+  {
+   "slug": "kalawao",
+   "name": "Kalawao",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6200.0,
+   "snp": 4
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 23.3,
+   "dd": 700.0,
+   "d26": 21.6,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 28.3,
+   "dd": 700.0,
+   "d26": 0.4,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 28.3,
+   "dd": 700.0,
+   "d26": 21.7,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 36.1,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 59.3,
+   "dd": 687.0,
+   "d26": 51.6,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 127.3,
+   "dd": 350.0,
+   "d26": 90.2,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 201.1,
+   "dd": 300.0,
+   "d26": 139.2,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 12,
+  "ppo": 25,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

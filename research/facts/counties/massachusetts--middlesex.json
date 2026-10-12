@@ -1,0 +1,445 @@
+{
+ "state": "massachusetts",
+ "county": "middlesex",
+ "name": "Middlesex",
+ "all": 50,
+ "std": 30,
+ "mapd": 24,
+ "zero": 8,
+ "snp": 20,
+ "dsnp": 17,
+ "csnp": 0,
+ "isnp": 0,
+ "moopMin": 3400.0,
+ "moopMed": 6725.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 23,
+ "premMax": 300.0,
+ "orgs": 6,
+ "topOrg": "Point32Health, Inc.",
+ "topOrgN": 8,
+ "orgList": [
+  [
+   "Point32Health, Inc.",
+   8
+  ],
+  [
+   "Blue Cross and Blue Shield of Massachusetts, Inc.",
+   6
+  ],
+  [
+   "CVS Health Corporation",
+   5
+  ],
+  [
+   "Fallon Community Health Plan, Inc.",
+   4
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   4
+  ],
+  [
+   "Mass General Brigham Incorporated",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "Fallon Medicare Plus Blue (HMO)",
+  "o": "Fallon Health",
+  "moop": 3400.0,
+  "m": 185.0
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Elite (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Medicare HMO Blue SaverRx (HMO-POS)",
+  "o": "Blue Cross Blue Shield of Massachusetts",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 9200.0
+ },
+ "hmo": 21,
+ "ppo": 9,
+ "pffs": 0,
+ "std26": 30,
+ "zero26": 8,
+ "gone": 11,
+ "new": 11,
+ "openPlans": [
+  {
+   "n": "Fallon Medicare Plus Saver No Rx (HMO)",
+   "o": "Fallon Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Smart Saver Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC MA-0003 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx MA-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Elite (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Mass General Brigham Advantage Core (HMO-POS)",
+   "o": "Mass General Brigham Health Plan",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx MA-MA01 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Medicare HMO Blue SaverRx (HMO-POS)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 9200.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Fallon Medicare Plus Orange (HMO)",
+   "o": "Fallon Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 595.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Mass General Brigham Advantage Secure (HMO-POS)",
+   "o": "Mass General Brigham Health Plan",
+   "t": "HMO-POS",
+   "m": 60.0,
+   "dd": 700.0,
+   "moop": 5000.0,
+   "star": 3.5,
+   "m26": 62.0
+  },
+  {
+   "n": "Medicare HMO Blue ValueRx (HMO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "HMO",
+   "m": 68.0,
+   "dd": 500.0,
+   "moop": 3750.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Medicare PPO Blue EssentialRx (PPO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "PPO",
+   "m": 69.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 59.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC MA-0006 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 75.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 48.0
+  },
+  {
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 79.0,
+   "dd": 500.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Basic Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 82.0,
+   "dd": 200.0,
+   "moop": 4500.0,
+   "star": 4.0,
+   "m26": 58.0
+  },
+  {
+   "n": "Fallon Medicare Plus Green (HMO)",
+   "o": "Fallon Health",
+   "t": "HMO",
+   "m": 83.0,
+   "dd": 300.0,
+   "moop": 6000.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Medicare HMO Blue FlexRx (HMO-POS)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "HMO-POS",
+   "m": 119.0,
+   "dd": 500.0,
+   "moop": 4100.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Value No Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 133.0,
+   "dd": null,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 123.0
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Prime No Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 163.0,
+   "dd": null,
+   "moop": 3850.0,
+   "star": 4.0,
+   "m26": 153.0
+  },
+  {
+   "n": "Mass General Brigham Advantage Plus (HMO-POS)",
+   "o": "Mass General Brigham Health Plan",
+   "t": "HMO-POS",
+   "m": 180.0,
+   "dd": 700.0,
+   "moop": 4500.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Fallon Medicare Plus Blue (HMO)",
+   "o": "Fallon Health",
+   "t": "HMO",
+   "m": 185.0,
+   "dd": 0.0,
+   "moop": 3400.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Value Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 185.0,
+   "dd": 200.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 166.0
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Prime Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 214.0,
+   "dd": 0.0,
+   "moop": 3850.0,
+   "star": 4.0,
+   "m26": 193.0
+  },
+  {
+   "n": "Tufts Medicare Preferred PPO RX (PPO)",
+   "o": "Tufts Health Plan",
+   "t": "PPO",
+   "m": 220.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Medicare HMO Blue PlusRx (HMO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "HMO",
+   "m": 245.0,
+   "dd": 500.0,
+   "moop": 3800.0,
+   "star": 4.5,
+   "m26": 245.0
+  },
+  {
+   "n": "Tufts Medicare Preferred HMO Prime Rx Plus (HMO)",
+   "o": "Tufts Health Plan",
+   "t": "HMO",
+   "m": 252.0,
+   "dd": 0.0,
+   "moop": 3850.0,
+   "star": 4.0,
+   "m26": 227.0
+  },
+  {
+   "n": "Medicare PPO Blue PlusRx (PPO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "t": "PPO",
+   "m": 300.0,
+   "dd": 500.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 300.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H2230-018-1",
+   "n": "Medicare PPO Blue ValueRx (PPO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "same": true
+  },
+  {
+   "k": "H2256-046-0",
+   "n": "Tufts Medicare Preferred HMO Smart Saver Rx (HMO)",
+   "o": "Tufts Health Plan",
+   "same": true
+  },
+  {
+   "k": "H2261-022-1",
+   "n": "Medicare HMO Blue ValueRx (HMO)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "same": true
+  },
+  {
+   "k": "H2261-023-1",
+   "n": "Medicare HMO Blue FlexRx (HMO-POS)",
+   "o": "Blue Cross Blue Shield of Massachusetts",
+   "same": true
+  },
+  {
+   "k": "H9001-030-18",
+   "n": "Fallon Medicare Plus Green (HMO)",
+   "o": "Fallon Health",
+   "same": true
+  },
+  {
+   "k": "H9001-031-18",
+   "n": "Fallon Medicare Plus Blue (HMO)",
+   "o": "Fallon Health",
+   "same": true
+  },
+  {
+   "k": "H9001-038-0",
+   "n": "Fallon Medicare Plus Orange (HMO)",
+   "o": "Fallon Health",
+   "same": true
+  },
+  {
+   "k": "H9485-001-0",
+   "n": "Mass General Brigham Advantage (PPO)",
+   "o": "Mass General Brigham Health Plan",
+   "same": false
+  },
+  {
+   "k": "H9485-002-0",
+   "n": "Mass General Brigham Advantage Premier (PPO)",
+   "o": "Mass General Brigham Health Plan",
+   "same": false
+  },
+  {
+   "k": "H9485-003-0",
+   "n": "Mass General Brigham Advantage Signature (PPO)",
+   "o": "Mass General Brigham Health Plan",
+   "same": false
+  },
+  {
+   "k": "H9907-002-3",
+   "n": "Tufts Medicare Preferred PPO RX (PPO)",
+   "o": "Tufts Health Plan",
+   "same": true
+  }
+ ]
+}

@@ -1,0 +1,803 @@
+{
+ "state": "michigan",
+ "county": "wayne",
+ "name": "Wayne",
+ "all": 86,
+ "std": 64,
+ "mapd": 55,
+ "zero": 32,
+ "snp": 22,
+ "dsnp": 8,
+ "csnp": 11,
+ "isnp": 3,
+ "moopMin": 4000.0,
+ "moopMed": 6225.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 37,
+ "premMax": 305.6,
+ "orgs": 10,
+ "topOrg": "Blue Cross Blue Shield of Michigan Mutual Ins. Co.",
+ "topOrgN": 12,
+ "orgList": [
+  [
+   "Blue Cross Blue Shield of Michigan Mutual Ins. Co.",
+   12
+  ],
+  [
+   "Henry Ford Health System",
+   10
+  ],
+  [
+   "Humana Inc.",
+   10
+  ],
+  [
+   "Corewell Health",
+   9
+  ],
+  [
+   "CVS Health Corporation",
+   5
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "Medicare Plus Blue Assure (PPO)",
+  "o": "Blue Cross Blue Shield of Michigan",
+  "moop": 4000.0,
+  "m": 305.6
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Signature Extra (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4900.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5200.0
+ },
+ "hmo": 32,
+ "ppo": 32,
+ "pffs": 0,
+ "std26": 69,
+ "zero26": 34,
+ "gone": 14,
+ "new": 9,
+ "openPlans": [
+  {
+   "n": "Humana Gold Plus H8908-004 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HAP Medicare MedicalAccess (HMO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "BCN Advantage Elements (HMO-POS)",
+   "o": "Blue Care Network",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4500.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Henry Ford Select (HMO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 4950.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Full Access (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 5200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5200.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Full Access (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 5200.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HAP Medicare Connect (HMO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 5600.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HAP Medicare Superior (HMO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 5800.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC MI-4 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Value Care (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 46.0
+  },
+  {
+   "n": "HAP Medicare Explore (PPO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 6050.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HAP Medicare Prime (PPO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 6400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Open Choice MI (PPO)",
+   "o": "Zing Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 6450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Trinity Health Plan of Michigan No Premium (HMO)",
+   "o": "Trinity Health Plan of Michigan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 6500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Trinity Health Plan of Michigan Glory No RX (HMO)",
+   "o": "Trinity Health Plan of Michigan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6550.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6550.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R0110-013 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6550.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "McLaren Medicare Inspire (HMO)",
+   "o": "McLaren Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 615.0,
+   "moop": 6600.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx MI-MA01 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx MI-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Select Care MI (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Elite Select MI (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "McLaren Medicare Inspire Giveback (HMO)",
+   "o": "McLaren Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 615.0,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "PriorityMedicare Key (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 6950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Medicare Plus Blue Secure (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 435.0,
+   "moop": 7000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "PriorityMedicare Edge (PPO)",
+   "o": "Priority Health Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 7100.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7100.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Assist (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7100.0,
+   "star": 3.0,
+   "m26": 8.8
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC MI-0001 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "PriorityMedicare Thrive (PPO)",
+   "o": "Priority Health Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Medicare Plus Blue Giveback (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 9250.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "PriorityMedicare Smart Savings (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Full Access Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 150.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Full Access Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 150.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Trinity Health Plan of Michigan Cash Back (HMO)",
+   "o": "Trinity Health Plan of Michigan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 375.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HAP Member Assist (PPO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "PPO",
+   "m": 6.3,
+   "dd": 500.0,
+   "moop": 5600.0,
+   "star": 3.5,
+   "m26": 8.8
+  },
+  {
+   "n": "PriorityMedicare Align (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "t": "HMO-POS",
+   "m": 6.3,
+   "dd": 700.0,
+   "moop": 6800.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "McLaren Medicare Inspire Plus (HMO)",
+   "o": "McLaren Medicare",
+   "t": "HMO",
+   "m": 20.0,
+   "dd": 500.0,
+   "moop": 5900.0,
+   "star": 3.0,
+   "m26": 8.8
+  },
+  {
+   "n": "Medicare Plus Blue Essential (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 40.0,
+   "dd": 400.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 25.0
+  },
+  {
+   "n": "Humana Full Access (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 41.0,
+   "dd": 450.0,
+   "moop": 4800.0,
+   "star": 4.0,
+   "m26": 18.0
+  },
+  {
+   "n": "Medicare Plus Blue + Meijer (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 45.0,
+   "dd": 400.0,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 35.0
+  },
+  {
+   "n": "BCN Advantage Prime Value (HMO-POS)",
+   "o": "Blue Care Network",
+   "t": "HMO-POS",
+   "m": 48.0,
+   "dd": 600.0,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 35.0
+  },
+  {
+   "n": "BCN Advantage ConnectedCare (HMO)",
+   "o": "Blue Care Network",
+   "t": "HMO",
+   "m": 50.0,
+   "dd": 100.0,
+   "moop": 4800.0,
+   "star": 4.5,
+   "m26": 41.0
+  },
+  {
+   "n": "PriorityMedicare Thrive Plus (PPO)",
+   "o": "Priority Health Medicare",
+   "t": "PPO",
+   "m": 67.0,
+   "dd": 225.0,
+   "moop": 6600.0,
+   "star": 4.0,
+   "m26": 49.0
+  },
+  {
+   "n": "Trinity Health Plan of Michigan Plus (HMO)",
+   "o": "Trinity Health Plan of Michigan",
+   "t": "HMO",
+   "m": 69.0,
+   "dd": 250.0,
+   "moop": 5900.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC MI-0002 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 70.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": 3.0,
+   "m26": 64.0
+  },
+  {
+   "n": "PriorityMedicare Value (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "t": "HMO-POS",
+   "m": 74.0,
+   "dd": 225.0,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 43.0
+  },
+  {
+   "n": "Humana Full Access R0110-014 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 89.0,
+   "dd": 700.0,
+   "moop": 7050.0,
+   "star": 3.5,
+   "m26": 54.0
+  },
+  {
+   "n": "HAP Senior Plus Henry Ford Tiered Access (HMO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO",
+   "m": 95.0,
+   "dd": 0.0,
+   "moop": 4750.0,
+   "star": 4.0,
+   "m26": 95.0
+  },
+  {
+   "n": "PriorityMedicare (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "t": "HMO-POS",
+   "m": 97.0,
+   "dd": 0.0,
+   "moop": 5100.0,
+   "star": 4.5,
+   "m26": 66.0
+  },
+  {
+   "n": "HAP Senior Plus (HMO-POS)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "HMO-POS",
+   "m": 105.0,
+   "dd": 0.0,
+   "moop": 4650.0,
+   "star": 4.0,
+   "m26": 105.0
+  },
+  {
+   "n": "Medicare Plus Blue Vitality (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 111.0,
+   "dd": 250.0,
+   "moop": 5000.0,
+   "star": 4.5,
+   "m26": 84.7
+  },
+  {
+   "n": "PriorityMedicare Merit (PPO)",
+   "o": "Priority Health Medicare",
+   "t": "PPO",
+   "m": 141.0,
+   "dd": 0.0,
+   "moop": 5000.0,
+   "star": 4.0,
+   "m26": 106.0
+  },
+  {
+   "n": "Medicare Plus Blue Signature (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 158.0,
+   "dd": 200.0,
+   "moop": 4300.0,
+   "star": 4.5,
+   "m26": 145.2
+  },
+  {
+   "n": "BCN Advantage Classic (HMO-POS)",
+   "o": "Blue Care Network",
+   "t": "HMO-POS",
+   "m": 158.0,
+   "dd": 200.0,
+   "moop": 4800.0,
+   "star": 4.5,
+   "m26": 145.0
+  },
+  {
+   "n": "HAP Senior Plus (PPO)",
+   "o": "Health Alliance Plan by Henry Ford Health",
+   "t": "PPO",
+   "m": 165.0,
+   "dd": 0.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 165.0
+  },
+  {
+   "n": "BCN Advantage Prestige (HMO-POS)",
+   "o": "Blue Care Network",
+   "t": "HMO-POS",
+   "m": 282.0,
+   "dd": 100.0,
+   "moop": 4400.0,
+   "star": 4.5,
+   "m26": 267.0
+  },
+  {
+   "n": "Medicare Plus Blue Assure (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "t": "PPO",
+   "m": 305.6,
+   "dd": 100.0,
+   "moop": 4000.0,
+   "star": 4.5,
+   "m26": 298.6
+  }
+ ],
+ "exits": [
+  {
+   "k": "H2117-001-0",
+   "n": "Wellcare Simple Open (PPO)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H2117-003-0",
+   "n": "Wellcare Patriot Giveback Open (PPO)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H2320-031-0",
+   "n": "PriorityMedicare Vintage (HMO-POS)",
+   "o": "Priority Health Medicare",
+   "same": true
+  },
+  {
+   "k": "H3192-021-0",
+   "n": "Aetna Medicare Prime Care (HMO-POS)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H4875-022-5",
+   "n": "PriorityMedicare Vital (PPO)",
+   "o": "Priority Health Medicare",
+   "same": true
+  },
+  {
+   "k": "H4875-024-1",
+   "n": "PriorityMedicare Thrive (PPO)",
+   "o": "Priority Health Medicare",
+   "same": true
+  },
+  {
+   "k": "H5216-287-0",
+   "n": "Humana Full Access H5216-287 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5216-305-0",
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5521-607-0",
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H5883-001-5",
+   "n": "BCN Advantage Elements (HMO-POS)",
+   "o": "Blue Care Network",
+   "same": true
+  },
+  {
+   "k": "H7617-055-0",
+   "n": "Humana Full Access H7617-055 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H7617-071-0",
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H8908-001-0",
+   "n": "Humana Gold Plus H8908-001 (HMO-POS)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H9572-007-6",
+   "n": "Medicare Plus Blue + Meijer (PPO)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "same": true
+  }
+ ]
+}

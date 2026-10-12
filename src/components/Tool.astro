@@ -1,0 +1,44 @@
+---
+/** Renders the calculator of a page. Finder and comparator receive the county of the page (or the
+ *  default county) at build time, so the HTML already holds a full plan list (RECETTE §17.5). */
+import PlanFinder from './calc/PlanFinder';
+import { IrmaaTool, PartDTool, PartBTool, PartATool, MedigapTool, PenaltyTool, PeriodsTool, YearCostTool, CompareTool } from './calc/Tools';
+import { ALL_STATES, statePlans, countyPlans, isStd } from '../lib/data';
+import { STATE_PAGES, COUNTY_PAGES, stateId, countyId } from '../lib/pages';
+import { route } from '../i18n/routes';
+import { bySlug } from '../lib/data';
+import type { ToolKind } from '../lib/page-types';
+interface Props { kind: ToolKind; st?: string; county?: string; lock?: 'none' | 'state' | 'county'; idPrefix?: string }
+const { kind, st = 'CA', county, lock = 'none', idPrefix = 'pf' } = Astro.props;
+const methodHref = route('method', 'en');
+const states = ALL_STATES.map((s) => ({ st: s.st, name: s.name }));
+let finder = null, compare = null;
+const pages: Record<string, string> = {};
+for (const s of STATE_PAGES) pages[bySlug(s.slug).st] = route(stateId(s.slug), 'en');
+for (const c of COUNTY_PAGES) pages[`${bySlug(c.state).st}/${c.county}`] = route(countyId(c.state, c.county), 'en');
+if (['finder', 'zero', 'snp', 'pdp', 'compare'].includes(kind)) {
+  const f = await statePlans(st);
+  const cs = county ?? (f.counties.find((c) => c.s === 'los-angeles')?.s ?? f.counties[0]?.s ?? '');
+  const cp = cs ? countyPlans(f, cs) : { county: { x: [] }, plans: [] };
+  finder = { st: f.st, county: cs, counties: f.counties.map((c) => ({ n: c.n, s: c.s })), plans: cp.plans, gone: cp.county.x.length, pdp: f.pdp };
+  if (kind === 'compare') {
+    const std = cp.plans.filter(isStd);
+    const lowMoop = [...std].sort((a, b) => (a.moop ?? 9e9) - (b.moop ?? 9e9))[0];
+    compare = { st: f.st, county: cs, counties: finder.counties, plans: std, a: std[0]?.k ?? '', b: (lowMoop && lowMoop.k !== std[0]?.k ? lowMoop.k : std[1]?.k) ?? '' };
+  }
+}
+---
+{kind === 'finder' && <PlanFinder client:load init={finder!} states={states} lock={lock} methodHref={methodHref} idPrefix={idPrefix} pages={pages} />}
+{kind === 'zero' && <PlanFinder client:load init={finder!} states={states} mode="zero" methodHref={methodHref} idPrefix={idPrefix} pages={pages} />}
+{kind === 'snp' && <PlanFinder client:load init={finder!} states={states} mode="snp" methodHref={methodHref} idPrefix={idPrefix} pages={pages} />}
+{kind === 'pdp' && <PlanFinder client:load init={finder!} states={states} mode="pdp" methodHref={methodHref} idPrefix={idPrefix} pages={pages} />}
+{kind === 'part-d' && <PartDTool client:load methodHref={methodHref} />}
+{kind === 'compare' && <CompareTool client:load init={compare!} states={states} methodHref={methodHref} />}
+{kind === 'irmaa' && <IrmaaTool client:load methodHref={methodHref} />}
+{kind === 'part-b' && <PartBTool client:load methodHref={methodHref} />}
+{kind === 'part-a' && <PartATool client:load methodHref={methodHref} />}
+{kind === 'medigap' && <MedigapTool client:load methodHref={methodHref} />}
+{kind === 'penalty' && <PenaltyTool client:load methodHref={methodHref} />}
+{kind === 'periods' && <PeriodsTool client:load methodHref={methodHref} />}
+{kind === 'eligibility' && <PeriodsTool client:load methodHref={methodHref} />}
+{kind === 'year-cost' && <YearCostTool client:load methodHref={methodHref} />}

@@ -1,0 +1,328 @@
+{
+ "name": "Connecticut",
+ "slug": "connecticut",
+ "terr": false,
+ "counties": 8,
+ "all": 48,
+ "std": 27,
+ "mapd": 23,
+ "zero": 11,
+ "snp": 21,
+ "dsnp": 12,
+ "csnp": 8,
+ "isnp": 1,
+ "moopMin": 4950.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 10,
+ "premMax": 125.0,
+ "orgs": 6,
+ "topOrg": "CVS Health Corporation",
+ "topOrgN": 7,
+ "orgList": [
+  [
+   "CVS Health Corporation",
+   7
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "Humana Inc.",
+   5
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   4
+  ],
+  [
+   "Elevance Health, Inc.",
+   3
+  ],
+  [
+   "Centene Corporation",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "moop": 4950.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "HumanaChoice Giveback H5216-138 (PPO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 10,
+ "ppo": 17,
+ "pffs": 0,
+ "std26": 31,
+ "pdp": 10,
+ "pdp26": 11,
+ "pdpMin": 13.3,
+ "pdpMax": 284.7,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 114.75,
+ "pdpBench": 3,
+ "pdpZeroDed": 1,
+ "bytes": 23171,
+ "st": "CT",
+ "countiesMostPlans": [
+  {
+   "slug": "hartford",
+   "name": "Hartford",
+   "std": 23,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 18,
+   "std26": 29,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "middlesex",
+   "name": "Middlesex",
+   "std": 23,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 17,
+   "std26": 29,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "new-haven",
+   "name": "New Haven",
+   "std": 23,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 17,
+   "std26": 29,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "litchfield",
+   "name": "Litchfield",
+   "std": 20,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 14,
+   "std26": 29,
+   "gone": 12,
+   "new": 3
+  },
+  {
+   "slug": "tolland",
+   "name": "Tolland",
+   "std": 20,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "moopMed": 7150.0,
+   "star4": 10,
+   "snp": 14,
+   "std26": 26,
+   "gone": 11,
+   "new": 5
+  },
+  {
+   "slug": "new-london",
+   "name": "New London",
+   "std": 18,
+   "zero": 5,
+   "moopMin": 5900.0,
+   "moopMed": 7150.0,
+   "star4": 5,
+   "snp": 16,
+   "std26": 23,
+   "gone": 12,
+   "new": 7
+  },
+  {
+   "slug": "windham",
+   "name": "Windham",
+   "std": 15,
+   "zero": 2,
+   "moopMin": 5900.0,
+   "moopMed": 7150.0,
+   "star4": 5,
+   "snp": 13,
+   "std26": 24,
+   "gone": 11,
+   "new": 2
+  },
+  {
+   "slug": "fairfield",
+   "name": "Fairfield",
+   "std": 11,
+   "zero": 2,
+   "moopMin": 5900.0,
+   "moopMed": 7150.0,
+   "star4": 1,
+   "snp": 14,
+   "std26": 20,
+   "gone": 10,
+   "new": 1
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "new-haven",
+   "name": "New Haven",
+   "std": 23,
+   "zero": 8,
+   "moopMin": 4950.0,
+   "snp": 17
+  },
+  {
+   "slug": "litchfield",
+   "name": "Litchfield",
+   "std": 20,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 14
+  },
+  {
+   "slug": "tolland",
+   "name": "Tolland",
+   "std": 20,
+   "zero": 5,
+   "moopMin": 4950.0,
+   "snp": 14
+  },
+  {
+   "slug": "new-london",
+   "name": "New London",
+   "std": 18,
+   "zero": 5,
+   "moopMin": 5900.0,
+   "snp": 16
+  },
+  {
+   "slug": "windham",
+   "name": "Windham",
+   "std": 15,
+   "zero": 2,
+   "moopMin": 5900.0,
+   "snp": 13
+  },
+  {
+   "slug": "fairfield",
+   "name": "Fairfield",
+   "std": 11,
+   "zero": 2,
+   "moopMin": 5900.0,
+   "snp": 14
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 13.3,
+   "dd": 700.0,
+   "d26": 16.4,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 21.3,
+   "dd": 700.0,
+   "d26": 21.7,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Value Plus (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 25.5,
+   "dd": 700.0,
+   "d26": 20.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 26.1,
+   "dd": 700.0,
+   "d26": 8.4,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 107.3,
+   "dd": 687.0,
+   "d26": 73.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 122.2,
+   "dd": 700.0,
+   "d26": 38.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 146.3,
+   "dd": 350.0,
+   "d26": 138.6,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 158.6,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 239.8,
+   "dd": 300.0,
+   "d26": 155.1,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Premier (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 284.7,
+   "dd": 0.0,
+   "d26": 238.6,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 10,
+  "ppo": 17,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

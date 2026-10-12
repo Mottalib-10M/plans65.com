@@ -1,0 +1,328 @@
+{
+ "name": "California",
+ "slug": "california",
+ "terr": false,
+ "counties": 55,
+ "all": 394,
+ "std": 259,
+ "mapd": 252,
+ "zero": 169,
+ "snp": 135,
+ "dsnp": 50,
+ "csnp": 77,
+ "isnp": 8,
+ "moopMin": 199.0,
+ "moopMed": 2900.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 131,
+ "premMax": 382.0,
+ "orgs": 18,
+ "topOrg": "SCAN Group",
+ "topOrgN": 44,
+ "orgList": [
+  [
+   "SCAN Group",
+   44
+  ],
+  [
+   "Alignment Healthcare USA, LLC",
+   34
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   31
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   31
+  ],
+  [
+   "Humana Inc.",
+   29
+  ],
+  [
+   "CVS Health Corporation",
+   21
+  ]
+ ],
+ "lowMoop": {
+  "n": "Blue Shield Value Advantage Plan (HMO)",
+  "o": "Blue Shield of California",
+  "moop": 199.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Blue Shield Value Advantage Plan (HMO)",
+  "o": "Blue Shield of California",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 199.0
+ },
+ "best": {
+  "n": "Kaiser Permanente Sr Advantage Inland Empire Value (HMO)",
+  "o": "Kaiser Permanente",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4450.0
+ },
+ "hmo": 243,
+ "ppo": 16,
+ "pffs": 0,
+ "std26": 272,
+ "pdp": 10,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 252.6,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 150.55,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 121680,
+ "st": "CA",
+ "countiesMostPlans": [
+  {
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "std": 70,
+   "zero": 55,
+   "moopMin": 199.0,
+   "moopMed": 1499.5,
+   "star4": 30,
+   "snp": 54,
+   "std26": 74,
+   "gone": 17,
+   "new": 13
+  },
+  {
+   "slug": "orange",
+   "name": "Orange",
+   "std": 62,
+   "zero": 49,
+   "moopMin": 295.0,
+   "moopMed": 1150.0,
+   "star4": 26,
+   "snp": 49,
+   "std26": 64,
+   "gone": 16,
+   "new": 14
+  },
+  {
+   "slug": "san-bernardino",
+   "name": "San Bernardino",
+   "std": 49,
+   "zero": 40,
+   "moopMin": 295.0,
+   "moopMed": 1800.0,
+   "star4": 21,
+   "snp": 46,
+   "std26": 58,
+   "gone": 13,
+   "new": 4
+  },
+  {
+   "slug": "riverside",
+   "name": "Riverside",
+   "std": 47,
+   "zero": 39,
+   "moopMin": 295.0,
+   "moopMed": 1999.0,
+   "star4": 21,
+   "snp": 41,
+   "std26": 56,
+   "gone": 13,
+   "new": 4
+  },
+  {
+   "slug": "san-diego",
+   "name": "San Diego",
+   "std": 46,
+   "zero": 32,
+   "moopMin": 295.0,
+   "moopMed": 3474.5,
+   "star4": 20,
+   "snp": 39,
+   "std26": 60,
+   "gone": 22,
+   "new": 8
+  },
+  {
+   "slug": "san-francisco",
+   "name": "San Francisco",
+   "std": 25,
+   "zero": 10,
+   "moopMin": 295.0,
+   "moopMed": 3600.0,
+   "star4": 10,
+   "snp": 21,
+   "std26": 29,
+   "gone": 9,
+   "new": 5
+  },
+  {
+   "slug": "san-joaquin",
+   "name": "San Joaquin",
+   "std": 22,
+   "zero": 9,
+   "moopMin": 295.0,
+   "moopMed": 3749.5,
+   "star4": 15,
+   "snp": 17,
+   "std26": 25,
+   "gone": 9,
+   "new": 6
+  },
+  {
+   "slug": "kern",
+   "name": "Kern",
+   "std": 21,
+   "zero": 14,
+   "moopMin": 295.0,
+   "moopMed": 2100.0,
+   "star4": 8,
+   "snp": 21,
+   "std26": 20,
+   "gone": 3,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "san-benito",
+   "name": "San Benito",
+   "std": 2,
+   "zero": 1,
+   "moopMin": 295.0,
+   "snp": 3
+  },
+  {
+   "slug": "shasta",
+   "name": "Shasta",
+   "std": 2,
+   "zero": 1,
+   "moopMin": 295.0,
+   "snp": 3
+  },
+  {
+   "slug": "sierra",
+   "name": "Sierra",
+   "std": 2,
+   "zero": 0,
+   "moopMin": 6500.0,
+   "snp": 0
+  },
+  {
+   "slug": "siskiyou",
+   "name": "Siskiyou",
+   "std": 2,
+   "zero": 1,
+   "moopMin": 295.0,
+   "snp": 2
+  },
+  {
+   "slug": "tehama",
+   "name": "Tehama",
+   "std": 2,
+   "zero": 1,
+   "moopMin": 295.0,
+   "snp": 3
+  },
+  {
+   "slug": "tuolumne",
+   "name": "Tuolumne",
+   "std": 2,
+   "zero": 1,
+   "moopMin": 295.0,
+   "snp": 4
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 5.7,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 6.2,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 118.3,
+   "dd": 700.0,
+   "d26": 132.2,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 130.3,
+   "dd": 687.0,
+   "d26": 104.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 170.8,
+   "dd": 700.0,
+   "d26": 109.4,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 191.2,
+   "dd": 350.0,
+   "d26": 172.9,
+   "star": 4.5
+  },
+  {
+   "n": "Blue Shield Rx Plus (PDP)",
+   "o": "Blue Shield of California",
+   "d": 210.0,
+   "dd": 700.0,
+   "d26": 199.7,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 242.6,
+   "dd": 300.0,
+   "d26": 165.4,
+   "star": 3.0
+  },
+  {
+   "n": "Blue Shield Rx Enhanced (PDP)",
+   "o": "Blue Shield of California",
+   "d": 252.6,
+   "dd": 200.0,
+   "d26": 227.8,
+   "star": 2.5
+  }
+ ],
+ "planTypes": {
+  "hmo": 243,
+  "ppo": 16,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

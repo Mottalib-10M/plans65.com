@@ -1,0 +1,336 @@
+{
+ "name": "North Carolina",
+ "slug": "north-carolina",
+ "terr": false,
+ "counties": 100,
+ "all": 179,
+ "std": 120,
+ "mapd": 107,
+ "zero": 83,
+ "snp": 59,
+ "dsnp": 28,
+ "csnp": 21,
+ "isnp": 10,
+ "moopMin": 3400.0,
+ "moopMed": 6950.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 90,
+ "premMax": 158.0,
+ "orgs": 10,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 24,
+ "orgList": [
+  [
+   "Humana Inc.",
+   24
+  ],
+  [
+   "Devoted Health, Inc.",
+   24
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   18
+  ],
+  [
+   "CVS Health Corporation",
+   16
+  ],
+  [
+   "CuraCor Solutions Corp.",
+   13
+  ],
+  [
+   "Health Care Service Corporation",
+   10
+  ]
+ ],
+ "lowMoop": {
+  "n": "Alignment Health Smart 006 (HMO)",
+  "o": "Alignment Health Plan",
+  "moop": 3400.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Alignment Health Smart 006 (HMO)",
+  "o": "Alignment Health Plan",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3400.0
+ },
+ "best": {
+  "n": "DEVOTED CORE 029 NC (HMO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4950.0
+ },
+ "hmo": 69,
+ "ppo": 50,
+ "pffs": 1,
+ "std26": 122,
+ "pdp": 11,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 239.2,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 130.2,
+ "pdpBench": 2,
+ "pdpZeroDed": 1,
+ "bytes": 119574,
+ "st": "NC",
+ "countiesMostPlans": [
+  {
+   "slug": "davidson",
+   "name": "Davidson",
+   "std": 57,
+   "zero": 33,
+   "moopMin": 3400.0,
+   "moopMed": 6900.0,
+   "star4": 38,
+   "snp": 39,
+   "std26": 60,
+   "gone": 8,
+   "new": 5
+  },
+  {
+   "slug": "guilford",
+   "name": "Guilford",
+   "std": 57,
+   "zero": 34,
+   "moopMin": 3400.0,
+   "moopMed": 6750.0,
+   "star4": 37,
+   "snp": 40,
+   "std26": 60,
+   "gone": 9,
+   "new": 6
+  },
+  {
+   "slug": "forsyth",
+   "name": "Forsyth",
+   "std": 56,
+   "zero": 33,
+   "moopMin": 3400.0,
+   "moopMed": 6900.0,
+   "star4": 38,
+   "snp": 41,
+   "std26": 60,
+   "gone": 9,
+   "new": 5
+  },
+  {
+   "slug": "davie",
+   "name": "Davie",
+   "std": 55,
+   "zero": 32,
+   "moopMin": 3400.0,
+   "moopMed": 6900.0,
+   "star4": 37,
+   "snp": 38,
+   "std26": 56,
+   "gone": 6,
+   "new": 5
+  },
+  {
+   "slug": "randolph",
+   "name": "Randolph",
+   "std": 54,
+   "zero": 32,
+   "moopMin": 3900.0,
+   "moopMed": 6900.0,
+   "star4": 35,
+   "snp": 33,
+   "std26": 55,
+   "gone": 7,
+   "new": 6
+  },
+  {
+   "slug": "alamance",
+   "name": "Alamance",
+   "std": 53,
+   "zero": 31,
+   "moopMin": 3900.0,
+   "moopMed": 7150.0,
+   "star4": 35,
+   "snp": 34,
+   "std26": 55,
+   "gone": 8,
+   "new": 6
+  },
+  {
+   "slug": "rockingham",
+   "name": "Rockingham",
+   "std": 53,
+   "zero": 31,
+   "moopMin": 3900.0,
+   "moopMed": 6900.0,
+   "star4": 35,
+   "snp": 35,
+   "std26": 53,
+   "gone": 6,
+   "new": 6
+  },
+  {
+   "slug": "rowan",
+   "name": "Rowan",
+   "std": 51,
+   "zero": 30,
+   "moopMin": 3500.0,
+   "moopMed": 7150.0,
+   "star4": 36,
+   "snp": 35,
+   "std26": 50,
+   "gone": 5,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "bertie",
+   "name": "Bertie",
+   "std": 20,
+   "zero": 7,
+   "moopMin": 3900.0,
+   "snp": 17
+  },
+  {
+   "slug": "dare",
+   "name": "Dare",
+   "std": 20,
+   "zero": 6,
+   "moopMin": 3900.0,
+   "snp": 10
+  },
+  {
+   "slug": "wilson",
+   "name": "Wilson",
+   "std": 20,
+   "zero": 7,
+   "moopMin": 3900.0,
+   "snp": 20
+  },
+  {
+   "slug": "onslow",
+   "name": "Onslow",
+   "std": 14,
+   "zero": 4,
+   "moopMin": 3900.0,
+   "snp": 7
+  },
+  {
+   "slug": "craven",
+   "name": "Craven",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 3900.0,
+   "snp": 9
+  },
+  {
+   "slug": "carteret",
+   "name": "Carteret",
+   "std": 11,
+   "zero": 4,
+   "moopMin": 3900.0,
+   "snp": 9
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 3.6,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 4.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 12.3,
+   "dd": 700.0,
+   "d26": 6.8,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 51.3,
+   "dd": 687.0,
+   "d26": 32.0,
+   "star": 4.5
+  },
+  {
+   "n": "Blue Medicare Rx Standard (PDP)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "d": 92.1,
+   "dd": 700.0,
+   "d26": 83.9,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 130.2,
+   "dd": 350.0,
+   "d26": 110.9,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 143.5,
+   "dd": 700.0,
+   "d26": 90.2,
+   "star": 2.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 143.9,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 150.2,
+   "dd": 700.0,
+   "d26": 56.9,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 203.9,
+   "dd": 300.0,
+   "d26": 119.8,
+   "star": 3.0
+  },
+  {
+   "n": "Blue Medicare Rx Enhanced (PDP)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "d": 239.2,
+   "dd": 0.0,
+   "d26": 163.2,
+   "star": 2.5
+  }
+ ],
+ "planTypes": {
+  "hmo": 69,
+  "ppo": 50,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

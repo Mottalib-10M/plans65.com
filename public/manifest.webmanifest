@@ -1,0 +1,21 @@
+{
+ "name": "Plans65",
+ "short_name": "Plans65",
+ "description": "2027 Advantage and Part D plans for every county, with premium, deductible, out-of-pocket limit and stars, plus Part B, IRMAA and yearly cost calculators.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#3C3B6E",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

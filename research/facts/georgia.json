@@ -1,0 +1,320 @@
+{
+ "name": "Georgia",
+ "slug": "georgia",
+ "terr": false,
+ "counties": 159,
+ "all": 161,
+ "std": 99,
+ "mapd": 80,
+ "zero": 61,
+ "snp": 62,
+ "dsnp": 39,
+ "csnp": 16,
+ "isnp": 7,
+ "moopMin": 3400.0,
+ "moopMed": 9850.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 47,
+ "premMax": 138.0,
+ "orgs": 10,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 29,
+ "orgList": [
+  [
+   "Humana Inc.",
+   29
+  ],
+  [
+   "Health Care Service Corporation",
+   16
+  ],
+  [
+   "CVS Health Corporation",
+   15
+  ],
+  [
+   "Devoted Health, Inc.",
+   10
+  ],
+  [
+   "Centene Corporation",
+   9
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   7
+  ]
+ ],
+ "lowMoop": {
+  "n": "Wellcare Patriot Simple (HMO-POS)",
+  "o": "Wellcare",
+  "moop": 3400.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Kaiser Permanente Senior Advantage Basic 2 (HMO)",
+  "o": "Kaiser Permanente",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6800.0
+ },
+ "best": {
+  "n": "Clover Health LiveHealthy Giveback (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 39,
+ "ppo": 59,
+ "pffs": 1,
+ "std26": 107,
+ "pdp": 9,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 216.8,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 145.7,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 194782,
+ "st": "GA",
+ "countiesMostPlans": [
+  {
+   "slug": "dekalb",
+   "name": "DeKalb",
+   "std": 55,
+   "zero": 30,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 30,
+   "snp": 38,
+   "std26": 59,
+   "gone": 9,
+   "new": 5
+  },
+  {
+   "slug": "gwinnett",
+   "name": "Gwinnett",
+   "std": 53,
+   "zero": 28,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 28,
+   "snp": 38,
+   "std26": 58,
+   "gone": 10,
+   "new": 5
+  },
+  {
+   "slug": "fulton",
+   "name": "Fulton",
+   "std": 52,
+   "zero": 28,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 28,
+   "snp": 38,
+   "std26": 58,
+   "gone": 11,
+   "new": 5
+  },
+  {
+   "slug": "henry",
+   "name": "Henry",
+   "std": 52,
+   "zero": 27,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 28,
+   "snp": 40,
+   "std26": 57,
+   "gone": 10,
+   "new": 5
+  },
+  {
+   "slug": "columbia",
+   "name": "Columbia",
+   "std": 50,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 24,
+   "snp": 35,
+   "std26": 48,
+   "gone": 4,
+   "new": 6
+  },
+  {
+   "slug": "mcduffie",
+   "name": "McDuffie",
+   "std": 50,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 24,
+   "snp": 34,
+   "std26": 48,
+   "gone": 4,
+   "new": 6
+  },
+  {
+   "slug": "newton",
+   "name": "Newton",
+   "std": 50,
+   "zero": 28,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 24,
+   "snp": 40,
+   "std26": 53,
+   "gone": 10,
+   "new": 7
+  },
+  {
+   "slug": "richmond",
+   "name": "Richmond",
+   "std": 50,
+   "zero": 25,
+   "moopMin": 3400.0,
+   "moopMed": 9850.0,
+   "star4": 24,
+   "snp": 35,
+   "std26": 48,
+   "gone": 4,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "gordon",
+   "name": "Gordon",
+   "std": 24,
+   "zero": 10,
+   "moopMin": 6700.0,
+   "snp": 28
+  },
+  {
+   "slug": "pierce",
+   "name": "Pierce",
+   "std": 24,
+   "zero": 8,
+   "moopMin": 6700.0,
+   "snp": 20
+  },
+  {
+   "slug": "toombs",
+   "name": "Toombs",
+   "std": 24,
+   "zero": 9,
+   "moopMin": 6700.0,
+   "snp": 27
+  },
+  {
+   "slug": "sumter",
+   "name": "Sumter",
+   "std": 23,
+   "zero": 7,
+   "moopMin": 6700.0,
+   "snp": 21
+  },
+  {
+   "slug": "carroll",
+   "name": "Carroll",
+   "std": 22,
+   "zero": 8,
+   "moopMin": 6700.0,
+   "snp": 18
+  },
+  {
+   "slug": "dougherty",
+   "name": "Dougherty",
+   "std": 19,
+   "zero": 8,
+   "moopMin": 6700.0,
+   "snp": 18
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 55.7,
+   "dd": 687.0,
+   "d26": 36.4,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 145.7,
+   "dd": 700.0,
+   "d26": 100.7,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 146.3,
+   "dd": 350.0,
+   "d26": 129.5,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 147.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 165.6,
+   "dd": 700.0,
+   "d26": 98.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 216.8,
+   "dd": 300.0,
+   "d26": 139.8,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 39,
+  "ppo": 59,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

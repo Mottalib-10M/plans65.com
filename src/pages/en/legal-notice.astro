@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { src } from '../../lib/helpers';
+const lang = 'en';
+---
+<PageLayout title={`${SITE_NAMES[lang]} legal notice: publisher, host and terms of use 2027`} description="Publisher and host of Plans65, independent and not affiliated with the U.S. government, why the plan tables are information and not insurance advice, reuse, embedding and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Legal notice and terms of use</h1>
+    <p>Information given under Article 6 III-1 of French law no. 2004-575 of 21 June 2004, the publisher being established in France.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Publication director: {AUTHOR_NAME}, responsible for the content of {SITE_URL}.</p>
+    <h2>Host</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Independent site, not a government site</h2>
+    <p>{SITE_NAMES[lang]} is a private, independent publication. It is not operated, endorsed or paid for by the Centers for Medicare &amp; Medicaid Services, the Department of Health and Human Services, the Social Security Administration or any other government body, and it does not use their names, seals or logos in its name, address or design ({src('usc_1320b10', '42 U.S.C. §1320b-10')}). "Medicare" is used only to describe the public program the pages are about.</p>
+    <h2>Information, not insurance advice</h2>
+    <p>The site reproduces facts from public CMS and SSA files and computes estimates from them. It is not an insurance agency, broker or third-party marketing organization, does not sell, solicit or enroll anyone in any plan, and endorses no plan. A plan's Evidence of Coverage, its provider directory and its drug list decide what it covers. Projected amounts are labeled and may differ from the final figures.</p>
+    <h2>Liability</h2><p>Figures are read from official files and the calculators are tested before each release, but files are revised and errors cannot be ruled out. The publisher is not liable for a decision based on the site alone. Report errors through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link are welcome. CMS and SSA data are public domain works of the federal government. Plan and company names belong to their owners and are cited as published by CMS.</p>
+    <h2>Embedding</h2><p>The plan finder may be embedded for free with its credit line visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Personal data</h2><p>No cookie, nothing kept of what you type: <a href={route('privacy', lang)}>privacy policy</a>, <a href={route('cookies', lang)}>cookies</a>.</p>
+    <h2>Reporting unlawful content</h2><p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the page address.</p>
+    <h2>Governing law</h2><p>French law applies; failing an amicable settlement, the courts of {LEGAL.jurisdiction} have jurisdiction. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

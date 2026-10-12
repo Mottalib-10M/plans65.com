@@ -1,0 +1,260 @@
+{
+ "name": "Puerto Rico",
+ "slug": "puerto-rico",
+ "terr": true,
+ "counties": 78,
+ "all": 63,
+ "std": 32,
+ "mapd": 30,
+ "zero": 30,
+ "snp": 31,
+ "dsnp": 27,
+ "csnp": 4,
+ "isnp": 0,
+ "moopMin": 3250.0,
+ "moopMed": 3400.0,
+ "moopMax": 7151.0,
+ "starMax": 5.0,
+ "star4": 32,
+ "premMax": 0,
+ "orgs": 3,
+ "topOrg": "Elevance Health, Inc.",
+ "topOrgN": 14,
+ "orgList": [
+  [
+   "Elevance Health, Inc.",
+   14
+  ],
+  [
+   "MHH Healthcare, L.P.",
+   12
+  ],
+  [
+   "Guidewell Mutual Holding Corporation",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "MMM Balance (HMO-POS)",
+  "o": "Medicare y Mucho Mas (MMM)",
+  "moop": 3250.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "MMM Balance (HMO-POS)",
+  "o": "Medicare y Mucho Mas (MMM)",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3250.0
+ },
+ "best": {
+  "n": "MCS Classicare En Tu Hogar (HMO)",
+  "o": "MCS Classicare",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 3400.0
+ },
+ "hmo": 31,
+ "ppo": 1,
+ "pffs": 0,
+ "std26": 31,
+ "pdp": 3,
+ "pdp26": 3,
+ "pdpMin": 9.3,
+ "pdpMax": 124.6,
+ "pdpMinName": "HealthSpring Assurance Rx (PDP)",
+ "pdpMed": 12.9,
+ "pdpBench": 0,
+ "pdpZeroDed": 0,
+ "bytes": 42848,
+ "st": "PR",
+ "countiesMostPlans": [
+  {
+   "slug": "aguada",
+   "name": "Aguada",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 20,
+   "std26": 23,
+   "gone": 2,
+   "new": 3
+  },
+  {
+   "slug": "aguadilla",
+   "name": "Aguadilla",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 20,
+   "std26": 23,
+   "gone": 1,
+   "new": 2
+  },
+  {
+   "slug": "anasco",
+   "name": "Anasco",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 20,
+   "std26": 23,
+   "gone": 2,
+   "new": 3
+  },
+  {
+   "slug": "camuy",
+   "name": "Camuy",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 20,
+   "std26": 23,
+   "gone": 1,
+   "new": 2
+  },
+  {
+   "slug": "corozal",
+   "name": "Corozal",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 19,
+   "std26": 23,
+   "gone": 3,
+   "new": 4
+  },
+  {
+   "slug": "florida",
+   "name": "Florida",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 19,
+   "std26": 23,
+   "gone": 4,
+   "new": 5
+  },
+  {
+   "slug": "isabela",
+   "name": "Isabela",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 20,
+   "std26": 23,
+   "gone": 1,
+   "new": 2
+  },
+  {
+   "slug": "lajas",
+   "name": "Lajas",
+   "std": 24,
+   "zero": 22,
+   "moopMin": 3250.0,
+   "moopMed": 3400.0,
+   "star4": 24,
+   "snp": 19,
+   "std26": 23,
+   "gone": 2,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "loiza",
+   "name": "Loiza",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "luquillo",
+   "name": "Luquillo",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "maunabo",
+   "name": "Maunabo",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "naguabo",
+   "name": "Naguabo",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "naranjito",
+   "name": "Naranjito",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 19
+  },
+  {
+   "slug": "yabucoa",
+   "name": "Yabucoa",
+   "std": 21,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "snp": 18
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "HealthSpring Extra Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 12.9,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 124.6,
+   "dd": 700.0,
+   "d26": 145.1,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 31,
+  "ppo": 1,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

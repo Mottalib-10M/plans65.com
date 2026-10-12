@@ -1,0 +1,304 @@
+{
+ "name": "Wyoming",
+ "slug": "wyoming",
+ "terr": false,
+ "counties": 23,
+ "all": 8,
+ "std": 8,
+ "mapd": 4,
+ "zero": 0,
+ "snp": 0,
+ "dsnp": 0,
+ "csnp": 0,
+ "isnp": 0,
+ "moopMin": 6750.0,
+ "moopMed": 7075.0,
+ "moopMax": 9850.0,
+ "starMax": 4.0,
+ "star4": 5,
+ "premMax": 169.0,
+ "orgs": 2,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 5,
+ "orgList": [
+  [
+   "Humana Inc.",
+   5
+  ],
+  [
+   "Blue Cross Blue Shield of Michigan Mutual Ins. Co.",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "moop": 6750.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "HumanaChoice H5525-054 (PPO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 70.0,
+  "moop": 7150.0
+ },
+ "best": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 6750.0
+ },
+ "hmo": 0,
+ "ppo": 8,
+ "pffs": 0,
+ "std26": 13,
+ "pdp": 9,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 222.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 33.3,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 6239,
+ "st": "WY",
+ "countiesMostPlans": [
+  {
+   "slug": "albany",
+   "name": "Albany",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 8,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "goshen",
+   "name": "Goshen",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 8,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "laramie",
+   "name": "Laramie",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 11,
+   "gone": 3,
+   "new": 0
+  },
+  {
+   "slug": "lincoln",
+   "name": "Lincoln",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 8,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "uinta",
+   "name": "Uinta",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 8,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "weston",
+   "name": "Weston",
+   "std": 8,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7075.0,
+   "star4": 5,
+   "snp": 0,
+   "std26": 8,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "crook",
+   "name": "Crook",
+   "std": 7,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7150.0,
+   "star4": 4,
+   "snp": 0,
+   "std26": 7,
+   "gone": 0,
+   "new": 0
+  },
+  {
+   "slug": "park",
+   "name": "Park",
+   "std": 7,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "moopMed": 7150.0,
+   "star4": 4,
+   "snp": 0,
+   "std26": 7,
+   "gone": 0,
+   "new": 0
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "niobrara",
+   "name": "Niobrara",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  },
+  {
+   "slug": "platte",
+   "name": "Platte",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  },
+  {
+   "slug": "sheridan",
+   "name": "Sheridan",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  },
+  {
+   "slug": "sublette",
+   "name": "Sublette",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  },
+  {
+   "slug": "sweetwater",
+   "name": "Sweetwater",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  },
+  {
+   "slug": "washakie",
+   "name": "Washakie",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 6750.0,
+   "snp": 0
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 9.6,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 5.3,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 12.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 18.3,
+   "dd": 700.0,
+   "d26": 4.7,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 33.3,
+   "dd": 687.0,
+   "d26": 20.8,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 117.1,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 123.0,
+   "dd": 350.0,
+   "d26": 103.7,
+   "star": 4.5
+  },
+  {
+   "n": "MedicareBlue Rx Standard (PDP)",
+   "o": "MedicareBlue Rx",
+   "d": 179.1,
+   "dd": 700.0,
+   "d26": 101.0,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 222.9,
+   "dd": 300.0,
+   "d26": 140.2,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 0,
+  "ppo": 8,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

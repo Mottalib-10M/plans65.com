@@ -1,0 +1,328 @@
+{
+ "name": "Illinois",
+ "slug": "illinois",
+ "terr": false,
+ "counties": 102,
+ "all": 139,
+ "std": 109,
+ "mapd": 93,
+ "zero": 68,
+ "snp": 30,
+ "dsnp": 4,
+ "csnp": 23,
+ "isnp": 3,
+ "moopMin": 2150.0,
+ "moopMed": 5200.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 58,
+ "premMax": 267.0,
+ "orgs": 9,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 29,
+ "orgList": [
+  [
+   "Humana Inc.",
+   29
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   19
+  ],
+  [
+   "CVS Health Corporation",
+   19
+  ],
+  [
+   "Devoted Health, Inc.",
+   14
+  ],
+  [
+   "Lumeris Group Holdings Corporation",
+   9
+  ],
+  [
+   "Health Care Service Corporation",
+   8
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "moop": 2150.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 2150.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5200.0
+ },
+ "hmo": 48,
+ "ppo": 56,
+ "pffs": 2,
+ "std26": 127,
+ "pdp": 10,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 178.3,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 84.6,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 153902,
+ "st": "IL",
+ "countiesMostPlans": [
+  {
+   "slug": "cook",
+   "name": "Cook",
+   "std": 48,
+   "zero": 33,
+   "moopMin": 2150.0,
+   "moopMed": 5150.0,
+   "star4": 24,
+   "snp": 19,
+   "std26": 58,
+   "gone": 14,
+   "new": 4
+  },
+  {
+   "slug": "will",
+   "name": "Will",
+   "std": 45,
+   "zero": 31,
+   "moopMin": 2150.0,
+   "moopMed": 5200.0,
+   "star4": 23,
+   "snp": 18,
+   "std26": 56,
+   "gone": 15,
+   "new": 4
+  },
+  {
+   "slug": "dupage",
+   "name": "DuPage",
+   "std": 44,
+   "zero": 30,
+   "moopMin": 2150.0,
+   "moopMed": 5200.0,
+   "star4": 23,
+   "snp": 17,
+   "std26": 54,
+   "gone": 14,
+   "new": 4
+  },
+  {
+   "slug": "kane",
+   "name": "Kane",
+   "std": 40,
+   "zero": 28,
+   "moopMin": 2150.0,
+   "moopMed": 5050.0,
+   "star4": 18,
+   "snp": 18,
+   "std26": 51,
+   "gone": 16,
+   "new": 5
+  },
+  {
+   "slug": "st-clair",
+   "name": "St. Clair",
+   "std": 39,
+   "zero": 22,
+   "moopMin": 2850.0,
+   "moopMed": 5000.0,
+   "star4": 23,
+   "snp": 9,
+   "std26": 47,
+   "gone": 14,
+   "new": 6
+  },
+  {
+   "slug": "clinton",
+   "name": "Clinton",
+   "std": 38,
+   "zero": 22,
+   "moopMin": 2850.0,
+   "moopMed": 4950.0,
+   "star4": 22,
+   "snp": 9,
+   "std26": 44,
+   "gone": 11,
+   "new": 5
+  },
+  {
+   "slug": "madison",
+   "name": "Madison",
+   "std": 38,
+   "zero": 22,
+   "moopMin": 2850.0,
+   "moopMed": 5000.0,
+   "star4": 23,
+   "snp": 9,
+   "std26": 49,
+   "gone": 16,
+   "new": 5
+  },
+  {
+   "slug": "bond",
+   "name": "Bond",
+   "std": 36,
+   "zero": 21,
+   "moopMin": 2850.0,
+   "moopMed": 5000.0,
+   "star4": 22,
+   "snp": 8,
+   "std26": 42,
+   "gone": 10,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "jefferson",
+   "name": "Jefferson",
+   "std": 13,
+   "zero": 5,
+   "moopMin": 5000.0,
+   "snp": 5
+  },
+  {
+   "slug": "marion",
+   "name": "Marion",
+   "std": 13,
+   "zero": 6,
+   "moopMin": 4450.0,
+   "snp": 5
+  },
+  {
+   "slug": "warren",
+   "name": "Warren",
+   "std": 13,
+   "zero": 5,
+   "moopMin": 5000.0,
+   "snp": 5
+  },
+  {
+   "slug": "saline",
+   "name": "Saline",
+   "std": 11,
+   "zero": 5,
+   "moopMin": 5000.0,
+   "snp": 5
+  },
+  {
+   "slug": "randolph",
+   "name": "Randolph",
+   "std": 10,
+   "zero": 5,
+   "moopMin": 5000.0,
+   "snp": 5
+  },
+  {
+   "slug": "williamson",
+   "name": "Williamson",
+   "std": 5,
+   "zero": 3,
+   "moopMin": 5500.0,
+   "snp": 4
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 22.3,
+   "dd": 687.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 78.3,
+   "dd": 700.0,
+   "d26": 40.2,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 90.9,
+   "dd": 700.0,
+   "d26": 89.7,
+   "star": 2.5
+  },
+  {
+   "n": "HealthSpring Extra RX (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 108.2,
+   "dd": 700.0,
+   "d26": 119.7,
+   "star": 2.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 120.9,
+   "dd": 700.0,
+   "d26": 94.9,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 130.2,
+   "dd": 350.0,
+   "d26": 119.4,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 178.3,
+   "dd": 300.0,
+   "d26": 103.9,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 48,
+  "ppo": 56,
+  "pffs": 2
+ },
+ "costPlans": 3
+}

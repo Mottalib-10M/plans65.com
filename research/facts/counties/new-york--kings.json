@@ -1,0 +1,503 @@
+{
+ "state": "new-york",
+ "county": "kings",
+ "name": "Kings",
+ "all": 76,
+ "std": 37,
+ "mapd": 32,
+ "zero": 17,
+ "snp": 39,
+ "dsnp": 28,
+ "csnp": 5,
+ "isnp": 6,
+ "moopMin": 4950.0,
+ "moopMed": 9850.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 12,
+ "premMax": 216.0,
+ "orgs": 11,
+ "topOrg": "CVS Health Corporation",
+ "topOrgN": 6,
+ "orgList": [
+  [
+   "CVS Health Corporation",
+   6
+  ],
+  [
+   "Centene Corporation",
+   6
+  ],
+  [
+   "EmblemHealth, Inc.",
+   5
+  ],
+  [
+   "Healthfirst, Inc.",
+   4
+  ],
+  [
+   "Humana Inc.",
+   4
+  ],
+  [
+   "Elevance Health, Inc.",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "moop": 4950.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "EmblemHealth VIP Value (HMO)",
+  "o": "EmblemHealth",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "best": {
+  "n": "Anthem Medicare Advantage 2 (HMO-POS)",
+  "o": "Anthem Blue Cross and Blue Shield HP",
+  "star": 5.0,
+  "m": 34.0,
+  "moop": 9250.0
+ },
+ "hmo": 23,
+ "ppo": 14,
+ "pffs": 0,
+ "std26": 38,
+ "zero26": 15,
+ "gone": 9,
+ "new": 8,
+ "openPlans": [
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4950.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Veteran 2 (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield HP",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6800.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx NY-MA3 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H3533-033 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 550.0,
+   "moop": 9050.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5970-028 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9250.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 007 NY (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 9350.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NY-0012 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 9400.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK EXTRAS 031 NY (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9650.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "MetroPlus Platinum Plan (HMO)",
+   "o": "MetroPlus Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 58.8
+  },
+  {
+   "n": "Wellcare Simple Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Giveback Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Assist Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 58.8
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Care (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "EmblemHealth VIP Value (HMO)",
+   "o": "EmblemHealth",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Healthfirst 65 Plus Plan (HMO)",
+   "o": "Healthfirst Medicare Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK 008 NY (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Elite (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Fidelis Assist (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 32.5
+  },
+  {
+   "n": "Wellcare Fidelis Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Fidelis Patriot Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Healthfirst Increased Benefits Plan (HMO)",
+   "o": "Healthfirst Medicare Plan",
+   "t": "HMO",
+   "m": 17.1,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 24.2
+  },
+  {
+   "n": "VNS Health EasyCare (HMO)",
+   "o": "VNS Health Medicare",
+   "t": "HMO",
+   "m": 25.0,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 25.0
+  },
+  {
+   "n": "Anthem Medicare Advantage 2 (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield HP",
+   "t": "HMO-POS",
+   "m": 34.0,
+   "dd": 240.0,
+   "moop": 9250.0,
+   "star": 5.0,
+   "m26": 34.0
+  },
+  {
+   "n": "EmblemHealth VIP Gold (HMO)",
+   "o": "EmblemHealth",
+   "t": "HMO",
+   "m": 40.0,
+   "dd": 200.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 49.0
+  },
+  {
+   "n": "EmblemHealth VIP Saver (HMO)",
+   "o": "EmblemHealth",
+   "t": "HMO",
+   "m": 40.4,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "VillageCareMAX Medicare Select Advantage Plan (HMO)",
+   "o": "VillageCareMAX",
+   "t": "HMO",
+   "m": 40.5,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 58.8
+  },
+  {
+   "n": "Anthem Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield HP",
+   "t": "HMO-POS",
+   "m": 44.0,
+   "dd": 150.0,
+   "moop": 9250.0,
+   "star": 3.0,
+   "m26": 44.0
+  },
+  {
+   "n": "Humana Gold Plus H3533-035 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 45.0,
+   "dd": 700.0,
+   "moop": 9250.0,
+   "star": 3.0,
+   "m26": 22.0
+  },
+  {
+   "n": "Aetna Medicare Elite Extra (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 47.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 44.0
+  },
+  {
+   "n": "Healthfirst Signature (HMO)",
+   "o": "Healthfirst Medicare Plan",
+   "t": "HMO",
+   "m": 60.0,
+   "dd": 550.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 79.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 60.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NY-0005 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 91.0,
+   "dd": 685.0,
+   "moop": 9250.0,
+   "star": 3.5,
+   "m26": 82.0
+  },
+  {
+   "n": "Healthfirst Signature (PPO)",
+   "o": "Healthfirst Medicare Plan",
+   "t": "PPO",
+   "m": 155.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 55.0
+  },
+  {
+   "n": "EmblemHealth VIP Core (HMO)",
+   "o": "EmblemHealth",
+   "t": "HMO",
+   "m": 180.0,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "EmblemHealth VIP Gold Plus (HMO)",
+   "o": "EmblemHealth",
+   "t": "HMO",
+   "m": 216.0,
+   "dd": 200.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 252.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H3347-009-0",
+   "n": "Elderplan Extra Help (HMO-POS)",
+   "o": "Elderplan",
+   "same": true
+  },
+  {
+   "k": "H3347-016-0",
+   "n": "Elderplan Flex (HMO-POS)",
+   "o": "Elderplan",
+   "same": true
+  },
+  {
+   "k": "H3533-027-0",
+   "n": "Humana Gold Plus Giveback H3533-027 (HMO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H4868-016-0",
+   "n": "Wellcare Assist (HMO-POS)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H4868-019-0",
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H5521-664-0",
+   "n": "Aetna Medicare Enhanced Extra (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H5970-031-0",
+   "n": "Humana Direct Choice Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H7849-150-0",
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "same": false
+  },
+  {
+   "k": "H8432-036-0",
+   "n": "Anthem Veteran (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield HP",
+   "same": true
+  }
+ ]
+}

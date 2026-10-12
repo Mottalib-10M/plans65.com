@@ -1,0 +1,32 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, AUTHOR_DESC, CONTACT_EMAIL } from '../../data/site-config';
+import { KIT as K } from '../../lib/kit';
+import { src } from '../../lib/helpers';
+import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('about', lang);
+const title = 'Plans65 2027: who compiles the county plan tables, and why';
+const description = 'Plans65 is published by Radif Partners, an independent company: 2027 plan tables from CMS files, no agent, no phone number, no commission from any insurer or broker.';
+const n = K.nat;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>About Plans65</h1>
+    <p>{AUTHOR_DESC.en}</p>
+    <h2>Why this site exists</h2>
+    <p>Type "Medicare Advantage plans" into a search engine and most of the commercial results end the same way: a box for your ZIP code, then a toll-free number and the words "licensed insurance agent". The plans themselves stay hidden until someone who earns a commission on your enrollment has your phone number. This site does better than the first Google results for these searches because it lists every 2027 Advantage plan of your county with its premium, drug deductible, out-of-pocket limit and 2027 star rating straight from the CMS file, with no ZIP code, phone number or agent, and turns the official Part B, IRMAA and Part D tables into calculators for your own income and drugs.</p>
+    <p>The September 2026 landscape file holds {K.num(n.segments)} plan segments across {K.num(n.counties)} counties and territories, plus {K.num(n.pdp)} stand-alone drug plans. Everything in it is public: a work of the federal government, free to reuse. What was missing was a way to read it without a spreadsheet.</p>
+    <h2>Who publishes it</h2>
+    <p>The site is published by {AUTHOR_NAME}, a company that builds calculators on public data. It is not an insurance agency, a broker, a third-party marketing organization or a call center. It has no contract with any insurer, no partner to send you to and no lead to sell. The name of the federal program appears in our pages because it is what the pages are about; it never appears in our name, our address or our logo, and nothing here should be read as coming from the government (see {src('usc_1320b10', '42 U.S.C. §1320b-10')}).</p>
+    <LegalIdentity lang={lang} />
+    <h2>What we use, and what we leave out</h2>
+    <p>We use the CMS landscape files for 2027 and 2026, the 2027 Star Ratings data tables released on October 8, 2026, the CMS premium fact sheet for 2026, the SSA operations manual for income brackets, the 2027 Rate Announcement for the drug benefit, and the 2026 Trustees Report for projections that are labeled as such. We leave out what we cannot check: insurers' marketing claims about extra benefits, provider networks we cannot read from a public file, and any "average premium" from a source that does not show its method.</p>
+    <h2>What the site cannot tell you</h2>
+    <p>The landscape file does not list each plan's copays, its pharmacy network, its drug list or the doctors in its network. Before joining a plan, read its Evidence of Coverage and check your doctors and drugs with the plan or on Medicare.gov. Our <a href={route('method', lang)}>method page</a> explains each figure and its limits, and the <a href={route('editorial', lang)}>editorial policy</a> how errors are corrected.</p>
+    <h2>Contact</h2>
+    <p>Corrections and questions about a figure: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. We do not answer enrollment questions about a person's case and we never call anyone: for personal help, your State Health Insurance Assistance Program (SHIP) counsels for free and sells nothing.</p>
+  </article>
+</PageLayout>

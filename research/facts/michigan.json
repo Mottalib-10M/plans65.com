@@ -1,0 +1,336 @@
+{
+ "name": "Michigan",
+ "slug": "michigan",
+ "terr": false,
+ "counties": 83,
+ "all": 181,
+ "std": 131,
+ "mapd": 122,
+ "zero": 54,
+ "snp": 50,
+ "dsnp": 30,
+ "csnp": 17,
+ "isnp": 3,
+ "moopMin": 4000.0,
+ "moopMed": 6000.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 97,
+ "premMax": 305.6,
+ "orgs": 11,
+ "topOrg": "Blue Cross Blue Shield of Michigan Mutual Ins. Co.",
+ "topOrgN": 40,
+ "orgList": [
+  [
+   "Blue Cross Blue Shield of Michigan Mutual Ins. Co.",
+   40
+  ],
+  [
+   "Corewell Health",
+   35
+  ],
+  [
+   "Humana Inc.",
+   12
+  ],
+  [
+   "Henry Ford Health System",
+   10
+  ],
+  [
+   "CVS Health Corporation",
+   10
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "Medicare Plus Blue Assure (PPO)",
+  "o": "Blue Cross Blue Shield of Michigan",
+  "moop": 4000.0,
+  "m": 199.6
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Signature Extra (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4900.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5200.0
+ },
+ "hmo": 60,
+ "ppo": 70,
+ "pffs": 1,
+ "std26": 148,
+ "pdp": 11,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 136.7,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 49.8,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 136419,
+ "st": "MI",
+ "countiesMostPlans": [
+  {
+   "slug": "washtenaw",
+   "name": "Washtenaw",
+   "std": 65,
+   "zero": 34,
+   "moopMin": 4000.0,
+   "moopMed": 6450.0,
+   "star4": 36,
+   "snp": 28,
+   "std26": 70,
+   "gone": 15,
+   "new": 10
+  },
+  {
+   "slug": "genesee",
+   "name": "Genesee",
+   "std": 64,
+   "zero": 32,
+   "moopMin": 4000.0,
+   "moopMed": 6225.0,
+   "star4": 38,
+   "snp": 25,
+   "std26": 68,
+   "gone": 12,
+   "new": 8
+  },
+  {
+   "slug": "oakland",
+   "name": "Oakland",
+   "std": 64,
+   "zero": 32,
+   "moopMin": 4000.0,
+   "moopMed": 6225.0,
+   "star4": 37,
+   "snp": 29,
+   "std26": 73,
+   "gone": 18,
+   "new": 9
+  },
+  {
+   "slug": "wayne",
+   "name": "Wayne",
+   "std": 64,
+   "zero": 32,
+   "moopMin": 4000.0,
+   "moopMed": 6225.0,
+   "star4": 37,
+   "snp": 22,
+   "std26": 69,
+   "gone": 14,
+   "new": 9
+  },
+  {
+   "slug": "kent",
+   "name": "Kent",
+   "std": 63,
+   "zero": 31,
+   "moopMin": 4000.0,
+   "moopMed": 6500.0,
+   "star4": 36,
+   "snp": 26,
+   "std26": 60,
+   "gone": 9,
+   "new": 12
+  },
+  {
+   "slug": "livingston",
+   "name": "Livingston",
+   "std": 62,
+   "zero": 31,
+   "moopMin": 4000.0,
+   "moopMed": 6425.0,
+   "star4": 36,
+   "snp": 25,
+   "std26": 66,
+   "gone": 11,
+   "new": 7
+  },
+  {
+   "slug": "hillsdale",
+   "name": "Hillsdale",
+   "std": 59,
+   "zero": 29,
+   "moopMin": 4000.0,
+   "moopMed": 6400.0,
+   "star4": 37,
+   "snp": 21,
+   "std26": 60,
+   "gone": 13,
+   "new": 12
+  },
+  {
+   "slug": "macomb",
+   "name": "Macomb",
+   "std": 59,
+   "zero": 30,
+   "moopMin": 4000.0,
+   "moopMed": 6050.0,
+   "star4": 37,
+   "snp": 20,
+   "std26": 66,
+   "gone": 14,
+   "new": 7
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "alger",
+   "name": "Alger",
+   "std": 10,
+   "zero": 3,
+   "moopMin": 4000.0,
+   "snp": 1
+  },
+  {
+   "slug": "gogebic",
+   "name": "Gogebic",
+   "std": 10,
+   "zero": 3,
+   "moopMin": 4000.0,
+   "snp": 1
+  },
+  {
+   "slug": "iron",
+   "name": "Iron",
+   "std": 10,
+   "zero": 3,
+   "moopMin": 4000.0,
+   "snp": 1
+  },
+  {
+   "slug": "mackinac",
+   "name": "Mackinac",
+   "std": 10,
+   "zero": 1,
+   "moopMin": 4000.0,
+   "snp": 1
+  },
+  {
+   "slug": "ontonagon",
+   "name": "Ontonagon",
+   "std": 10,
+   "zero": 3,
+   "moopMin": 4000.0,
+   "snp": 1
+  },
+  {
+   "slug": "baraga",
+   "name": "Baraga",
+   "std": 9,
+   "zero": 2,
+   "moopMin": 4000.0,
+   "snp": 1
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 17.2,
+   "dd": 687.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Prescription Blue Select (PDP)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "d": 49.8,
+   "dd": 700.0,
+   "d26": 78.4,
+   "star": 4.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 58.4,
+   "dd": 700.0,
+   "d26": 14.1,
+   "star": 3.0
+  },
+  {
+   "n": "Prescription Blue Premium (PDP)",
+   "o": "Blue Cross Blue Shield of Michigan",
+   "d": 80.3,
+   "dd": 125.0,
+   "d26": 106.7,
+   "star": 4.0
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 100.5,
+   "dd": 700.0,
+   "d26": 78.3,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 104.3,
+   "dd": 350.0,
+   "d26": 98.1,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 136.7,
+   "dd": 300.0,
+   "d26": 78.3,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 60,
+  "ppo": 70,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

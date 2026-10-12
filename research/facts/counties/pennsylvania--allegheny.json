@@ -1,0 +1,709 @@
+{
+ "state": "pennsylvania",
+ "county": "allegheny",
+ "name": "Allegheny",
+ "all": 95,
+ "std": 60,
+ "mapd": 50,
+ "zero": 25,
+ "snp": 35,
+ "dsnp": 20,
+ "csnp": 7,
+ "isnp": 8,
+ "moopMin": 4150.0,
+ "moopMed": 6700.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 44,
+ "premMax": 295.0,
+ "orgs": 10,
+ "topOrg": "Highmark Health",
+ "topOrgN": 14,
+ "orgList": [
+  [
+   "Highmark Health",
+   14
+  ],
+  [
+   "UPMC Health System",
+   12
+  ],
+  [
+   "Humana Inc.",
+   10
+  ],
+  [
+   "CVS Health Corporation",
+   6
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   6
+  ],
+  [
+   "Devoted Health, Inc.",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "HumanaChoice Giveback H5216-116 (PPO)",
+  "o": "Humana",
+  "moop": 4150.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Signature (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 5500.0
+ },
+ "best": {
+  "n": "Complete Blue PPO Signature (PPO)",
+  "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 29,
+ "ppo": 31,
+ "pffs": 0,
+ "std26": 63,
+ "zero26": 25,
+ "gone": 5,
+ "new": 2,
+ "openPlans": [
+  {
+   "n": "HumanaChoice Giveback H5216-116 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Perennial Advantage Freedom (HMO)",
+   "o": "Perennial Advantage",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 4500.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R0110-007 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Signature Plus (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Eagle Plus (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Freedom Blue PPO Valor (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Together Blue Medicare HMO with AHN Signature (HMO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6250.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life HMO No Rx (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6500.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life HMO Premier Rx (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6500.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 014 PA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 6550.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 010 PA (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 6600.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Geisinger Gold Heritage (HMO)",
+   "o": "Geisinger Gold",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Community Blue Medicare HMO Signature (HMO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0011 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Complete Blue PPO Signature (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0002 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx PA-MA01 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life PPO Premier Rx (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7350.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 035 PA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7950.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life Essential Rx (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H6622-054 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8260.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Complete Blue PPO Merit (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC PA-12 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 9200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Signature Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life PPO Salute (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK 011 PA (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 015 PA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Security Blue HMO-POS Basic (HMO-POS)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO-POS",
+   "m": 7.0,
+   "dd": null,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 20.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 7.0,
+   "dd": 700.0,
+   "moop": 7500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life HMO Deductible Rx (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 25.0,
+   "dd": 700.0,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 22.0
+  },
+  {
+   "n": "UPMC for Life HMO Rx Choice (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 25.0,
+   "dd": 700.0,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 30.0
+  },
+  {
+   "n": "Geisinger Gold Value Rx (HMO)",
+   "o": "Geisinger Gold",
+   "t": "HMO",
+   "m": 29.0,
+   "dd": 0.0,
+   "moop": 9000.0,
+   "star": 4.0,
+   "m26": 23.0
+  },
+  {
+   "n": "HealthSpring Preferred Plus (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 32.0,
+   "dd": 500.0,
+   "moop": 5700.0,
+   "star": 3.0,
+   "m26": 21.0
+  },
+  {
+   "n": "UPMC for Life PPO Rx Choice (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 33.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "UPMC for Life PPO High Deductible Rx (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 33.0,
+   "dd": 700.0,
+   "moop": 7550.0,
+   "star": 4.5,
+   "m26": 33.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Enhanced (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 34.0,
+   "dd": 400.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 24.0
+  },
+  {
+   "n": "HumanaChoice H5525-086 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 39.0,
+   "dd": 700.0,
+   "moop": 5800.0,
+   "star": 4.0,
+   "m26": 26.0
+  },
+  {
+   "n": "Complete Blue HMO Distinct (HMO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO",
+   "m": 40.0,
+   "dd": 700.0,
+   "moop": 6450.0,
+   "star": 4.5,
+   "m26": 20.0
+  },
+  {
+   "n": "Complete Blue PPO Distinct (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 43.0,
+   "dd": 700.0,
+   "moop": 6950.0,
+   "star": 4.5,
+   "m26": 23.0
+  },
+  {
+   "n": "Aetna Medicare Premier Plus (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 49.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.5,
+   "m26": 29.0
+  },
+  {
+   "n": "Security Blue HMO-POS ValueRx (HMO-POS)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO-POS",
+   "m": 53.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.5,
+   "m26": 35.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0003 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 54.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 39.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0008 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 60.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 60.0
+  },
+  {
+   "n": "HumanaChoice R0110-008 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 75.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 52.0
+  },
+  {
+   "n": "UPMC for Life HMO Rx (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 90.0,
+   "dd": 0.0,
+   "moop": 4500.0,
+   "star": 4.5,
+   "m26": 90.0
+  },
+  {
+   "n": "Freedom Blue PPO ValueRx (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 97.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.5,
+   "m26": 79.0
+  },
+  {
+   "n": "HumanaChoice H5216-120 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 107.0,
+   "dd": 700.0,
+   "moop": 7600.0,
+   "star": 4.0,
+   "m26": 94.0
+  },
+  {
+   "n": "Security Blue HMO-POS Standard (HMO-POS)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO-POS",
+   "m": 132.0,
+   "dd": 0.0,
+   "moop": 5000.0,
+   "star": 4.5,
+   "m26": 122.0
+  },
+  {
+   "n": "UPMC for Life PPO Rx Enhanced (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 155.0,
+   "dd": 0.0,
+   "moop": 7550.0,
+   "star": 4.5,
+   "m26": 140.0
+  },
+  {
+   "n": "Freedom Blue PPO Select (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 157.0,
+   "dd": 0.0,
+   "moop": 5000.0,
+   "star": 4.5,
+   "m26": 139.0
+  },
+  {
+   "n": "Security Blue HMO-POS Deluxe (HMO-POS)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "HMO-POS",
+   "m": 188.0,
+   "dd": 0.0,
+   "moop": 4500.0,
+   "star": 4.5,
+   "m26": 179.0
+  },
+  {
+   "n": "Freedom Blue PPO Classic (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 266.0,
+   "dd": 0.0,
+   "moop": 4500.0,
+   "star": 4.5,
+   "m26": 248.0
+  },
+  {
+   "n": "UPMC for Life HMO Rx Enhanced (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 295.0,
+   "dd": 0.0,
+   "moop": 7550.0,
+   "star": 4.5,
+   "m26": 295.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H2915-011-0",
+   "n": "Wellcare Assist (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H2915-013-0",
+   "n": "Wellcare Patriot Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H5521-122-0",
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H5533-015-1",
+   "n": "UPMC for Life PPO Rx Choice (PPO)",
+   "o": "UPMC for Life",
+   "same": true
+  },
+  {
+   "k": "H8145-163-0",
+   "n": "Humana Gold Choice H8145-163 (PFFS)",
+   "o": "Humana",
+   "same": false
+  }
+ ]
+}

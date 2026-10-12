@@ -1,0 +1,335 @@
+{
+ "state": "california",
+ "county": "santa-clara",
+ "name": "Santa Clara",
+ "all": 36,
+ "std": 19,
+ "mapd": 17,
+ "zero": 8,
+ "snp": 17,
+ "dsnp": 3,
+ "csnp": 12,
+ "isnp": 2,
+ "moopMin": 295.0,
+ "moopMed": 3900.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 10,
+ "premMax": 104.0,
+ "orgs": 7,
+ "topOrg": "Alignment Healthcare USA, LLC",
+ "topOrgN": 6,
+ "orgList": [
+  [
+   "Alignment Healthcare USA, LLC",
+   6
+  ],
+  [
+   "CVS Health Corporation",
+   3
+  ],
+  [
+   "SCAN Group",
+   3
+  ],
+  [
+   "Astiva Health Holdings Incorporated",
+   2
+  ],
+  [
+   "Imperial Health Plan of California",
+   2
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Imperial Dynamic Plan (HMO)",
+  "o": "Imperial Health Plan of California, Inc.",
+  "moop": 295.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Imperial Dynamic Plan (HMO)",
+  "o": "Imperial Health Plan of California, Inc.",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 295.0
+ },
+ "best": {
+  "n": "Kaiser Permanente Sr Adv Basic Santa Clara (HMO)",
+  "o": "Kaiser Permanente",
+  "star": 4.5,
+  "m": 27.0,
+  "moop": 6000.0
+ },
+ "hmo": 18,
+ "ppo": 1,
+ "pffs": 0,
+ "std26": 26,
+ "zero26": 15,
+ "gone": 11,
+ "new": 4,
+ "openPlans": [
+  {
+   "n": "Imperial Dynamic Plan (HMO)",
+   "o": "Imperial Health Plan of California, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 295.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Classic (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 999.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Costco Medicare Advantage (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 999.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Astiva Health Premier Plan - NorCal (HMO)",
+   "o": "Astiva Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Astiva Health Savings Plan - NorCal (HMO)",
+   "o": "Astiva Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Imperial Courage Plan (HMO)",
+   "o": "Imperial Health Plan of California, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 2999.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Central Health Harmony 031 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health My Choice 050 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3499.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 040 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3999.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "Alignment Health Honor Plus 060 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 7.3,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Kaiser Permanente Sr Adv Basic Santa Clara (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 27.0,
+   "dd": 0.0,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 15.0
+  },
+  {
+   "n": "Sutter Senior Advantage, a SCAN Medicare Plan (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 49.0,
+   "dd": 0.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Alignment Health Sutter Advantage +More (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 51.0,
+   "dd": 0.0,
+   "moop": 4900.0,
+   "star": 3.5,
+   "m26": 49.0
+  },
+  {
+   "n": "Blue Shield Inspire (HMO)",
+   "o": "Blue Shield of California",
+   "t": "HMO",
+   "m": 61.0,
+   "dd": 475.0,
+   "moop": 5100.0,
+   "star": 4.0,
+   "m26": 58.0
+  },
+  {
+   "n": "Kaiser Permanente Sr Adv Enhanced Santa Clara (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 101.0,
+   "dd": 0.0,
+   "moop": 3900.0,
+   "star": 4.5,
+   "m26": 95.0
+  },
+  {
+   "n": "Alignment Health Advantage 002 (PPO)",
+   "o": "Alignment Health Plan",
+   "t": "PPO",
+   "m": 101.5,
+   "dd": 0.0,
+   "moop": 2850.0,
+   "star": 4.0,
+   "m26": 75.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 102.0,
+   "dd": 700.0,
+   "moop": 3900.0,
+   "star": 3.0,
+   "m26": 65.0
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 104.0,
+   "dd": 700.0,
+   "moop": 3900.0,
+   "star": 2.5,
+   "m26": 71.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0543-193-0",
+   "n": "AARP Medicare Advantage from UHC CA-10 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H0544-108-0",
+   "n": "Anthem Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross",
+   "same": false
+  },
+  {
+   "k": "H3274-005-0",
+   "n": "Advantage Care (HMO)",
+   "o": "Align Senior Care",
+   "same": true
+  },
+  {
+   "k": "H3815-034-0",
+   "n": "Alignment Health the ONE (HMO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  },
+  {
+   "k": "H3815-052-0",
+   "n": "Alignment Health Honor+ Plan (HMO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  },
+  {
+   "k": "H4161-010-0",
+   "n": "Anthem Prime (HMO-POS)",
+   "o": "Anthem Blue Cross Partnership Plan",
+   "same": false
+  },
+  {
+   "k": "H5425-120-0",
+   "n": "SCAN MyChoice (HMO)",
+   "o": "SCAN Health Plan",
+   "same": true
+  },
+  {
+   "k": "H5521-369-0",
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5521-676-0",
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5649-023-0",
+   "n": "Central Health Classic Care Plan III (HMO)",
+   "o": "Central Health Medicare Plan",
+   "same": false
+  },
+  {
+   "k": "H5649-030-0",
+   "n": "Central Health Valor Care Plan (HMO)",
+   "o": "Central Health Medicare Plan",
+   "same": false
+  }
+ ]
+}

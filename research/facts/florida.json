@@ -1,0 +1,336 @@
+{
+ "name": "Florida",
+ "slug": "florida",
+ "terr": false,
+ "counties": 67,
+ "all": 560,
+ "std": 308,
+ "mapd": 286,
+ "zero": 268,
+ "snp": 252,
+ "dsnp": 130,
+ "csnp": 110,
+ "isnp": 12,
+ "moopMin": 500.0,
+ "moopMed": 4200.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 254,
+ "premMax": 173.0,
+ "orgs": 15,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 68,
+ "orgList": [
+  [
+   "Humana Inc.",
+   68
+  ],
+  [
+   "Devoted Health, Inc.",
+   61
+  ],
+  [
+   "Guidewell Mutual Holding Corporation",
+   40
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   35
+  ],
+  [
+   "CVS Health Corporation",
+   29
+  ],
+  [
+   "Elevance Health, Inc.",
+   29
+  ]
+ ],
+ "lowMoop": {
+  "n": "CareOne Plus (HMO)",
+  "o": "CarePlus Health Plans, Inc.",
+  "moop": 500.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "CareOne Plus (HMO)",
+  "o": "CarePlus Health Plans, Inc.",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 500.0
+ },
+ "best": {
+  "n": "Leon MediExtra (HMO)",
+  "o": "Leon Health, Inc.",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 1000.0
+ },
+ "hmo": 234,
+ "ppo": 74,
+ "pffs": 0,
+ "std26": 325,
+ "pdp": 11,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 326.0,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 126.0,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 196641,
+ "st": "FL",
+ "countiesMostPlans": [
+  {
+   "slug": "hillsborough",
+   "name": "Hillsborough",
+   "std": 52,
+   "zero": 37,
+   "moopMin": 1000.0,
+   "moopMed": 5375.0,
+   "star4": 39,
+   "snp": 72,
+   "std26": 58,
+   "gone": 11,
+   "new": 5
+  },
+  {
+   "slug": "marion",
+   "name": "Marion",
+   "std": 51,
+   "zero": 35,
+   "moopMin": 2000.0,
+   "moopMed": 5150.0,
+   "star4": 38,
+   "snp": 56,
+   "std26": 55,
+   "gone": 11,
+   "new": 7
+  },
+  {
+   "slug": "pinellas",
+   "name": "Pinellas",
+   "std": 50,
+   "zero": 35,
+   "moopMin": 1000.0,
+   "moopMed": 5750.0,
+   "star4": 37,
+   "snp": 68,
+   "std26": 57,
+   "gone": 12,
+   "new": 5
+  },
+  {
+   "slug": "polk",
+   "name": "Polk",
+   "std": 50,
+   "zero": 36,
+   "moopMin": 1250.0,
+   "moopMed": 5375.0,
+   "star4": 38,
+   "snp": 60,
+   "std26": 61,
+   "gone": 18,
+   "new": 7
+  },
+  {
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "std": 49,
+   "zero": 32,
+   "moopMin": 750.0,
+   "moopMed": 4450.0,
+   "star4": 38,
+   "snp": 62,
+   "std26": 55,
+   "gone": 10,
+   "new": 4
+  },
+  {
+   "slug": "pasco",
+   "name": "Pasco",
+   "std": 49,
+   "zero": 34,
+   "moopMin": 1000.0,
+   "moopMed": 5150.0,
+   "star4": 37,
+   "snp": 71,
+   "std26": 57,
+   "gone": 14,
+   "new": 6
+  },
+  {
+   "slug": "lake",
+   "name": "Lake",
+   "std": 48,
+   "zero": 33,
+   "moopMin": 2000.0,
+   "moopMed": 4800.0,
+   "star4": 36,
+   "snp": 54,
+   "std26": 55,
+   "gone": 14,
+   "new": 7
+  },
+  {
+   "slug": "sumter",
+   "name": "Sumter",
+   "std": 48,
+   "zero": 33,
+   "moopMin": 2000.0,
+   "moopMed": 4800.0,
+   "star4": 36,
+   "snp": 58,
+   "std26": 52,
+   "gone": 11,
+   "new": 7
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 13,
+   "zero": 3,
+   "moopMin": 4450.0,
+   "snp": 7
+  },
+  {
+   "slug": "hamilton",
+   "name": "Hamilton",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 6000.0,
+   "snp": 8
+  },
+  {
+   "slug": "lafayette",
+   "name": "Lafayette",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 6000.0,
+   "snp": 8
+  },
+  {
+   "slug": "union",
+   "name": "Union",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 6000.0,
+   "snp": 8
+  },
+  {
+   "slug": "suwannee",
+   "name": "Suwannee",
+   "std": 11,
+   "zero": 3,
+   "moopMin": 6000.0,
+   "snp": 8
+  },
+  {
+   "slug": "monroe",
+   "name": "Monroe",
+   "std": 7,
+   "zero": 0,
+   "moopMin": 6700.0,
+   "snp": 1
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 45.2,
+   "dd": 687.0,
+   "d26": 25.9,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 90.3,
+   "dd": 700.0,
+   "d26": 92.7,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 126.0,
+   "dd": 700.0,
+   "d26": 98.3,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 135.2,
+   "dd": 350.0,
+   "d26": 115.9,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 149.2,
+   "dd": 700.0,
+   "d26": 98.7,
+   "star": 3.0
+  },
+  {
+   "n": "BlueMedicare Premier Rx (PDP)",
+   "o": "Florida Blue",
+   "d": 164.6,
+   "dd": 700.0,
+   "d26": 98.6,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 184.1,
+   "dd": 300.0,
+   "d26": 119.1,
+   "star": 3.0
+  },
+  {
+   "n": "BlueMedicare Complete Rx (PDP)",
+   "o": "Florida Blue",
+   "d": 326.0,
+   "dd": 700.0,
+   "d26": 217.0,
+   "star": 2.5
+  }
+ ],
+ "planTypes": {
+  "hmo": 234,
+  "ppo": 74,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

@@ -1,0 +1,336 @@
+{
+ "name": "Alabama",
+ "slug": "alabama",
+ "terr": false,
+ "counties": 67,
+ "all": 113,
+ "std": 65,
+ "mapd": 56,
+ "zero": 36,
+ "snp": 48,
+ "dsnp": 28,
+ "csnp": 17,
+ "isnp": 3,
+ "moopMin": 1900.0,
+ "moopMed": 6500.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 34,
+ "premMax": 146.0,
+ "orgs": 7,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 15,
+ "orgList": [
+  [
+   "Humana Inc.",
+   15
+  ],
+  [
+   "Devoted Health, Inc.",
+   13
+  ],
+  [
+   "Health Care Service Corporation",
+   12
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "CVS Health Corporation",
+   8
+  ],
+  [
+   "Triton Health Systems, L.L.C.",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Gold Plus H4461-073 (HMO)",
+  "o": "Humana",
+  "moop": 1900.0,
+  "m": 146.0
+ },
+ "cheapHigh": {
+  "n": "HumanaChoice H5216-269 (PPO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4450.0
+ },
+ "best": {
+  "n": "DEVOTED CHOICE GIVEBACK EXTRAS 039 AL (PPO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7700.0
+ },
+ "hmo": 33,
+ "ppo": 32,
+ "pffs": 0,
+ "std26": 63,
+ "pdp": 11,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 204.6,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 110.4,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 64454,
+ "st": "AL",
+ "countiesMostPlans": [
+  {
+   "slug": "mobile",
+   "name": "Mobile",
+   "std": 46,
+   "zero": 23,
+   "moopMin": 3250.0,
+   "moopMed": 6500.0,
+   "star4": 24,
+   "snp": 33,
+   "std26": 41,
+   "gone": 2,
+   "new": 7
+  },
+  {
+   "slug": "walker",
+   "name": "Walker",
+   "std": 44,
+   "zero": 21,
+   "moopMin": 3250.0,
+   "moopMed": 6430.0,
+   "star4": 22,
+   "snp": 34,
+   "std26": 39,
+   "gone": 3,
+   "new": 8
+  },
+  {
+   "slug": "baldwin",
+   "name": "Baldwin",
+   "std": 43,
+   "zero": 21,
+   "moopMin": 1900.0,
+   "moopMed": 6360.0,
+   "star4": 21,
+   "snp": 33,
+   "std26": 38,
+   "gone": 2,
+   "new": 7
+  },
+  {
+   "slug": "jefferson",
+   "name": "Jefferson",
+   "std": 43,
+   "zero": 20,
+   "moopMin": 3250.0,
+   "moopMed": 6750.0,
+   "star4": 21,
+   "snp": 35,
+   "std26": 38,
+   "gone": 2,
+   "new": 7
+  },
+  {
+   "slug": "madison",
+   "name": "Madison",
+   "std": 43,
+   "zero": 20,
+   "moopMin": 3250.0,
+   "moopMed": 6500.0,
+   "star4": 23,
+   "snp": 33,
+   "std26": 40,
+   "gone": 3,
+   "new": 6
+  },
+  {
+   "slug": "shelby",
+   "name": "Shelby",
+   "std": 43,
+   "zero": 20,
+   "moopMin": 3250.0,
+   "moopMed": 6750.0,
+   "star4": 21,
+   "snp": 34,
+   "std26": 37,
+   "gone": 2,
+   "new": 8
+  },
+  {
+   "slug": "blount",
+   "name": "Blount",
+   "std": 42,
+   "zero": 19,
+   "moopMin": 3250.0,
+   "moopMed": 6625.0,
+   "star4": 20,
+   "snp": 34,
+   "std26": 37,
+   "gone": 2,
+   "new": 7
+  },
+  {
+   "slug": "st-clair",
+   "name": "St. Clair",
+   "std": 41,
+   "zero": 18,
+   "moopMin": 3250.0,
+   "moopMed": 6360.0,
+   "star4": 19,
+   "snp": 30,
+   "std26": 39,
+   "gone": 2,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "marengo",
+   "name": "Marengo",
+   "std": 24,
+   "zero": 10,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "conecuh",
+   "name": "Conecuh",
+   "std": 23,
+   "zero": 9,
+   "moopMin": 3250.0,
+   "snp": 15
+  },
+  {
+   "slug": "monroe",
+   "name": "Monroe",
+   "std": 23,
+   "zero": 9,
+   "moopMin": 3250.0,
+   "snp": 15
+  },
+  {
+   "slug": "sumter",
+   "name": "Sumter",
+   "std": 23,
+   "zero": 9,
+   "moopMin": 3250.0,
+   "snp": 15
+  },
+  {
+   "slug": "wilcox",
+   "name": "Wilcox",
+   "std": 23,
+   "zero": 10,
+   "moopMin": 3250.0,
+   "snp": 18
+  },
+  {
+   "slug": "tuscaloosa",
+   "name": "Tuscaloosa",
+   "std": 21,
+   "zero": 7,
+   "moopMin": 3250.0,
+   "snp": 11
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 3.6,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 3.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 60.0,
+   "dd": 687.0,
+   "d26": 37.7,
+   "star": 4.5
+  },
+  {
+   "n": "BlueRx Essential (PDP)",
+   "o": "BlueRx (PDP)",
+   "d": 61.1,
+   "dd": 700.0,
+   "d26": 76.2,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 110.4,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 126.4,
+   "dd": 700.0,
+   "d26": 63.2,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 127.9,
+   "dd": 350.0,
+   "d26": 108.6,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 148.8,
+   "dd": 700.0,
+   "d26": 97.3,
+   "star": 2.5
+  },
+  {
+   "n": "BlueRx Enhanced Plus (PDP)",
+   "o": "BlueRx (PDP)",
+   "d": 157.6,
+   "dd": 250.0,
+   "d26": 129.5,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 204.6,
+   "dd": 300.0,
+   "d26": 119.3,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 33,
+  "ppo": 32,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

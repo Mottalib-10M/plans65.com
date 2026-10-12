@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('contact', lang);
+const description = 'Write to the publisher of Plans65 about a plan figure, a source or the embed code. We never call, never pass details to an agent and do not give personal enrollment advice.';
+---
+<PageLayout title="Contact Plans65: corrections, sources and embed questions" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>E-mail only: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. There is no contact form and no phone line, on purpose: on Medicare sites a form is usually the first step of a sales call, and we make none.</p>
+    <h2>Useful messages</h2>
+    <ul>
+      <li>A plan, premium or limit that differs from what the plan or Medicare.gov shows: give the state, the county and the plan ID (for example H1234-005-0). We check it against the CMS file and the next file update.</li>
+      <li>A newer CMS or SSA release we have not used yet.</li>
+      <li>Embedding the plan finder on a library, senior center or newsroom site: the code is on the <a href={route('widget', lang)}>embed page</a>.</li>
+    </ul>
+    <h2>What we do not do</h2>
+    <p>We do not enroll anyone, recommend a plan for a person or review a plan you were offered. For free one-to-one counseling with no sales interest, contact your State Health Insurance Assistance Program (SHIP); for an official answer about your own record, the Social Security Administration or 1-800-MEDICARE.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+  </div>
+</PageLayout>

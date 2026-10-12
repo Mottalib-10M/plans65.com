@@ -1,0 +1,817 @@
+{
+ "state": "ohio",
+ "county": "cuyahoga",
+ "name": "Cuyahoga",
+ "all": 99,
+ "std": 66,
+ "mapd": 55,
+ "zero": 29,
+ "snp": 33,
+ "dsnp": 11,
+ "csnp": 13,
+ "isnp": 9,
+ "moopMin": 3000.0,
+ "moopMed": 5900.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 46,
+ "premMax": 168.0,
+ "orgs": 11,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 17,
+ "orgList": [
+  [
+   "Humana Inc.",
+   17
+  ],
+  [
+   "Devoted Health, Inc.",
+   8
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "Elevance Health, Inc.",
+   7
+  ],
+  [
+   "General Catalyst Group Management Holdings LP",
+   6
+  ],
+  [
+   "MEDICAL MUTUAL OF OHIO",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "SummaCare Medicare Emerald (HMO-POS)",
+  "o": "SummaCare Medicare Advantage Plans",
+  "moop": 3000.0,
+  "m": 159.0
+ },
+ "cheapHigh": {
+  "n": "Humana Gold Plus H0292-004 (HMO-POS)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4200.0
+ },
+ "best": {
+  "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 9250.0
+ },
+ "hmo": 36,
+ "ppo": 30,
+ "pffs": 0,
+ "std26": 73,
+ "zero26": 36,
+ "gone": 13,
+ "new": 6,
+ "openPlans": [
+  {
+   "n": "SummaCare Medicare Amber (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 3450.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Humana Gold Plus H0292-004 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 4200.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Advantra Signature Classic (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 022 OH (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 4750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 425.0,
+   "moop": 4750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Care (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 4900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 001 OH (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC OH-18 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Perennial Advantage Freedom (HMO-POS)",
+   "o": "Perennial Advantage",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 4900.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "SummaCare Medicare Quartz (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 410.0,
+   "moop": 5200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 001 OH (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 5300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 003 OH (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 5300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Elite Select OH (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Select Care OH (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H6622-022 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 5500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "MedMutual Advantage Classic (HMO-POS)",
+   "o": "Medical Mutual of Ohio",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 315.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R0110-015 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5700.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Veteran (PPO)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Essentials from UHC OH-5 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Veteran (Regional PPO)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6100.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 026 OH (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6350.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 6500.0,
+   "star": 2.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 6750.0,
+   "star": 2.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-285 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H7617-004 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Extras from UHC OH-10 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Cleveland Clinic Preferred (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Extra Help (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 105.0,
+   "moop": 7350.0,
+   "star": 3.5,
+   "m26": 31.4
+  },
+  {
+   "n": "The Health Plan SecureCare Integrity Plan 3 (HMO)",
+   "o": "The Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 003 OH (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 8000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC OH-17 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 8500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx OH-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 8900.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9250.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5216-481 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "HumanaChoice H5216-106 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 15.0,
+   "dd": 700.0,
+   "moop": 5300.0,
+   "star": 4.0,
+   "m26": 1.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 15.0,
+   "dd": 600.0,
+   "moop": 8850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SummaCare Medicare Topaz (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO",
+   "m": 17.0,
+   "dd": 365.0,
+   "moop": 4650.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H6622-055 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 27.0,
+   "dd": 300.0,
+   "moop": 6550.0,
+   "star": 4.0,
+   "m26": 16.0
+  },
+  {
+   "n": "DEVOTED PREMIUM 002 OH (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 31.0,
+   "dd": 650.0,
+   "moop": 6500.0,
+   "star": 4.0,
+   "m26": 31.4
+  },
+  {
+   "n": "The Health Plan SecureCare - Option II (HMO)",
+   "o": "The Health Plan",
+   "t": "HMO",
+   "m": 33.0,
+   "dd": 395.0,
+   "moop": 7500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-023 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 44.0,
+   "dd": 450.0,
+   "moop": 6000.0,
+   "star": 4.0,
+   "m26": 21.0
+  },
+  {
+   "n": "The Health Plan SecureChoice Optimum (PPO)",
+   "o": "The Health Plan",
+   "t": "PPO",
+   "m": 45.0,
+   "dd": 425.0,
+   "moop": 7000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Essentials from UHC OH-6 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 49.0,
+   "dd": 685.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 41.0
+  },
+  {
+   "n": "Humana Full Access (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 53.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 27.0
+  },
+  {
+   "n": "SummaCare Medicare Ruby (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO",
+   "m": 55.0,
+   "dd": 200.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 50.0
+  },
+  {
+   "n": "MedMutual Advantage Select (PPO)",
+   "o": "Medical Mutual of Ohio",
+   "t": "PPO",
+   "m": 55.0,
+   "dd": 95.0,
+   "moop": 6900.0,
+   "star": 4.5,
+   "m26": 44.0
+  },
+  {
+   "n": "MedMutual Advantage Choice (HMO)",
+   "o": "Medical Mutual of Ohio",
+   "t": "HMO",
+   "m": 57.0,
+   "dd": 55.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 45.0
+  },
+  {
+   "n": "AARP Medicare Advantage Extras from UHC OH-8 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 59.0,
+   "dd": 685.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 51.0
+  },
+  {
+   "n": "Anthem Medicare Advantage 3 (PPO)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "PPO",
+   "m": 59.0,
+   "dd": 495.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 51.0
+  },
+  {
+   "n": "Anthem Medicare Advantage 4 (PPO)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "PPO",
+   "m": 65.0,
+   "dd": 495.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 56.0
+  },
+  {
+   "n": "SummaCare Medicare Sapphire (HMO-POS)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO-POS",
+   "m": 85.0,
+   "dd": 100.0,
+   "moop": 3800.0,
+   "star": 4.0,
+   "m26": 83.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC OH-0001 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 85.0,
+   "dd": 505.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 76.0
+  },
+  {
+   "n": "HumanaChoice H5525-030 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 86.0,
+   "dd": 450.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 85.0
+  },
+  {
+   "n": "MedMutual Advantage Preferred (PPO)",
+   "o": "Medical Mutual of Ohio",
+   "t": "PPO",
+   "m": 89.0,
+   "dd": 55.0,
+   "moop": 5900.0,
+   "star": 4.5,
+   "m26": 73.0
+  },
+  {
+   "n": "MedMutual Advantage Plus (HMO)",
+   "o": "Medical Mutual of Ohio",
+   "t": "HMO",
+   "m": 92.0,
+   "dd": 55.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 90.0
+  },
+  {
+   "n": "Aetna Medicare Premier (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 105.0,
+   "dd": 500.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 95.0
+  },
+  {
+   "n": "Anthem Medicare Advantage (Regional PPO)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "Regional PPO",
+   "m": 106.0,
+   "dd": 395.0,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 87.0
+  },
+  {
+   "n": "HumanaChoice R0110-016 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 121.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 80.0
+  },
+  {
+   "n": "SummaCare Medicare Emerald (HMO-POS)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "t": "HMO-POS",
+   "m": 159.0,
+   "dd": 50.0,
+   "moop": 3000.0,
+   "star": 4.0,
+   "m26": 157.0
+  },
+  {
+   "n": "MedMutual Advantage Premium (PPO)",
+   "o": "Medical Mutual of Ohio",
+   "t": "PPO",
+   "m": 168.0,
+   "dd": 55.0,
+   "moop": 3450.0,
+   "star": 4.5,
+   "m26": 149.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0908-003-0",
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H0908-004-0",
+   "n": "Wellcare Assist (HMO-POS)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H3660-052-1",
+   "n": "SummaCare Medicare Amber (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "same": true
+  },
+  {
+   "k": "H3660-053-2",
+   "n": "SummaCare Medicare Garnet (HMO)",
+   "o": "SummaCare Medicare Advantage Plans",
+   "same": true
+  },
+  {
+   "k": "H3931-107-0",
+   "n": "Aetna Medicare Signature (HMO-POS)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H4497-005-3",
+   "n": "MedMutual Advantage Access (PPO)",
+   "o": "Medical Mutual of Ohio",
+   "same": true
+  },
+  {
+   "k": "H5216-307-0",
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5216-309-0",
+   "n": "HumanaChoice Giveback H5216-309 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5525-041-0",
+   "n": "Humana Value Plus H5525-041 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H6723-006-6",
+   "n": "MedMutual Advantage Signature (HMO-POS)",
+   "o": "Medical Mutual of Ohio",
+   "same": true
+  },
+  {
+   "k": "H7617-003-0",
+   "n": "HumanaChoice Giveback H7617-003 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H7617-060-0",
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H8604-011-0",
+   "n": "The Health Plan SecureChoice - Option II (PPO)",
+   "o": "The Health Plan",
+   "same": true
+  }
+ ]
+}

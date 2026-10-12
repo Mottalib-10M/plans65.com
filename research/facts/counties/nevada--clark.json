@@ -1,0 +1,499 @@
+{
+ "state": "nevada",
+ "county": "clark",
+ "name": "Clark",
+ "all": 72,
+ "std": 39,
+ "mapd": 34,
+ "zero": 31,
+ "snp": 33,
+ "dsnp": 16,
+ "csnp": 16,
+ "isnp": 1,
+ "moopMin": 900.0,
+ "moopMed": 2500.0,
+ "moopMax": 7150.0,
+ "starMax": 4.5,
+ "star4": 27,
+ "premMax": 35.0,
+ "orgs": 9,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 9,
+ "orgList": [
+  [
+   "Humana Inc.",
+   9
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "CVS Health Corporation",
+   8
+  ],
+  [
+   "Intermountain Health Care, Inc.",
+   4
+  ],
+  [
+   "Alignment Healthcare USA, LLC",
+   3
+  ],
+  [
+   "Health Care Service Corporation",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "AARP Medicare Advantage Essentials ValueRx NV-5 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "moop": 900.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "AARP Medicare Advantage Essentials ValueRx NV-5 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 900.0
+ },
+ "best": {
+  "n": "Alignment Health Smart 008 (HMO)",
+  "o": "Alignment Health Plan",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 2499.0
+ },
+ "hmo": 27,
+ "ppo": 12,
+ "pffs": 0,
+ "std26": 40,
+ "zero26": 34,
+ "gone": 5,
+ "new": 4,
+ "openPlans": [
+  {
+   "n": "AARP Medicare Advantage Essentials ValueRx NV-5 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 310.0,
+   "moop": 900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Classic (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Costco Medicare Advantage (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 900.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Humana Gold Plus H1036-344 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 250.0,
+   "moop": 925.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Humana Gold Plus H6622-056 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 250.0,
+   "moop": 925.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Champion Ally (HMO)",
+   "o": "Champion Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 999.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health + Intermountain Health 009 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 999.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Select Health Medicare Essential (HMO)",
+   "o": "Select Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem I CareMore Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 95.0,
+   "moop": 1250.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross and Blue Shield",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 50.0,
+   "moop": 1250.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Platinum + Instacart 007 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1499.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Select Health Medicare Wellness (HMO)",
+   "o": "Select Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 1500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime Extra (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 1500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NV-0001 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 310.0,
+   "moop": 1900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "UHC Medicare Advantage NV-001P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 310.0,
+   "moop": 1900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Extras ValueRx NV-10 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 470.0,
+   "moop": 1900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Premier (HMO-POS)",
+   "o": "HealthSpring",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 2000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 008 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2499.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Select Health Medicare Value Giveback (HMO)",
+   "o": "Select Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H6622-028 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3700.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus Giveback H6622-082 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-281 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H7617-070 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5750.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Elite (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6350.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5216-141 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx NV-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NV-0007 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx NV-MA01 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Select Health Medicare Veterans (HMO)",
+   "o": "Select Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7100.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC NV-8 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Value Care (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 7.3,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 9.5
+  },
+  {
+   "n": "HumanaChoice H5216-037 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 23.0,
+   "dd": 700.0,
+   "moop": 5999.0,
+   "star": 4.0,
+   "m26": 15.0
+  },
+  {
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 35.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.0,
+   "m26": 40.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0351-067-0",
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H0609-031-0",
+   "n": "AARP Medicare Advantage from UHC NV-0002 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": true
+  },
+  {
+   "k": "H0978-011-0",
+   "n": "SCAN MyChoice (HMO)",
+   "o": "SCAN Health Plan",
+   "same": true
+  },
+  {
+   "k": "H2960-019-0",
+   "n": "Senior Care Plus Complete Plan (HMO)",
+   "o": "Kaiser Permanente",
+   "same": false
+  },
+  {
+   "k": "H4711-001-0",
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "same": true
+  }
+ ]
+}

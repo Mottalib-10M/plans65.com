@@ -1,0 +1,763 @@
+{
+ "state": "pennsylvania",
+ "county": "philadelphia",
+ "name": "Philadelphia",
+ "all": 98,
+ "std": 63,
+ "mapd": 49,
+ "zero": 29,
+ "snp": 35,
+ "dsnp": 20,
+ "csnp": 8,
+ "isnp": 7,
+ "moopMin": 4150.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 39,
+ "premMax": 242.5,
+ "orgs": 13,
+ "topOrg": "Independence Health Group, Inc.",
+ "topOrgN": 12,
+ "orgList": [
+  [
+   "Independence Health Group, Inc.",
+   12
+  ],
+  [
+   "Humana Inc.",
+   11
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "CVS Health Corporation",
+   8
+  ],
+  [
+   "Thomas Jefferson University",
+   5
+  ],
+  [
+   "Health Care Service Corporation",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "HumanaChoice Giveback H5216-116 (PPO)",
+  "o": "Humana",
+  "moop": 4150.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "AARP Medicare Advantage Essentials from UHC PA-5 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 6700.0
+ },
+ "best": {
+  "n": "Clover Health Choice (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 32,
+ "ppo": 31,
+ "pffs": 0,
+ "std26": 66,
+ "zero26": 28,
+ "gone": 9,
+ "new": 6,
+ "openPlans": [
+  {
+   "n": "HumanaChoice Giveback H5216-116 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Perennial Advantage Freedom (HMO)",
+   "o": "Perennial Advantage",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 4500.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R0110-007 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Freedom Blue PPO Valor (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life HMO No Rx (HMO)",
+   "o": "UPMC for Life",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6500.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Geisinger Gold Heritage (HMO)",
+   "o": "Geisinger Gold",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Essentials from UHC PA-5 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 007 PA (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 7100.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0010 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Keystone 65 Focus Rx (HMO-POS)",
+   "o": "Independence Blue Cross",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Keystone 65 Liberty Medical Only (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Eagle (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx PA-MA01 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Extras from UHC PA-18 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7350.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Prime Plus (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 7500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 023 PA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 7500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Jefferson Health Plans Complete (HMO)",
+   "o": "Jefferson Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 7500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 7700.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Jefferson Health Plans Flex (PPO)",
+   "o": "Jefferson Health Plans",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 8000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Total Complete (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8250.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 036 PA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8400.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "HealthSpring Preferred PA (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 8700.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC PA-12 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 9200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 9250.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Personal Choice 65 Achieve Rx (PPO)",
+   "o": "Independence Blue Cross",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Keystone 65 Assured Rx (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Advantra Signature (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Clover Health Choice (PPO)",
+   "o": "Clover Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 9850.0,
+   "star": 5.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Clover Health Valor (PPO)",
+   "o": "Clover Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Signature Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Elite (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UPMC for Life PPO Salute (PPO)",
+   "o": "UPMC for Life",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK 003 PA (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Jefferson Health Plans Giveback (HMO)",
+   "o": "Jefferson Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 9850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 9.0,
+   "dd": 700.0,
+   "moop": 7900.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Jefferson Health Plans Prime (HMO)",
+   "o": "Jefferson Health Plans",
+   "t": "HMO",
+   "m": 12.8,
+   "dd": 0.0,
+   "moop": 6500.0,
+   "star": 3.0,
+   "m26": 32.7
+  },
+  {
+   "n": "Keystone 65 Basic Rx (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 15.0,
+   "dd": 700.0,
+   "moop": 9500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Keystone 65 Select Medical Only (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 20.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 20.0
+  },
+  {
+   "n": "Geisinger Gold Value Rx (HMO)",
+   "o": "Geisinger Gold",
+   "t": "HMO",
+   "m": 29.0,
+   "dd": 0.0,
+   "moop": 9000.0,
+   "star": 4.0,
+   "m26": 23.0
+  },
+  {
+   "n": "HumanaChoice H5525-086 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 38.0,
+   "dd": 700.0,
+   "moop": 6050.0,
+   "star": 4.0,
+   "m26": 29.0
+  },
+  {
+   "n": "HumanaChoice H5525-005 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 39.0,
+   "dd": 700.0,
+   "moop": 8300.0,
+   "star": 4.0,
+   "m26": 26.0
+  },
+  {
+   "n": "Jefferson Health Plans Preferred (PPO)",
+   "o": "Jefferson Health Plans",
+   "t": "PPO",
+   "m": 40.0,
+   "dd": 0.0,
+   "moop": 6500.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Value Care (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 43.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 32.7
+  },
+  {
+   "n": "HealthSpring Preferred Plus (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 44.0,
+   "dd": 500.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 31.0
+  },
+  {
+   "n": "Keystone 65 Essential Rx (HMO-POS)",
+   "o": "Independence Blue Cross",
+   "t": "HMO-POS",
+   "m": 45.0,
+   "dd": 700.0,
+   "moop": 9000.0,
+   "star": 4.0,
+   "m26": 31.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0008 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 60.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 60.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0001 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 63.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 49.0
+  },
+  {
+   "n": "Keystone 65 Select Rx (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 67.0,
+   "dd": 0.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 47.0
+  },
+  {
+   "n": "HumanaChoice R0110-008 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 75.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 52.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC PA-0009 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 81.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 79.0
+  },
+  {
+   "n": "Keystone 65 Preferred Medical Only (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 105.0,
+   "dd": null,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 111.0
+  },
+  {
+   "n": "HumanaChoice H5216-120 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 107.0,
+   "dd": 700.0,
+   "moop": 7600.0,
+   "star": 4.0,
+   "m26": 94.0
+  },
+  {
+   "n": "Personal Choice 65 Medical Only (PPO)",
+   "o": "Independence Blue Cross",
+   "t": "PPO",
+   "m": 113.0,
+   "dd": null,
+   "moop": 5950.0,
+   "star": 3.5,
+   "m26": 119.0
+  },
+  {
+   "n": "Aetna Medicare Advantra Premier (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 128.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 106.0
+  },
+  {
+   "n": "Complete Blue PPO Distinct (PPO)",
+   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+   "t": "PPO",
+   "m": 137.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 109.0
+  },
+  {
+   "n": "Keystone 65 Preferred Rx (HMO)",
+   "o": "Independence Blue Cross",
+   "t": "HMO",
+   "m": 202.0,
+   "dd": 0.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 188.0
+  },
+  {
+   "n": "Personal Choice 65 Rx (PPO)",
+   "o": "Independence Blue Cross",
+   "t": "PPO",
+   "m": 242.5,
+   "dd": 0.0,
+   "moop": 5950.0,
+   "star": 4.0,
+   "m26": 227.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H1619-002-0",
+   "n": "Jefferson Health Plans Flex Plus (PPO)",
+   "o": "Jefferson Health Plans",
+   "same": true
+  },
+  {
+   "k": "H1619-003-0",
+   "n": "Jefferson Health Plans Flex Pro (PPO)",
+   "o": "Jefferson Health Plans",
+   "same": true
+  },
+  {
+   "k": "H2915-011-0",
+   "n": "Wellcare Assist (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H2915-013-0",
+   "n": "Wellcare Patriot Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H3909-018-0",
+   "n": "Personal Choice 65 Plus Rx (PPO)",
+   "o": "Independence Blue Cross",
+   "same": true
+  },
+  {
+   "k": "H3931-004-0",
+   "n": "Aetna Medicare Premier (HMO-POS)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5521-122-0",
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H6018-002-0",
+   "n": "DEVOTED CHOICE PREMIUM 002 PA (PPO)",
+   "o": "Devoted Health",
+   "same": true
+  },
+  {
+   "k": "H8145-163-0",
+   "n": "Humana Gold Choice H8145-163 (PFFS)",
+   "o": "Humana",
+   "same": false
+  }
+ ]
+}

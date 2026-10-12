@@ -1,0 +1,647 @@
+{
+ "state": "arizona",
+ "county": "maricopa",
+ "name": "Maricopa",
+ "all": 92,
+ "std": 52,
+ "mapd": 45,
+ "zero": 39,
+ "snp": 40,
+ "dsnp": 10,
+ "csnp": 25,
+ "isnp": 5,
+ "moopMin": 2000.0,
+ "moopMed": 4825.0,
+ "moopMax": 8900.0,
+ "starMax": 4.5,
+ "star4": 28,
+ "premMax": 127.0,
+ "orgs": 13,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 13,
+ "orgList": [
+  [
+   "Humana Inc.",
+   13
+  ],
+  [
+   "Devoted Health, Inc.",
+   10
+  ],
+  [
+   "CVS Health Corporation",
+   5
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   5
+  ],
+  [
+   "Health Care Service Corporation",
+   4
+  ],
+  [
+   "Blue Cross Blue Shield of Arizona",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "SCAN Classic (HMO)",
+  "o": "SCAN Health Plan",
+  "moop": 2000.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "DEVOTED CORE 090 AZ (HMO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 2900.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5500.0
+ },
+ "hmo": 36,
+ "ppo": 16,
+ "pffs": 0,
+ "std26": 52,
+ "zero26": 40,
+ "gone": 8,
+ "new": 8,
+ "openPlans": [
+  {
+   "n": "SCAN Classic (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Verda Noble Care (HMO)",
+   "o": "Verda Health Plan of Arizona",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 2099.0,
+   "star": "new",
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN MyChoice (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Walmart Medicare Advantage (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 2500.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED CORE 090 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 2900.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED CORE 021 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 2950.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Banner Medicare Advantage Prime (HMO)",
+   "o": "Banner Medicare Advantage",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 540.0,
+   "moop": 2995.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellpoint Medicare Advantage (HMO-POS)",
+   "o": "Wellpoint",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 130.0,
+   "moop": 3000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 3000.0,
+   "star": "nd",
+   "m26": null
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 3200.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H0028-074 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3400.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Total Complete (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3400.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health ONE + Walgreens 001 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3499.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Essentials from UHC AZ-2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 3500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC AZ-002P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 3500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Best Life Classic (HMO)",
+   "o": "Blue Cross Blue Shield of Arizona (AZ Blue)",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 3550.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 005 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "eternalHealth Horizon (HMO)",
+   "o": "eternalHealth",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 4000.0,
+   "star": 2.5,
+   "m26": 0.0
+  },
+  {
+   "n": "eternalHealth Harmony (HMO)",
+   "o": "eternalHealth",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 250.0,
+   "moop": 4000.0,
+   "star": 2.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Best Life Select (HMO)",
+   "o": "Blue Cross Blue Shield of Arizona (AZ Blue)",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 490.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 001 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 4500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-265 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5220.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5220.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage Extras from UHC AZ-5 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 5400.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "eternalHealth Valor Give Back (HMO-POS)",
+   "o": "eternalHealth",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5500.0,
+   "star": 2.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5500.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 5500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 105 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5550.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED CHOICE 001 AZ (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 5900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 020 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 465.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R7220-001 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5216-371 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6100.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6100.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H0028-028 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 325.0,
+   "moop": 6550.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED MA ONLY 005 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6650.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Extra Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 6900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE MA ONLY 005 AZ (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx AZ-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 7850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 091 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 8850.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED GIVEBACK 019 AZ (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 8900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-224 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 16.8,
+   "dd": 500.0,
+   "moop": 4150.0,
+   "star": 4.0,
+   "m26": 10.9
+  },
+  {
+   "n": "Aetna Medicare Value Care (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 16.8,
+   "dd": 700.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 15.9
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC AZ-0003 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 26.0,
+   "dd": 685.0,
+   "moop": 3900.0,
+   "star": 4.0,
+   "m26": 26.0
+  },
+  {
+   "n": "Blue Best Life Plus (HMO)",
+   "o": "Blue Cross Blue Shield of Arizona (AZ Blue)",
+   "t": "HMO",
+   "m": 49.0,
+   "dd": 500.0,
+   "moop": 3000.0,
+   "star": 3.5,
+   "m26": 44.0
+  },
+  {
+   "n": "HumanaChoice R7220-002 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 110.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 37.0
+  },
+  {
+   "n": "HumanaChoice H5216-034 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 127.0,
+   "dd": 700.0,
+   "moop": 7900.0,
+   "star": 4.0,
+   "m26": 114.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0351-064-0",
+   "n": "Wellcare Giveback (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H0351-065-0",
+   "n": "Wellcare Simple Value (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H0354-001-0",
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "same": true
+  },
+  {
+   "k": "H3551-002-0",
+   "n": "eternalHealth Grand Give Back (HMO)",
+   "o": "eternalHealth",
+   "same": true
+  },
+  {
+   "k": "H3931-092-0",
+   "n": "Aetna Medicare Prime Extra (HMO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H3931-129-0",
+   "n": "Aetna Medicare Signature Extra (HMO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H4835-001-0",
+   "n": "Aetna Medicare Prime (HMO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H5521-363-0",
+   "n": "Aetna Medicare Elite (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  }
+ ]
+}

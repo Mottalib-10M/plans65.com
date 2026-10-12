@@ -1,0 +1,651 @@
+{
+ "state": "north-carolina",
+ "county": "mecklenburg",
+ "name": "Mecklenburg",
+ "all": 89,
+ "std": 50,
+ "mapd": 38,
+ "zero": 29,
+ "snp": 39,
+ "dsnp": 23,
+ "csnp": 10,
+ "isnp": 6,
+ "moopMin": 3500.0,
+ "moopMed": 7150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 36,
+ "premMax": 158.0,
+ "orgs": 9,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 15,
+ "orgList": [
+  [
+   "Humana Inc.",
+   15
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   7
+  ],
+  [
+   "CuraCor Solutions Corp.",
+   6
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "Centene Corporation",
+   4
+  ],
+  [
+   "Health Care Service Corporation",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "Alignment Health Platinum 012 (HMO)",
+  "o": "Alignment Health Plan",
+  "moop": 3500.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Alignment Health Platinum 012 (HMO)",
+  "o": "Alignment Health Plan",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3500.0
+ },
+ "best": {
+  "n": "Alignment Health Smart 013 (HMO)",
+  "o": "Alignment Health Plan",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6500.0
+ },
+ "hmo": 23,
+ "ppo": 26,
+ "pffs": 1,
+ "std26": 56,
+ "zero26": 29,
+ "gone": 12,
+ "new": 6,
+ "openPlans": [
+  {
+   "n": "Alignment Health Platinum 012 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 225.0,
+   "moop": 3500.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Blue Medicare Medical Only (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 3900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 3900.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H1036-335 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NC-15 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 037 NC (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 4950.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "HealthTeam Advantage Vitality Plan (PPO)",
+   "o": "HealthTeam Advantage",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 595.0,
+   "moop": 5200.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Medicare Essential Plus (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NC-0022 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 001 NC (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 6150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Assist Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6500.0,
+   "star": 3.0,
+   "m26": 31.0
+  },
+  {
+   "n": "Alignment Health Smart 013 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6500.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6700.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Courage (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 600.0,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 039 NC (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7050.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 7100.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NC-0017 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthTeam Advantage Eagle Plan (PPO)",
+   "o": "HealthTeam Advantage",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 8500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Patriot Giveback Open (PPO)",
+   "o": "Wellcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 8850.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK 002 NC (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9250.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE MA ONLY 007 NC (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9250.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx NC-MA02 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9300.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC NC-14 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 9500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H1036-137 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus Giveback H1036-318 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus Giveback H1036-343 (HMO-POS)",
+   "o": "Humana",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Blue Medicare Freedom+ (PPO)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Medicare Essential (HMO)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5216-017 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 012 NC (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice Giveback H5525-035 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R0110-004 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H7617-122 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 13.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "HumanaChoice H5525-070 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 13.3,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 24.0
+  },
+  {
+   "n": "Blue Medicare Enhanced (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "HMO-POS",
+   "m": 41.0,
+   "dd": 700.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 30.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NC-0021 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 42.0,
+   "dd": 595.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 37.0
+  },
+  {
+   "n": "Humana Gold Choice H8145-004 (PFFS)",
+   "o": "Humana",
+   "t": "PFFS",
+   "m": 43.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 7.0
+  },
+  {
+   "n": "Blue Medicare PPO Enhanced (PPO)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "t": "PPO",
+   "m": 45.0,
+   "dd": 700.0,
+   "moop": 6900.0,
+   "star": 4.5,
+   "m26": 35.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC NC-0016 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 53.0,
+   "dd": 595.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 53.0
+  },
+  {
+   "n": "HumanaChoice H5216-211 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 67.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 54.0
+  },
+  {
+   "n": "Humana Full Access (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 158.0,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 117.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H1914-010-0",
+   "n": "Wellcare Giveback Open (PPO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H2001-084-0",
+   "n": "AARP Medicare Advantage Access from UHC NC-23 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H3146-021-0",
+   "n": "Aetna Medicare Signature Care (HMO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H3449-026-0",
+   "n": "Blue Medicare Choice (HMO)",
+   "o": "Blue Cross and Blue Shield of North Carolina",
+   "same": true
+  },
+  {
+   "k": "H5525-050-0",
+   "n": "HumanaChoice H5525-050 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5525-083-0",
+   "n": "HumanaChoice H5525-083 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5652-001-0",
+   "n": "Erickson Advantage Signature (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-002-0",
+   "n": "Erickson Advantage Liberty no Rx (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-006-0",
+   "n": "Erickson Advantage Freedom (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H5652-008-0",
+   "n": "Erickson Advantage Liberty (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H9725-014-0",
+   "n": "HealthSpring Preferred Select (HMO)",
+   "o": "HealthSpring",
+   "same": true
+  },
+  {
+   "k": "H9725-017-1",
+   "n": "HealthSpring Preferred Plus (HMO)",
+   "o": "HealthSpring",
+   "same": true
+  }
+ ]
+}

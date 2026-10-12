@@ -1,0 +1,312 @@
+{
+ "name": "Kentucky",
+ "slug": "kentucky",
+ "terr": false,
+ "counties": 120,
+ "all": 123,
+ "std": 80,
+ "mapd": 72,
+ "zero": 47,
+ "snp": 43,
+ "dsnp": 22,
+ "csnp": 15,
+ "isnp": 6,
+ "moopMin": 3900.0,
+ "moopMed": 6925.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 52,
+ "premMax": 123.0,
+ "orgs": 8,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 31,
+ "orgList": [
+  [
+   "Humana Inc.",
+   31
+  ],
+  [
+   "Elevance Health, Inc.",
+   14
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   13
+  ],
+  [
+   "CVS Health Corporation",
+   9
+  ],
+  [
+   "Devoted Health, Inc.",
+   5
+  ],
+  [
+   "Centene Corporation",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "AARP Medicare Advantage from UHC OH-19 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "moop": 3900.0,
+  "m": 35.0
+ },
+ "cheapHigh": {
+  "n": "Humana Community (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4250.0
+ },
+ "best": {
+  "n": "HumanaChoice H7617-004 (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6750.0
+ },
+ "hmo": 39,
+ "ppo": 40,
+ "pffs": 1,
+ "std26": 79,
+ "pdp": 8,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 225.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 74.35000000000001,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 124938,
+ "st": "KY",
+ "countiesMostPlans": [
+  {
+   "slug": "boone",
+   "name": "Boone",
+   "std": 43,
+   "zero": 22,
+   "moopMin": 3900.0,
+   "moopMed": 7000.0,
+   "star4": 30,
+   "snp": 23,
+   "std26": 45,
+   "gone": 9,
+   "new": 7
+  },
+  {
+   "slug": "campbell",
+   "name": "Campbell",
+   "std": 43,
+   "zero": 22,
+   "moopMin": 3900.0,
+   "moopMed": 7000.0,
+   "star4": 30,
+   "snp": 23,
+   "std26": 45,
+   "gone": 9,
+   "new": 7
+  },
+  {
+   "slug": "kenton",
+   "name": "Kenton",
+   "std": 43,
+   "zero": 22,
+   "moopMin": 3900.0,
+   "moopMed": 7000.0,
+   "star4": 30,
+   "snp": 23,
+   "std26": 45,
+   "gone": 9,
+   "new": 7
+  },
+  {
+   "slug": "pendleton",
+   "name": "Pendleton",
+   "std": 40,
+   "zero": 22,
+   "moopMin": 3900.0,
+   "moopMed": 7125.0,
+   "star4": 27,
+   "snp": 26,
+   "std26": 42,
+   "gone": 8,
+   "new": 6
+  },
+  {
+   "slug": "fayette",
+   "name": "Fayette",
+   "std": 38,
+   "zero": 19,
+   "moopMin": 4450.0,
+   "moopMed": 7150.0,
+   "star4": 25,
+   "snp": 28,
+   "std26": 40,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "jefferson",
+   "name": "Jefferson",
+   "std": 37,
+   "zero": 18,
+   "moopMin": 4250.0,
+   "moopMed": 7150.0,
+   "star4": 25,
+   "snp": 30,
+   "std26": 39,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "bullitt",
+   "name": "Bullitt",
+   "std": 36,
+   "zero": 17,
+   "moopMin": 4450.0,
+   "moopMed": 7150.0,
+   "star4": 24,
+   "snp": 28,
+   "std26": 38,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "clark",
+   "name": "Clark",
+   "std": 36,
+   "zero": 17,
+   "moopMin": 4450.0,
+   "moopMed": 7150.0,
+   "star4": 24,
+   "snp": 28,
+   "std26": 39,
+   "gone": 6,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "wolfe",
+   "name": "Wolfe",
+   "std": 25,
+   "zero": 10,
+   "moopMin": 4450.0,
+   "snp": 24
+  },
+  {
+   "slug": "calloway",
+   "name": "Calloway",
+   "std": 24,
+   "zero": 12,
+   "moopMin": 4450.0,
+   "snp": 21
+  },
+  {
+   "slug": "union",
+   "name": "Union",
+   "std": 24,
+   "zero": 9,
+   "moopMin": 4450.0,
+   "snp": 21
+  },
+  {
+   "slug": "caldwell",
+   "name": "Caldwell",
+   "std": 22,
+   "zero": 7,
+   "moopMin": 4450.0,
+   "snp": 20
+  },
+  {
+   "slug": "laurel",
+   "name": "Laurel",
+   "std": 20,
+   "zero": 8,
+   "moopMin": 4450.0,
+   "snp": 20
+  },
+  {
+   "slug": "hardin",
+   "name": "Hardin",
+   "std": 19,
+   "zero": 6,
+   "moopMin": 4450.0,
+   "snp": 19
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 8.6,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 8.3,
+   "dd": 700.0,
+   "d26": 8.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 26.3,
+   "dd": 687.0,
+   "d26": 9.9,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 122.4,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 144.5,
+   "dd": 350.0,
+   "d26": 125.3,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 160.4,
+   "dd": 700.0,
+   "d26": 90.3,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 225.9,
+   "dd": 300.0,
+   "d26": 127.1,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 39,
+  "ppo": 40,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

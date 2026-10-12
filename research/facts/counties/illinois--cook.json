@@ -1,0 +1,643 @@
+{
+ "state": "illinois",
+ "county": "cook",
+ "name": "Cook",
+ "all": 67,
+ "std": 48,
+ "mapd": 42,
+ "zero": 33,
+ "snp": 19,
+ "dsnp": 4,
+ "csnp": 12,
+ "isnp": 3,
+ "moopMin": 2150.0,
+ "moopMed": 5150.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 24,
+ "premMax": 267.0,
+ "orgs": 8,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 11,
+ "orgList": [
+  [
+   "Humana Inc.",
+   11
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "CVS Health Corporation",
+   7
+  ],
+  [
+   "Health Care Service Corporation",
+   6
+  ],
+  [
+   "Devoted Health, Inc.",
+   5
+  ],
+  [
+   "Centene Corporation",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "moop": 2150.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 2150.0
+ },
+ "best": {
+  "n": "DEVOTED CHOICE 010 IL (PPO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5400.0
+ },
+ "hmo": 25,
+ "ppo": 22,
+ "pffs": 1,
+ "std26": 58,
+ "zero26": 39,
+ "gone": 14,
+ "new": 4,
+ "openPlans": [
+  {
+   "n": "Humana Total Complete (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 001 IL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 2700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Essence Advantage Select (HMO)",
+   "o": "Essence Healthcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 2900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Essentials from UHC IL-8 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 2900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple Exclusive Value (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3200.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "Wellcare Simple Exclusive (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3200.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 3300.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred Savings (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 4000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4250.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4300.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Extras from UHC IL-9 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Premier (HMO-POS)",
+   "o": "HealthSpring",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 500.0,
+   "moop": 4450.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Essence Advantage Choice (PPO)",
+   "o": "Essence Healthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring True Choice (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 001 IL (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 4700.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC IL-2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 4900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice H5216-283 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 250.0,
+   "moop": 4900.0,
+   "star": 4.0,
+   "m26": 5.2
+  },
+  {
+   "n": "Zing Select Care IL (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 450.0,
+   "moop": 4950.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring True Choice Savings (PPO)",
+   "o": "HealthSpring",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Zing Elite Select IL-IN (HMO)",
+   "o": "Zing Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 5100.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime Extra Care (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5200.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5200.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE 010 IL (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 5400.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Extra (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple Essential (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 5900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 008 IL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx IL-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC IL-5 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx IL-MA01 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Giveback (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7800.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 003 IL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Cross Medicare Advantage Basic (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of IL, NM",
+   "t": "HMO-POS",
+   "m": 29.0,
+   "dd": 500.0,
+   "moop": 5500.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Premier (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 42.0,
+   "dd": 700.0,
+   "moop": 5200.0,
+   "star": 4.0,
+   "m26": 44.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC IL-0001 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 43.0,
+   "dd": 595.0,
+   "moop": 2900.0,
+   "star": 3.5,
+   "m26": 37.0
+  },
+  {
+   "n": "Essence Advantage Choice Plus (PPO)",
+   "o": "Essence Healthcare",
+   "t": "PPO",
+   "m": 49.0,
+   "dd": 700.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 49.0
+  },
+  {
+   "n": "Humana Gold Choice H8145-006 (PFFS)",
+   "o": "Humana",
+   "t": "PFFS",
+   "m": 60.0,
+   "dd": 700.0,
+   "moop": 7800.0,
+   "star": 4.0,
+   "m26": 37.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC IL-0004 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 84.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 68.0
+  },
+  {
+   "n": "HumanaChoice R5361-002 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 87.0,
+   "dd": 700.0,
+   "moop": 7700.0,
+   "star": 3.5,
+   "m26": 103.0
+  },
+  {
+   "n": "HumanaChoice H5216-013 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 92.0,
+   "dd": 700.0,
+   "moop": 6550.0,
+   "star": 4.0,
+   "m26": 87.0
+  },
+  {
+   "n": "Essence Advantage Premier Plus (PPO)",
+   "o": "Essence Healthcare",
+   "t": "PPO",
+   "m": 267.0,
+   "dd": 700.0,
+   "moop": 2900.0,
+   "star": 4.0,
+   "m26": 257.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H1416-082-0",
+   "n": "Wellcare Simple Value (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H2715-003-0",
+   "n": "Molina Medicare Choice Care (HMO)",
+   "o": "Molina Healthcare of Illinois",
+   "same": false
+  },
+  {
+   "k": "H3071-002-0",
+   "n": "Clear Spring Health BrightPath Advantage (HMO)",
+   "o": "Clear Spring Health",
+   "same": false
+  },
+  {
+   "k": "H3822-007-0",
+   "n": "Blue Cross Medicare Advantage Basic Plus (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of IL, NM",
+   "same": true
+  },
+  {
+   "k": "H3822-008-0",
+   "n": "Blue Cross Medicare Advantage Premier Plus (HMO-POS)",
+   "o": "Blue Cross and Blue Shield of IL, NM",
+   "same": true
+  },
+  {
+   "k": "H5216-258-0",
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5216-412-0",
+   "n": "Humana Full Access H5216-412 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5454-002-0",
+   "n": "Clear Spring Health BrightPath Advantage (HMO)",
+   "o": "Clear Spring Health",
+   "same": false
+  },
+  {
+   "k": "H5779-002-0",
+   "n": "Wellcare Simple Essential (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H5779-011-0",
+   "n": "Wellcare Patriot Giveback (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H7617-009-0",
+   "n": "Humana Full Access H7617-009 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H8547-001-0",
+   "n": "Blue Cross Medicare Advantage Secure (HMO)",
+   "o": "Blue Cross and Blue Shield of Illinois",
+   "same": false
+  },
+  {
+   "k": "H8634-003-0",
+   "n": "Blue Cross Medicare Advantage Choice Plus (PPO)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "same": false
+  },
+  {
+   "k": "H8634-004-0",
+   "n": "Blue Cross Medicare Advantage Choice Premier (PPO)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "same": false
+  }
+ ]
+}

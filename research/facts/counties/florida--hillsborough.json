@@ -1,0 +1,665 @@
+{
+ "state": "florida",
+ "county": "hillsborough",
+ "name": "Hillsborough",
+ "all": 124,
+ "std": 52,
+ "mapd": 41,
+ "zero": 37,
+ "snp": 72,
+ "dsnp": 35,
+ "csnp": 28,
+ "isnp": 9,
+ "moopMin": 1000.0,
+ "moopMed": 5375.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 39,
+ "premMax": 173.0,
+ "orgs": 12,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 14,
+ "orgList": [
+  [
+   "Humana Inc.",
+   14
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   8
+  ],
+  [
+   "Guidewell Mutual Holding Corporation",
+   6
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "CVS Health Corporation",
+   5
+  ],
+  [
+   "Elevance Health, Inc.",
+   5
+  ]
+ ],
+ "lowMoop": {
+  "n": "Optimum Platinum Plan (HMO)",
+  "o": "Optimum HealthCare, Inc.",
+  "moop": 1000.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Optimum Platinum Plan (HMO)",
+  "o": "Optimum HealthCare, Inc.",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 1000.0
+ },
+ "best": {
+  "n": "Humana USAA Honor Giveback (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3900.0
+ },
+ "hmo": 33,
+ "ppo": 19,
+ "pffs": 0,
+ "std26": 58,
+ "zero26": 40,
+ "gone": 11,
+ "new": 5,
+ "openPlans": [
+  {
+   "n": "Optimum Platinum Plan (HMO)",
+   "o": "Optimum HealthCare, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "CareOne Plus (HMO-POS)",
+   "o": "CarePlus Health Plans, Inc.",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 1500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Premier by Ultimate (HMO)",
+   "o": "Ultimate Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Freedom Máximo (HMO-POS)",
+   "o": "Freedom Health, Inc.",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Optimum Gold Rewards Plan (HMO)",
+   "o": "Optimum HealthCare, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H1036-025 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2000.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "BayCarePlus Complete (HMO)",
+   "o": "BayCare Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 250.0,
+   "moop": 2000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "CareFree Platinum Giveback (HMO)",
+   "o": "CarePlus Health Plans, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2400.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus Giveback H1036-265 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2400.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Solis Healthy Living Plan (HMO)",
+   "o": "Solis Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "BlueMedicare Preferred (HMO)",
+   "o": "Florida Blue HMO",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 350.0,
+   "moop": 2900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC FL-003P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 405.0,
+   "moop": 3500.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DrSelect-CFL (HMO)",
+   "o": "Doctors HealthCare Plans, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3500.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "BayCarePlus Rewards (HMO)",
+   "o": "BayCare Health Plans",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 3700.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC FL-0006 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 405.0,
+   "moop": 3800.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 3900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 037 FL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 3900.0,
+   "star": 4.5,
+   "m26": 4.8
+  },
+  {
+   "n": "DEVOTED CORE 058 FL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 3900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Select (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 036 FL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 3950.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "CareAccess (HMO)",
+   "o": "CarePlus Health Plans, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 4000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "CareSalute (HMO)",
+   "o": "CarePlus Health Plans, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4150.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Freedom Savings Plan (HMO)",
+   "o": "Freedom Health, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Freedom Medicare Plan Rx (HMO)",
+   "o": "Freedom Health, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 106 FL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5150.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5600.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "BlueMedicare Value (PPO)",
+   "o": "Florida Blue",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 597.0,
+   "moop": 5900.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "BlueMedicare Classic (HMO)",
+   "o": "Florida Blue HMO",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Select Extra (HMO-POS)",
+   "o": "Aetna Medicare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "BlueMedicare Patriot (PPO)",
+   "o": "Florida Blue",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "BlueMedicare Patriot Plus (PPO)",
+   "o": "Florida Blue",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "HealthSpring Preferred (HMO)",
+   "o": "HealthSpring",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 7100.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage CareFlex from UHC FL-34 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Giveback from UHC FL-40 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "DEVOTED GIVEBACK 051 FL (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC FL-0019 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature Legacy (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle Giveback (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Essentials Plus Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Wellcare Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx FL-MA2 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 8900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx FL-MA01 (Regional PPO)",
+   "o": "UnitedHealthcare",
+   "t": "Regional PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9250.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CHOICE GIVEBACK 008 FL (PPO)",
+   "o": "Devoted Health",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 461.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "HumanaChoice R5826-018 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 9.0,
+   "dd": null,
+   "moop": 7550.0,
+   "star": 3.5,
+   "m26": 42.0
+  },
+  {
+   "n": "HumanaChoice R5826-074 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 35.0,
+   "dd": 700.0,
+   "moop": 7550.0,
+   "star": 4.0,
+   "m26": 41.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC FL-0031 (Regional PPO)",
+   "o": "UnitedHealthcare",
+   "t": "Regional PPO",
+   "m": 127.0,
+   "dd": 685.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": 62.0
+  },
+  {
+   "n": "HumanaChoice R5826-005 (Regional PPO)",
+   "o": "Humana",
+   "t": "Regional PPO",
+   "m": 161.0,
+   "dd": 700.0,
+   "moop": 6700.0,
+   "star": 4.0,
+   "m26": 184.0
+  },
+  {
+   "n": "BlueMedicare Select (PPO)",
+   "o": "Florida Blue",
+   "t": "PPO",
+   "m": 173.0,
+   "dd": 700.0,
+   "moop": 7500.0,
+   "star": 3.0,
+   "m26": 153.7
+  }
+ ],
+ "exits": [
+  {
+   "k": "H1032-239-0",
+   "n": "Wellcare Patriot Giveback (HMO)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H2235-003-0",
+   "n": "BayCarePlus Premier (HMO)",
+   "o": "BayCare Health Plans",
+   "same": true
+  },
+  {
+   "k": "H4140-016-0",
+   "n": "DrSelect-CFL (HMO)",
+   "o": "Doctors HealthCare Plans, Inc.",
+   "same": true
+  },
+  {
+   "k": "H5216-393-0",
+   "n": "Humana Full Access Giveback H5216-393 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5216-452-0",
+   "n": "Humana Direct Choice Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5216-467-0",
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5471-078-0",
+   "n": "Simply More (HMO)",
+   "o": "Simply Healthcare Plans, Inc.",
+   "same": true
+  },
+  {
+   "k": "H5471-117-0",
+   "n": "Simply Extra Platinum (HMO)",
+   "o": "Simply Healthcare Plans, Inc.",
+   "same": true
+  },
+  {
+   "k": "H5521-033-0",
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H7617-111-0",
+   "n": "Humana Full Access Giveback H7617-111 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H7617-112-0",
+   "n": "Humana Direct Choice Giveback (PPO)",
+   "o": "Humana",
+   "same": true
+  }
+ ]
+}

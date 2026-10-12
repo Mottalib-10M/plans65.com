@@ -1,0 +1,60 @@
+---
+/** A state: the county finder locked on the state first, the folded answer, the text written for the
+ *  state, then two generated tables (every county, every stand-alone drug plan). */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import Body from './Body.astro';
+import { route, ROUTES } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { stateId, countyId, countiesOf, guideById, statePageById } from '../lib/pages';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { bySlug, stateSummary, statePlans, starText } from '../lib/data';
+import { usd, prem, num } from '../lib/fmt';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema } from '../lib/seo';
+import { AUTHOR_NAME } from '../data/site-config';
+import type { StateDef } from '../lib/page-types';
+interface Props { def: StateDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const ref = bySlug(def.slug);
+const S = stateSummary(ref.st);
+const f = await statePlans(ref.st);
+const path = route(stateId(def.slug), lang);
+const myCounties = countiesOf(def.slug);
+const defaultCounty = myCounties[0]?.county ?? Object.entries(S.countyStats).sort((a, b) => b[1].std - a[1].std)[0]?.[0];
+const jsonLd = [articleSchema({ title: def.title, description: def.description, path, lang }), webPageSchema({ name: def.title, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: ref.name, path }])];
+if (def.faqs.length) jsonLd.push(faqSchema(def.faqs, lang));
+const card = (id: string) => guideById(id)?.card ?? (statePageById(id) ? 'Every county and drug plan of the state' : 'Every 2027 plan of the county');
+const related = def.related.filter((id) => ROUTES.some((r) => r.id === id)).map((id) => ({ href: route(id, lang), name: label(id), description: card(id) }));
+const sources = [{ name: SOURCES.cms_landscape.label, url: SOURCES.cms_landscape.url }, { name: SOURCES.cms_stars_data.label, url: SOURCES.cms_stars_data.url }, ...(def.extraSources ?? [])];
+const cRows = Object.entries(S.countyStats).sort((a, b) => a[1].name.localeCompare(b[1].name)).map(([slug, c]) => {
+  const has = myCounties.some((x) => x.county === slug);
+  return [has ? `<a href="${route(countyId(def.slug, slug), lang)}">${c.name}</a>` : c.name, c.std, c.zero, c.moopMin === null ? 'none' : usd(c.moopMin), c.star4, c.std26 === c.std ? 'same' : `${c.std - c.std26 > 0 ? '+' : ''}${c.std - c.std26}`];
+});
+const pRows = f.pdp.map((p) => [`${p.n}<span class="block text-xs text-navy-600">${p.o} · ${p.k}</span>`, prem(p.d), prem(p.dd), p.d26 === undefined ? 'new' : prem(p.d26), starText(p.star)]);
+const unit = ref.st === 'LA' ? 'parish' : ref.st === 'AK' ? 'borough' : ref.st === 'PR' ? 'municipio' : 'county';
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: ref.name }]}>
+  <article>
+    <header class="mb-4">
+      <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">Medicare Advantage plans in {ref.name} for 2027</h1>
+      <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
+    </header>
+    {S.counties > 0 && <div data-outil data-chrome class="mb-4"><Tool kind="finder" st={ref.st} county={defaultCounty} lock="state" idPrefix={`st-${ref.st}`} /></div>}
+    {S.counties === 0 && <div data-outil data-chrome class="mb-4"><Tool kind="pdp" st={ref.st} idPrefix={`st-${ref.st}`} /></div>}
+    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> from the CMS landscape file of September 2026 · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
+    <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
+    <Body html={def.body(helpers())} path={path} />
+    {cRows.length > 0 && <section class="mt-10" data-chrome>
+      <h2 class="font-serif text-2xl font-bold text-navy-900">Every {unit} of {ref.name}, 2027</h2>
+      <Fragment set:html={table([unit[0].toUpperCase() + unit.slice(1), 'Plans open to all', '$0 with drugs', 'Lowest max out of pocket', 'Rated 4★ or more', 'vs 2026'], cRows, `${num(S.counties)} ${unit === 'county' ? 'counties' : unit + 's'} with at least one Advantage plan; special needs plans not counted (CMS CY2027 and CY2026 landscape files).`, ['l', 'r', 'r', 'r', 'r', 'r'])} />
+    </section>}
+    {pRows.length > 0 && <section class="mt-10" data-chrome>
+      <h2 class="font-serif text-2xl font-bold text-navy-900">Stand-alone Part D plans in {ref.name}</h2>
+      <Fragment set:html={table(['Plan', 'Monthly premium', 'Deductible', '2026 premium', '2027 Part D stars'], pRows, `${S.pdp} plans for 2027 (${S.pdp26} in 2026), with Original Medicare or a plan without drug coverage.`, ['l', 'r', 'r', 'r', 'r'])} />
+    </section>}
+  </article>
+</PageLayout>

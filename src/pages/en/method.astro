@@ -1,0 +1,50 @@
+---
+/** Method: every file used, how each column is built, the cost model, the tests, the limits. Figures from the kit. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { src, table } from '../../lib/helpers';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('method', lang);
+const n = K.nat;
+const P = K.P;
+const title = 'Plan Data Method 2027: CMS Landscape, Stars and SSA Tables';
+const description = 'How Plans65 reads the 2027 CMS landscape file, joins the October 2026 star ratings, applies the SSA IRMAA tables and the Part D benefit, and where its estimates stop.';
+const ex = K.year({ year: 2026, magi: 120000, filing: 'single', planPremium: 0, medigapPremium: 0, moop: 5900, annualDrugCost: 4800, partBServices: 8000, admissions: 1, path: 'ma' });
+const types = n.types.map(([t, c]) => [t, c]);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How the data is read', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How the data is read', path }])]} breadcrumbs={[{ label: 'How the data is read' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>How the plan tables and calculators are built</h1>
+    <p>Nothing on this site is an opinion about which plan is best. The tables reproduce what insurers filed with CMS for 2027, and the calculators apply the federal rules to the numbers you type. This page lists every file, every transformation and every assumption, so that any figure can be traced back to its source.</p>
+    <h2>1. The plans: CMS landscape file for 2027</h2>
+    <p>Each September CMS publishes a "landscape" file of every Medicare Advantage, cost and special needs plan and every stand-alone drug plan approved for the next year, one row per plan and county ({src('cms_landscape', 'CMS, prescription drug coverage page')}). We use the CY2027 file version 202609.1 (data last updated September 22, 2026, read-me revised September 30, 2026): {K.num(n.segments)} plan segments in {K.num(n.counties)} counties, county equivalents and territories, and {K.num(n.pdp)} stand-alone Part D plans. Employer-only plans (plan IDs 800 and up), Part B-only plans and PACE are not in the file and not on the site.</p>
+    <p>For every plan we keep the columns the file gives: plan name, insurer (marketing name and parent organization), plan type, special needs type, Part C premium, Part D total premium, the consolidated monthly premium, the annual Part D deductible, the in-network maximum out-of-pocket amount (MOOP) and the premium a full Extra Help enrollee would pay. The premium shown is the plan's own premium: the Part B premium is paid on top in every case.</p>
+    <Fragment set:html={table(['Plan type, open-to-all plans', '2027 plans'], types, 'Plans that are not special needs plans and not under sanction, CMS CY2027 landscape file.', ['l', 'r'])} />
+    <h3>"Open to everyone" and special needs plans</h3>
+    <p>Counts called "plans open to everyone" exclude special needs plans (SNPs), which only accept people with Medicaid ({K.num(n.dsnp)} dual-eligible plans), certain chronic conditions ({K.num(n.csnp)}) or an institutional level of care ({K.num(n.isnp)}), and the few plans the file marks as sanctioned. "$0 with drugs" counts open-to-all plans that include Part D and have a consolidated premium of zero.</p>
+    <h3>Changes from 2026</h3>
+    <p>We read the CY2026 landscape file (version 202609) the same way. A plan ID of 2026 that is missing for a county in 2027 is listed as "not filed again here". That is not always a closure: an insurer can merge two plans and move members to the new ID (a crosswalk), or shrink a service area. The insurer's Annual Notice of Change, mailed by September 30, says what happens to its members.</p>
+    <h2>2. Star ratings: October 8, 2026</h2>
+    <p>The landscape file of September leaves the rating columns empty. CMS released the 2027 Star Ratings on October 8, 2026 ({src('cms_stars_fs_2027', 'CMS fact sheet')}, {src('cms_stars_data', 'data tables')}). Ratings are given per contract, not per plan, so each plan takes the overall rating of its contract (the Part C summary for plans without drug coverage, the Part D summary for stand-alone drug plans). "New plan" and "too few data" are CMS's own labels. CMS reports an enrollment-weighted average of {P.stars.avgMapd} stars for drug-covering Advantage contracts in 2027, against {P.stars.avgMapd26} in 2026.</p>
+    <h2>3. Part B, Part A and IRMAA</h2>
+    <p>The 2026 amounts come from the {src('cms_fs_2026', 'CMS fact sheet of November 14, 2025')}: Part B premium {K.cents(P.partB['2026'].premium)}, deductible {K.cents(P.partB['2026'].deductible)}, Part A deductible {K.cents(P.partA['2026'].deductible)}. Income brackets are applied exactly as the {src('ssa_poms_irmaa', 'SSA operations manual')} writes them ("more than … and less than or equal to …", the top bracket starting at {K.usd(P.irmaa['2026'].single[4])} single or {K.usd(P.irmaa['2026'].joint[4])} joint, and the special scale for married people filing separately). CMS publishes the 2027 amounts in November; until then the 2027 options use the {src('trustees_2026', '2026 Trustees Report')} projection ({K.cents(P.partB['2027'].premium)} for Part B) and are marked "projected".</p>
+    <h2>4. Part D</h2>
+    <p>The 2027 standard benefit is set in the {src('ann_2027', 'CY 2027 Rate Announcement')}: a deductible of {K.usd(P.partD['2027'].deductible)}, then 25% coinsurance until your out-of-pocket spending reaches {K.usd(P.partD['2027'].oopCap)}, then nothing. The drug calculator applies these rules month by month to the full negotiated price of your drugs, with the plan's own deductible when you take it from the list; covered insulin is counted at $35 a month at most. Real plans replace the 25% by copays per tier, which can be lower or higher drug by drug: the result is the cost under the standard benefit, not a quote. The late enrollment penalty uses the national base beneficiary premium of {K.cents(P.partD['2027'].nbbp)} announced on July 28, 2026 ({src('cms_namba_2027', 'CMS memo')}).</p>
+    <h2>5. The whole-year estimate</h2>
+    <p>The landscape file gives each plan's cap (MOOP) but not its copays. The year calculator therefore assumes that a plan charges, until its cap, what Original Medicare would leave you to pay: the Part B deductible and 20% of approved Part B amounts, and the Part A deductible for each hospital admission. That is a neutral middle: many plans charge less for a doctor visit and more for a hospital day. Medigap Plan G is modeled as paying everything except the Part B deductible, and high-deductible G as paying nothing until {K.usd(P.medigap.hdDeductible['2027'])} of Medicare cost sharing in 2027 ({src('cms_medigap_hd_2027', 'CMS announcement')}).</p>
+    <p>Worked example, 2026: a single person with a modified AGI of $120,000 on the 2024 return (IRMAA tier {ex.tier}), a $0 plan with a {K.usd(5900)} cap, {K.usd(8000)} of approved care, one admission and $400 a month of drugs pays {K.usd(ex.partBPremiums)} of Part B premiums, {K.usd(ex.irmaaB + ex.irmaaD)} of IRMAA, {K.usd(ex.medical)} of medical cost sharing and {K.usd(ex.drugs)} at the pharmacy: {K.usd(ex.total)} for the year.</p>
+    <h2>6. Enrollment dates</h2>
+    <p>Windows follow {src('cfr_407_14', '42 CFR 407.14')} (initial enrollment), {src('cfr_407_15', '407.15')} (general enrollment), {src('cfr_422_62', '422.62')} (Advantage elections) and {src('cfr_423_38', '423.38')} (Part D). The birthday rule (born on the 1st, eligible a month earlier) is the Social Security rule on attaining an age.</p>
+    <h2>7. Tests</h2>
+    <p>Automated tests replay every bracket edge of the 2026 IRMAA tables, the Part D deductible, coinsurance and cap for 2026 and 2027, the Part A day counts, both late penalties and the enrollment windows before each release, and fail the build if one moves. The plan files are rebuilt by a script from the CMS downloads, never edited by hand.</p>
+    <h2>8. What the site does not know</h2>
+    <ul>
+      <li>Provider networks, drug lists (formularies), pharmacy networks and copays per service: check them with the plan or on Medicare.gov before joining.</li>
+      <li>Extra benefits (dental, vision, hearing, allowances), which the landscape file does not describe.</li>
+      <li>Medigap prices, which insurers file state by state and set by age, sex, tobacco use and ZIP code: the Medigap calculators use the quotes you type.</li>
+      <li>Revisions after September 2026: CMS can correct its file and plans can be terminated; we follow the published updates.</li>
+    </ul>
+  </article>
+</PageLayout>

@@ -1,0 +1,469 @@
+{
+ "state": "washington",
+ "county": "king",
+ "name": "King",
+ "all": 59,
+ "std": 30,
+ "mapd": 22,
+ "zero": 11,
+ "snp": 29,
+ "dsnp": 18,
+ "csnp": 7,
+ "isnp": 4,
+ "moopMin": 3150.0,
+ "moopMed": 6950.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 19,
+ "premMax": 373.0,
+ "orgs": 6,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 9,
+ "orgList": [
+  [
+   "Humana Inc.",
+   9
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   7
+  ],
+  [
+   "CVS Health Corporation",
+   5
+  ],
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   4
+  ],
+  [
+   "Devoted Health, Inc.",
+   3
+  ],
+  [
+   "Cambia Health Solutions, Inc.",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Kaiser Permanente Medicare Advantage Optimal (HMO)",
+  "o": "Kaiser Permanente",
+  "moop": 3150.0,
+  "m": 373.0
+ },
+ "cheapHigh": {
+  "n": "Humana Gold Plus H5619-057 (HMO)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 5900.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 18,
+ "ppo": 12,
+ "pffs": 0,
+ "std26": 37,
+ "zero26": 15,
+ "gone": 15,
+ "new": 8,
+ "openPlans": [
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5100.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5500.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Humana Gold Plus H1036-321 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5900.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H5619-057 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Value Choice (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6050.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED CORE 001 WA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 6550.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC WA-7 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Kaiser Permanente Medicare Advantage Key King (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 6750.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No RX WA-MA3 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC WA-6 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx WA-MA02 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK EXTRAS 022 WA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8300.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 8900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9150.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 9150.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "DEVOTED GIVEBACK 002 WA (HMO)",
+   "o": "Devoted Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 650.0,
+   "moop": 9850.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC WA-18 (PPO)",
+   "o": "UnitedHealthcare",
+   "t": "PPO",
+   "m": 10.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 4.5,
+   "m26": null
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC WA-14 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 35.0,
+   "dd": 685.0,
+   "moop": 7150.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC WA-0005 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 55.0,
+   "dd": 685.0,
+   "moop": 6700.0,
+   "star": 3.5,
+   "m26": 38.0
+  },
+  {
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "t": "PPO",
+   "m": 63.0,
+   "dd": 700.0,
+   "moop": 7500.0,
+   "star": 4.0,
+   "m26": 48.0
+  },
+  {
+   "n": "Kaiser Permanente Medicare Advantage Essential Kng (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 82.0,
+   "dd": 0.0,
+   "moop": 4950.0,
+   "star": 4.5,
+   "m26": 69.0
+  },
+  {
+   "n": "Humana Gold Plus H5619-061 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 86.0,
+   "dd": 700.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 63.0
+  },
+  {
+   "n": "HumanaChoice H5216-048 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 97.0,
+   "dd": 700.0,
+   "moop": 7000.0,
+   "star": 4.0,
+   "m26": 87.0
+  },
+  {
+   "n": "Kaiser Permanente Medicare Advantage Basic (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 106.0,
+   "dd": null,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 99.0
+  },
+  {
+   "n": "HumanaChoice H7617-016 (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 110.0,
+   "dd": 700.0,
+   "moop": 7000.0,
+   "star": 4.5,
+   "m26": 87.0
+  },
+  {
+   "n": "Regence BlueAdvantage HMO (HMO)",
+   "o": "Regence BlueShield",
+   "t": "HMO",
+   "m": 188.0,
+   "dd": 400.0,
+   "moop": 5900.0,
+   "star": "nd",
+   "m26": null
+  },
+  {
+   "n": "Regence MedAdvantage + Rx Enhanced (PPO)",
+   "o": "Regence BlueShield",
+   "t": "PPO",
+   "m": 201.0,
+   "dd": 700.0,
+   "moop": 6900.0,
+   "star": 4.0,
+   "m26": 214.0
+  },
+  {
+   "n": "Kaiser Permanente Medicare Advantage Optimal (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 373.0,
+   "dd": 0.0,
+   "moop": 3150.0,
+   "star": 4.5,
+   "m26": 358.0
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0029-009-0",
+   "n": "Wellcare Giveback (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H0029-011-0",
+   "n": "Wellcare Simple (HMO-POS)",
+   "o": "Wellcare",
+   "same": true
+  },
+  {
+   "k": "H1278-029-0",
+   "n": "AARP Medicare Advantage from UHC WA-0002 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H1278-031-0",
+   "n": "AARP Medicare Advantage Patriot No Rx WA-MA01 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H1278-032-0",
+   "n": "AARP Medicare Advantage from UHC WA-0004 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": false
+  },
+  {
+   "k": "H2001-087-0",
+   "n": "AARP Medicare Advantage from UHC WA-12 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": true
+  },
+  {
+   "k": "H2001-136-0",
+   "n": "AARP Medicare Advantage from UHC WA-16 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": true
+  },
+  {
+   "k": "H2001-138-0",
+   "n": "AARP Medicare Advantage Access from UHC WA-11 (PPO)",
+   "o": "UnitedHealthcare",
+   "same": true
+  },
+  {
+   "k": "H3805-037-0",
+   "n": "AARP Medicare Advantage from UHC WA-0010 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "same": true
+  },
+  {
+   "k": "H3931-126-0",
+   "n": "Aetna Medicare Signature Advantage (HMO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5009-011-1",
+   "n": "Regence MedAdvantage + Rx Primary (PPO)",
+   "o": "Regence BlueShield",
+   "same": true
+  },
+  {
+   "k": "H5216-426-0",
+   "n": "HumanaChoice H5216-426 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5619-059-0",
+   "n": "Humana Gold Plus H5619-059 (HMO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5965-003-0",
+   "n": "Wellcare Patriot Giveback Open (PPO)",
+   "o": "Wellcare",
+   "same": false
+  },
+  {
+   "k": "H7617-019-0",
+   "n": "HumanaChoice H7617-019 (PPO)",
+   "o": "Humana",
+   "same": true
+  }
+ ]
+}

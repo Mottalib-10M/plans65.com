@@ -1,0 +1,320 @@
+{
+ "name": "Ohio",
+ "slug": "ohio",
+ "terr": false,
+ "counties": 88,
+ "all": 180,
+ "std": 134,
+ "mapd": 118,
+ "zero": 67,
+ "snp": 46,
+ "dsnp": 11,
+ "csnp": 24,
+ "isnp": 11,
+ "moopMin": 3000.0,
+ "moopMed": 5900.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 87,
+ "premMax": 295.0,
+ "orgs": 14,
+ "topOrg": "UnitedHealth Group, Inc.",
+ "topOrgN": 23,
+ "orgList": [
+  [
+   "UnitedHealth Group, Inc.",
+   23
+  ],
+  [
+   "Humana Inc.",
+   20
+  ],
+  [
+   "Devoted Health, Inc.",
+   16
+  ],
+  [
+   "MEDICAL MUTUAL OF OHIO",
+   16
+  ],
+  [
+   "CVS Health Corporation",
+   12
+  ],
+  [
+   "Elevance Health, Inc.",
+   11
+  ]
+ ],
+ "lowMoop": {
+  "n": "SummaCare Medicare Emerald (HMO-POS)",
+  "o": "SummaCare Medicare Advantage Plans",
+  "moop": 3000.0,
+  "m": 159.0
+ },
+ "cheapHigh": {
+  "n": "Humana Gold Plus H6622-014 (HMO-POS)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4200.0
+ },
+ "best": {
+  "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 9250.0
+ },
+ "hmo": 92,
+ "ppo": 42,
+ "pffs": 0,
+ "std26": 155,
+ "pdp": 9,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 200.4,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 42.0,
+ "pdpBench": 3,
+ "pdpZeroDed": 0,
+ "bytes": 174600,
+ "st": "OH",
+ "countiesMostPlans": [
+  {
+   "slug": "summit",
+   "name": "Summit",
+   "std": 68,
+   "zero": 28,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 48,
+   "snp": 32,
+   "std26": 75,
+   "gone": 13,
+   "new": 6
+  },
+  {
+   "slug": "cuyahoga",
+   "name": "Cuyahoga",
+   "std": 66,
+   "zero": 29,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 46,
+   "snp": 33,
+   "std26": 73,
+   "gone": 13,
+   "new": 6
+  },
+  {
+   "slug": "stark",
+   "name": "Stark",
+   "std": 66,
+   "zero": 26,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 47,
+   "snp": 30,
+   "std26": 72,
+   "gone": 13,
+   "new": 7
+  },
+  {
+   "slug": "mahoning",
+   "name": "Mahoning",
+   "std": 65,
+   "zero": 25,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 47,
+   "snp": 29,
+   "std26": 72,
+   "gone": 13,
+   "new": 6
+  },
+  {
+   "slug": "medina",
+   "name": "Medina",
+   "std": 65,
+   "zero": 26,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 47,
+   "snp": 28,
+   "std26": 72,
+   "gone": 13,
+   "new": 6
+  },
+  {
+   "slug": "portage",
+   "name": "Portage",
+   "std": 64,
+   "zero": 25,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 46,
+   "snp": 28,
+   "std26": 73,
+   "gone": 14,
+   "new": 5
+  },
+  {
+   "slug": "lake",
+   "name": "Lake",
+   "std": 63,
+   "zero": 26,
+   "moopMin": 3000.0,
+   "moopMed": 5900.0,
+   "star4": 45,
+   "snp": 29,
+   "std26": 69,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "trumbull",
+   "name": "Trumbull",
+   "std": 63,
+   "zero": 25,
+   "moopMin": 3000.0,
+   "moopMed": 6000.0,
+   "star4": 44,
+   "snp": 29,
+   "std26": 69,
+   "gone": 12,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "coshocton",
+   "name": "Coshocton",
+   "std": 31,
+   "zero": 13,
+   "moopMin": 3900.0,
+   "snp": 22
+  },
+  {
+   "slug": "lawrence",
+   "name": "Lawrence",
+   "std": 31,
+   "zero": 11,
+   "moopMin": 3900.0,
+   "snp": 18
+  },
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 30,
+   "zero": 8,
+   "moopMin": 3900.0,
+   "snp": 19
+  },
+  {
+   "slug": "crawford",
+   "name": "Crawford",
+   "std": 27,
+   "zero": 9,
+   "moopMin": 4450.0,
+   "snp": 21
+  },
+  {
+   "slug": "athens",
+   "name": "Athens",
+   "std": 23,
+   "zero": 5,
+   "moopMin": 3900.0,
+   "snp": 18
+  },
+  {
+   "slug": "scioto",
+   "name": "Scioto",
+   "std": 22,
+   "zero": 5,
+   "moopMin": 3900.0,
+   "snp": 19
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 7.6,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 7.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 11.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 15.7,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 42.0,
+   "dd": 687.0,
+   "d26": 23.7,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 127.4,
+   "dd": 700.0,
+   "d26": 90.3,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 129.7,
+   "dd": 700.0,
+   "d26": 73.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 132.3,
+   "dd": 350.0,
+   "d26": 117.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 200.4,
+   "dd": 300.0,
+   "d26": 123.4,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 92,
+  "ppo": 42,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

@@ -1,0 +1,312 @@
+{
+ "name": "Pennsylvania",
+ "slug": "pennsylvania",
+ "terr": false,
+ "counties": 67,
+ "all": 338,
+ "std": 267,
+ "mapd": 245,
+ "zero": 118,
+ "snp": 71,
+ "dsnp": 39,
+ "csnp": 24,
+ "isnp": 8,
+ "moopMin": 3450.0,
+ "moopMed": 7100.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 214,
+ "premMax": 295.0,
+ "orgs": 15,
+ "topOrg": "Highmark Health",
+ "topOrgN": 75,
+ "orgList": [
+  [
+   "Highmark Health",
+   75
+  ],
+  [
+   "CAPITAL BLUE CROSS",
+   35
+  ],
+  [
+   "UPMC Health System",
+   28
+  ],
+  [
+   "CVS Health Corporation",
+   26
+  ],
+  [
+   "Humana Inc.",
+   20
+  ],
+  [
+   "Devoted Health, Inc.",
+   19
+  ]
+ ],
+ "lowMoop": {
+  "n": "Geisinger Gold Classic Advantage Rx (HMO)",
+  "o": "Geisinger Gold",
+  "moop": 3450.0,
+  "m": 129.0
+ },
+ "cheapHigh": {
+  "n": "Aetna Medicare Signature (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 5500.0
+ },
+ "best": {
+  "n": "Clover Health Choice (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 135,
+ "ppo": 131,
+ "pffs": 1,
+ "std26": 273,
+ "pdp": 8,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 184.4,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 65.05,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 167498,
+ "st": "PA",
+ "countiesMostPlans": [
+  {
+   "slug": "lancaster",
+   "name": "Lancaster",
+   "std": 76,
+   "zero": 33,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 57,
+   "snp": 35,
+   "std26": 82,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "berks",
+   "name": "Berks",
+   "std": 75,
+   "zero": 32,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 57,
+   "snp": 31,
+   "std26": 77,
+   "gone": 11,
+   "new": 9
+  },
+  {
+   "slug": "perry",
+   "name": "Perry",
+   "std": 75,
+   "zero": 33,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 58,
+   "snp": 30,
+   "std26": 81,
+   "gone": 14,
+   "new": 8
+  },
+  {
+   "slug": "lebanon",
+   "name": "Lebanon",
+   "std": 74,
+   "zero": 32,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 55,
+   "snp": 33,
+   "std26": 80,
+   "gone": 13,
+   "new": 7
+  },
+  {
+   "slug": "lehigh",
+   "name": "Lehigh",
+   "std": 74,
+   "zero": 32,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 56,
+   "snp": 31,
+   "std26": 76,
+   "gone": 12,
+   "new": 10
+  },
+  {
+   "slug": "northampton",
+   "name": "Northampton",
+   "std": 73,
+   "zero": 32,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 55,
+   "snp": 30,
+   "std26": 76,
+   "gone": 13,
+   "new": 10
+  },
+  {
+   "slug": "york",
+   "name": "York",
+   "std": 72,
+   "zero": 32,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 52,
+   "snp": 31,
+   "std26": 78,
+   "gone": 15,
+   "new": 9
+  },
+  {
+   "slug": "cumberland",
+   "name": "Cumberland",
+   "std": 71,
+   "zero": 28,
+   "moopMin": 3450.0,
+   "moopMed": 7150.0,
+   "star4": 57,
+   "snp": 26,
+   "std26": 79,
+   "gone": 14,
+   "new": 6
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "cambria",
+   "name": "Cambria",
+   "std": 45,
+   "zero": 17,
+   "moopMin": 3450.0,
+   "snp": 26
+  },
+  {
+   "slug": "northumberland",
+   "name": "Northumberland",
+   "std": 44,
+   "zero": 13,
+   "moopMin": 3450.0,
+   "snp": 11
+  },
+  {
+   "slug": "forest",
+   "name": "Forest",
+   "std": 43,
+   "zero": 18,
+   "moopMin": 4150.0,
+   "snp": 25
+  },
+  {
+   "slug": "elk",
+   "name": "Elk",
+   "std": 42,
+   "zero": 17,
+   "moopMin": 4150.0,
+   "snp": 23
+  },
+  {
+   "slug": "indiana",
+   "name": "Indiana",
+   "std": 40,
+   "zero": 16,
+   "moopMin": 4500.0,
+   "snp": 21
+  },
+  {
+   "slug": "pike",
+   "name": "Pike",
+   "std": 32,
+   "zero": 11,
+   "moopMin": 3450.0,
+   "snp": 14
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 8.2,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 14.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 16.3,
+   "dd": 700.0,
+   "d26": 6.6,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 31.7,
+   "dd": 687.0,
+   "d26": 19.4,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 98.4,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 140.6,
+   "dd": 700.0,
+   "d26": 43.5,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 142.8,
+   "dd": 350.0,
+   "d26": 123.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 184.4,
+   "dd": 300.0,
+   "d26": 121.9,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 135,
+  "ppo": 131,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

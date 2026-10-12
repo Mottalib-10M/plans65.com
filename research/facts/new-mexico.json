@@ -1,0 +1,320 @@
+{
+ "name": "New Mexico",
+ "slug": "new-mexico",
+ "terr": false,
+ "counties": 33,
+ "all": 61,
+ "std": 39,
+ "mapd": 36,
+ "zero": 29,
+ "snp": 22,
+ "dsnp": 10,
+ "csnp": 12,
+ "isnp": 0,
+ "moopMin": 3800.0,
+ "moopMed": 5900.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 29,
+ "premMax": 66.0,
+ "orgs": 4,
+ "topOrg": "UnitedHealth Group, Inc.",
+ "topOrgN": 22,
+ "orgList": [
+  [
+   "UnitedHealth Group, Inc.",
+   22
+  ],
+  [
+   "Humana Inc.",
+   9
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "Health Care Service Corporation",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "Humana Gold Plus H0028-019 (HMO)",
+  "o": "Humana",
+  "moop": 3800.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Humana Gold Plus H0028-019 (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3800.0
+ },
+ "best": {
+  "n": "Humana Gold Plus H0028-019 (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 3800.0
+ },
+ "hmo": 12,
+ "ppo": 27,
+ "pffs": 0,
+ "std26": 50,
+ "pdp": 10,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 151.1,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 29.799999999999997,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 46796,
+ "st": "NM",
+ "countiesMostPlans": [
+  {
+   "slug": "bernalillo",
+   "name": "Bernalillo",
+   "std": 21,
+   "zero": 15,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 15,
+   "snp": 15,
+   "std26": 34,
+   "gone": 17,
+   "new": 4
+  },
+  {
+   "slug": "sandoval",
+   "name": "Sandoval",
+   "std": 21,
+   "zero": 15,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 15,
+   "snp": 15,
+   "std26": 34,
+   "gone": 17,
+   "new": 4
+  },
+  {
+   "slug": "santa-fe",
+   "name": "Santa Fe",
+   "std": 20,
+   "zero": 14,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 15,
+   "snp": 15,
+   "std26": 31,
+   "gone": 15,
+   "new": 4
+  },
+  {
+   "slug": "torrance",
+   "name": "Torrance",
+   "std": 20,
+   "zero": 14,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 14,
+   "snp": 15,
+   "std26": 29,
+   "gone": 13,
+   "new": 4
+  },
+  {
+   "slug": "san-miguel",
+   "name": "San Miguel",
+   "std": 18,
+   "zero": 12,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 14,
+   "snp": 15,
+   "std26": 20,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "valencia",
+   "name": "Valencia",
+   "std": 18,
+   "zero": 12,
+   "moopMin": 3800.0,
+   "moopMed": 5900.0,
+   "star4": 15,
+   "snp": 12,
+   "std26": 24,
+   "gone": 9,
+   "new": 3
+  },
+  {
+   "slug": "rio-arriba",
+   "name": "Rio Arriba",
+   "std": 14,
+   "zero": 10,
+   "moopMin": 4100.0,
+   "moopMed": 5900.0,
+   "star4": 10,
+   "snp": 13,
+   "std26": 24,
+   "gone": 14,
+   "new": 4
+  },
+  {
+   "slug": "los-alamos",
+   "name": "Los Alamos",
+   "std": 13,
+   "zero": 9,
+   "moopMin": 4100.0,
+   "moopMed": 5900.0,
+   "star4": 9,
+   "snp": 13,
+   "std26": 18,
+   "gone": 9,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "lea",
+   "name": "Lea",
+   "std": 5,
+   "zero": 1,
+   "moopMin": 4900.0,
+   "snp": 10
+  },
+  {
+   "slug": "hidalgo",
+   "name": "Hidalgo",
+   "std": 4,
+   "zero": 3,
+   "moopMin": 4200.0,
+   "snp": 8
+  },
+  {
+   "slug": "mckinley",
+   "name": "McKinley",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4900.0,
+   "snp": 9
+  },
+  {
+   "slug": "harding",
+   "name": "Harding",
+   "std": 3,
+   "zero": 1,
+   "moopMin": 6700.0,
+   "snp": 8
+  },
+  {
+   "slug": "otero",
+   "name": "Otero",
+   "std": 3,
+   "zero": 1,
+   "moopMin": 6700.0,
+   "snp": 8
+  },
+  {
+   "slug": "union",
+   "name": "Union",
+   "std": 3,
+   "zero": 1,
+   "moopMin": 6700.0,
+   "snp": 8
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": 145.4,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 10.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 49.3,
+   "dd": 687.0,
+   "d26": 69.6,
+   "star": 4.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 86.5,
+   "dd": 700.0,
+   "d26": 104.0,
+   "star": 2.5
+  },
+  {
+   "n": "HealthSpring Extra Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 103.8,
+   "dd": 700.0,
+   "d26": 111.3,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 131.3,
+   "dd": 350.0,
+   "d26": 75.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 151.1,
+   "dd": 300.0,
+   "d26": 82.3,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 12,
+  "ppo": 27,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

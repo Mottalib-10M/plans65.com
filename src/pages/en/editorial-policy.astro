@@ -1,0 +1,19 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of Plans65: CMS files, dated figures, corrections" description="How Plans65 builds its plan tables and calculators: CMS and SSA files only, every amount read from a data file, projections labeled, no money from insurers, brokers or agents." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>Sources</h2>
+    <p>Plans, premiums, deductibles and out-of-pocket limits come from the CMS landscape files; star ratings from the CMS Star Ratings data tables; Part A, Part B and IRMAA amounts from the CMS fact sheet and the SSA operations manual; drug benefit amounts from the CMS Rate Announcement; enrollment rules from the Code of Federal Regulations. Projections come from the Medicare Trustees Report and are marked "projected" wherever they appear. Insurer advertising and broker sites are not sources here.</p>
+    <h2>How pages are built</h2>
+    <p>No amount is typed into a page: a script rebuilds the plan files from the CMS download, the official amounts sit in one parameter file with the source and the date read, and every page reads them. When CMS publishes a corrected landscape file or the final 2027 Part B premium, one update changes every page that uses it.</p>
+    <h2>Independence</h2>
+    <p>{AUTHOR_NAME} receives nothing from insurers, brokers, agents or marketing organizations, and the site does not rank plans by any commercial criterion: lists are sorted by premium, out-of-pocket limit or stars, at your choice. There is no advertising today; if some is added, it will be labeled, kept away from the plan lists and never come from an insurer selling these plans.</p>
+    <h2>Updates and corrections</h2>
+    <p>The site is reviewed at least every {REVIEW_CYCLE_MONTHS} months and each time CMS publishes: the landscape file in late September, the star ratings in October, the Part B premium in November, the rate announcement in April. Reported errors are checked against the file; a corrected figure changes the date shown at the top of the page. Write through the <a href={route('contact', lang)}>contact page</a>; the method is on the <a href={route('method', lang)}>method page</a>.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,671 @@
+{
+ "state": "california",
+ "county": "san-diego",
+ "name": "San Diego",
+ "all": 85,
+ "std": 46,
+ "mapd": 41,
+ "zero": 32,
+ "snp": 39,
+ "dsnp": 7,
+ "csnp": 32,
+ "isnp": 0,
+ "moopMin": 295.0,
+ "moopMed": 3474.5,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 20,
+ "premMax": 160.0,
+ "orgs": 13,
+ "topOrg": "Alignment Healthcare USA, LLC",
+ "topOrgN": 9,
+ "orgList": [
+  [
+   "Alignment Healthcare USA, LLC",
+   9
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   7
+  ],
+  [
+   "Humana Inc.",
+   6
+  ],
+  [
+   "California Physicians' Service",
+   4
+  ],
+  [
+   "SCAN Group",
+   4
+  ],
+  [
+   "CVS Health Corporation",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "Imperial Dynamic Plan (HMO)",
+  "o": "Imperial Health Plan of California, Inc.",
+  "moop": 295.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Imperial Dynamic Plan (HMO)",
+  "o": "Imperial Health Plan of California, Inc.",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 295.0
+ },
+ "best": {
+  "n": "Kaiser Permanente Senior Advantage San Diego Value (HMO)",
+  "o": "Kaiser Permanente",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 4450.0
+ },
+ "hmo": 42,
+ "ppo": 4,
+ "pffs": 0,
+ "std26": 60,
+ "zero26": 45,
+ "gone": 22,
+ "new": 8,
+ "openPlans": [
+  {
+   "n": "Imperial Dynamic Plan (HMO)",
+   "o": "Imperial Health Plan of California, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 295.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Shield Advantage (HMO)",
+   "o": "Blue Shield of California",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 499.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Champion Ally (HMO)",
+   "o": "Champion Heath Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 499.0,
+   "star": "nd",
+   "m26": 0.0
+  },
+  {
+   "n": "Clever Care Longevity (HMO)",
+   "o": "Clever Care Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 499.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Shield Value Advantage Plan (HMO)",
+   "o": "Blue Shield of California",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 500.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "SCAN Alta (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 370.0,
+   "moop": 900.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Costco Medicare Advantage (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 370.0,
+   "moop": 900.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Alignment Health Platinum + Instacart 016 (HMO-POS)",
+   "o": "Alignment Health Plan",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1100.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Shield 65 Plus (HMO)",
+   "o": "Blue Shield of California",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 300.0,
+   "moop": 1800.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Clever Care Value (HMO)",
+   "o": "Clever Care Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 1999.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Prime (HMO-POS)",
+   "o": "Anthem Blue Cross Partnership Plan",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 270.0,
+   "moop": 2000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 056 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 013 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 2499.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Smart 047 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 2899.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Imperial Courage Plan (HMO)",
+   "o": "Imperial Health Plan of California, Inc.",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 2999.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Prime (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 400.0,
+   "moop": 3000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Select (HMO-POS)",
+   "o": "Anthem Blue Cross",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H5619-016 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus H3767-001 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 200.0,
+   "moop": 3300.0,
+   "star": "new",
+   "m26": null
+  },
+  {
+   "n": "Kaiser Permanente Senior Advantage San Diego (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3400.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Anthem Medicare Advantage (HMO-POS)",
+   "o": "Anthem Blue Cross",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Astiva Health Savings Plan (HMO)",
+   "o": "Astiva Health",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3450.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health My Choice 050 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 3499.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC CA-0012 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 355.0,
+   "moop": 3900.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "SCAN Classic (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 370.0,
+   "moop": 4200.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Blue Shield AdvantageOptimum Plan 1 (HMO)",
+   "o": "Blue Shield of California",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 475.0,
+   "moop": 4400.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Aetna Medicare Eagle (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": null
+  },
+  {
+   "n": "Kaiser Permanente Senior Advantage San Diego Value (HMO)",
+   "o": "Kaiser Permanente",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 4450.0,
+   "star": 4.5,
+   "m26": 0.0
+  },
+  {
+   "n": "UHC Sharp Medicare Advantage CA-001P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 355.0,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "UHC Sharp Medicare Advantage ValueRx CA-12P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 355.0,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "UHC Sharp Medicare Advantage CA-026P (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": 355.0,
+   "moop": 4450.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana Gold Plus Giveback H5619-150 (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 5000.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (HMO)",
+   "o": "Humana",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5250.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "AARP Medicare Advantage Patriot No Rx CA-MA2 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 0.0,
+   "dd": null,
+   "moop": 5900.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health ValorCare 053 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 0.0,
+   "dd": 0.0,
+   "moop": 6000.0,
+   "star": 3.5,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback with Rx (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": 700.0,
+   "moop": 6400.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Humana USAA Honor Giveback (PPO)",
+   "o": "Humana",
+   "t": "PPO",
+   "m": 0.0,
+   "dd": null,
+   "moop": 6750.0,
+   "star": 4.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Alignment Health Honor Plus 060 (HMO)",
+   "o": "Alignment Health Plan",
+   "t": "HMO",
+   "m": 7.3,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 3.5,
+   "m26": null
+  },
+  {
+   "n": "Alignment Health Balance Plus 004 (PPO)",
+   "o": "Alignment Health Plan",
+   "t": "PPO",
+   "m": 7.3,
+   "dd": 700.0,
+   "moop": 9850.0,
+   "star": 4.0,
+   "m26": null
+  },
+  {
+   "n": "Aetna Medicare Signature Legacy (HMO)",
+   "o": "Aetna Medicare",
+   "t": "HMO",
+   "m": 10.0,
+   "dd": 700.0,
+   "moop": 2000.0,
+   "star": 3.0,
+   "m26": 0.0
+  },
+  {
+   "n": "Wellcare Low Premium Focus (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 27.0,
+   "dd": 700.0,
+   "moop": 4150.0,
+   "star": 3.5,
+   "m26": 30.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC CA-0001 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 29.0,
+   "dd": 355.0,
+   "moop": 5300.0,
+   "star": 3.0,
+   "m26": 29.0
+  },
+  {
+   "n": "Wellcare Low Premium (HMO)",
+   "o": "Wellcare",
+   "t": "HMO",
+   "m": 47.0,
+   "dd": 700.0,
+   "moop": 4500.0,
+   "star": 3.5,
+   "m26": 50.0
+  },
+  {
+   "n": "AARP Medicare Advantage from UHC CA-0007 (HMO-POS)",
+   "o": "UnitedHealthcare",
+   "t": "HMO-POS",
+   "m": 52.0,
+   "dd": 355.0,
+   "moop": 3800.0,
+   "star": 3.0,
+   "m26": 53.0
+  },
+  {
+   "n": "SCAN Select (HMO)",
+   "o": "SCAN Health Plan",
+   "t": "HMO",
+   "m": 80.0,
+   "dd": 700.0,
+   "moop": 4450.0,
+   "star": 4.0,
+   "m26": 75.0
+  },
+  {
+   "n": "Alignment Health Advantage 005 (PPO)",
+   "o": "Alignment Health Plan",
+   "t": "PPO",
+   "m": 160.0,
+   "dd": 700.0,
+   "moop": 4451.0,
+   "star": 4.0,
+   "m26": null
+  }
+ ],
+ "exits": [
+  {
+   "k": "H0523-092-0",
+   "n": "Aetna Medicare Signature Extra (HMO)",
+   "o": "Aetna Medicare",
+   "same": true
+  },
+  {
+   "k": "H1993-015-0",
+   "n": "Astiva Health Premier Plan (HMO)",
+   "o": "Astiva Health",
+   "same": true
+  },
+  {
+   "k": "H3815-034-0",
+   "n": "Alignment Health the ONE (HMO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  },
+  {
+   "k": "H3815-052-0",
+   "n": "Alignment Health Honor+ Plan (HMO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  },
+  {
+   "k": "H4982-004-0",
+   "n": "Aetna Medicare Signature (HMO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5386-003-0",
+   "n": "Sharp Direct Advantage Gold (HMO)",
+   "o": "Sharp Health Plan",
+   "same": false
+  },
+  {
+   "k": "H5386-004-0",
+   "n": "Sharp Direct Advantage Platinum (HMO)",
+   "o": "Sharp Health Plan",
+   "same": false
+  },
+  {
+   "k": "H5386-005-0",
+   "n": "Sharp Direct Advantage VIP (HMO)",
+   "o": "Sharp Health Plan",
+   "same": false
+  },
+  {
+   "k": "H5386-006-0",
+   "n": "Sharp Direct Advantage VIP Plus (HMO)",
+   "o": "Sharp Health Plan",
+   "same": false
+  },
+  {
+   "k": "H5425-096-0",
+   "n": "SCAN Affirm partnered with Included LGBTQ+ Health (HMO)",
+   "o": "SCAN Health Plan",
+   "same": true
+  },
+  {
+   "k": "H5425-109-0",
+   "n": "SCAN MyChoice (HMO)",
+   "o": "SCAN Health Plan",
+   "same": true
+  },
+  {
+   "k": "H5521-369-0",
+   "n": "Aetna Medicare Eagle (PPO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5521-422-0",
+   "n": "Aetna Medicare Signature (PPO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5521-580-0",
+   "n": "Aetna Medicare Enhanced (PPO)",
+   "o": "Aetna Medicare",
+   "same": false
+  },
+  {
+   "k": "H5525-077-0",
+   "n": "HumanaChoice H5525-077 (PPO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5619-148-0",
+   "n": "Humana Gold Plus H5619-148 (HMO)",
+   "o": "Humana",
+   "same": true
+  },
+  {
+   "k": "H5649-027-0",
+   "n": "Central Health Classic Care Plan I (HMO)",
+   "o": "Central Health Medicare Plan",
+   "same": false
+  },
+  {
+   "k": "H5649-029-0",
+   "n": "Central Health Part B Savings Plan (HMO)",
+   "o": "Central Health Medicare Plan",
+   "same": false
+  },
+  {
+   "k": "H5649-030-0",
+   "n": "Central Health Valor Care Plan (HMO)",
+   "o": "Central Health Medicare Plan",
+   "same": false
+  },
+  {
+   "k": "H5810-014-0",
+   "n": "Molina Medicare Choice Care (HMO)",
+   "o": "Molina Healthcare of California",
+   "same": false
+  },
+  {
+   "k": "H8832-001-0",
+   "n": "Alignment Health Advantage PPO (PPO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  },
+  {
+   "k": "H8832-003-0",
+   "n": "Alignment Health Freedom (PPO)",
+   "o": "Alignment Health Plan",
+   "same": true
+  }
+ ]
+}

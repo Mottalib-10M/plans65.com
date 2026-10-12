@@ -1,0 +1,328 @@
+{
+ "name": "Oklahoma",
+ "slug": "oklahoma",
+ "terr": false,
+ "counties": 77,
+ "all": 81,
+ "std": 52,
+ "mapd": 43,
+ "zero": 28,
+ "snp": 29,
+ "dsnp": 14,
+ "csnp": 13,
+ "isnp": 2,
+ "moopMin": 3400.0,
+ "moopMed": 6050.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 31,
+ "premMax": 120.0,
+ "orgs": 8,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 17,
+ "orgList": [
+  [
+   "Humana Inc.",
+   17
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   11
+  ],
+  [
+   "Devoted Health, Inc.",
+   6
+  ],
+  [
+   "CVS Health Corporation",
+   6
+  ],
+  [
+   "St Francis Health System & St John Health System",
+   5
+  ],
+  [
+   "Health Care Service Corporation",
+   3
+  ]
+ ],
+ "lowMoop": {
+  "n": "Senior Health Plan Silver (HMO)",
+  "o": "CommunityCare Senior Health Plan (HMO)",
+  "moop": 3400.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Humana Total Complete (HMO-POS)",
+  "o": "Humana",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 4900.0
+ },
+ "best": {
+  "n": "Humana Value Choice (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5300.0
+ },
+ "hmo": 23,
+ "ppo": 27,
+ "pffs": 2,
+ "std26": 56,
+ "pdp": 9,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 208.0,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 40.0,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 99726,
+ "st": "OK",
+ "countiesMostPlans": [
+  {
+   "slug": "oklahoma",
+   "name": "Oklahoma",
+   "std": 35,
+   "zero": 17,
+   "moopMin": 3500.0,
+   "moopMed": 6200.0,
+   "star4": 21,
+   "snp": 24,
+   "std26": 37,
+   "gone": 5,
+   "new": 3
+  },
+  {
+   "slug": "canadian",
+   "name": "Canadian",
+   "std": 34,
+   "zero": 17,
+   "moopMin": 3500.0,
+   "moopMed": 6350.0,
+   "star4": 20,
+   "snp": 23,
+   "std26": 41,
+   "gone": 9,
+   "new": 2
+  },
+  {
+   "slug": "logan",
+   "name": "Logan",
+   "std": 34,
+   "zero": 16,
+   "moopMin": 3500.0,
+   "moopMed": 6350.0,
+   "star4": 20,
+   "snp": 22,
+   "std26": 41,
+   "gone": 9,
+   "new": 2
+  },
+  {
+   "slug": "cleveland",
+   "name": "Cleveland",
+   "std": 33,
+   "zero": 16,
+   "moopMin": 3500.0,
+   "moopMed": 6200.0,
+   "star4": 20,
+   "snp": 22,
+   "std26": 38,
+   "gone": 9,
+   "new": 4
+  },
+  {
+   "slug": "mcclain",
+   "name": "McClain",
+   "std": 32,
+   "zero": 16,
+   "moopMin": 3500.0,
+   "moopMed": 6350.0,
+   "star4": 20,
+   "snp": 21,
+   "std26": 37,
+   "gone": 9,
+   "new": 4
+  },
+  {
+   "slug": "okmulgee",
+   "name": "Okmulgee",
+   "std": 32,
+   "zero": 16,
+   "moopMin": 3400.0,
+   "moopMed": 5675.0,
+   "star4": 19,
+   "snp": 23,
+   "std26": 34,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "tulsa",
+   "name": "Tulsa",
+   "std": 32,
+   "zero": 16,
+   "moopMin": 3400.0,
+   "moopMed": 5675.0,
+   "star4": 19,
+   "snp": 23,
+   "std26": 38,
+   "gone": 10,
+   "new": 4
+  },
+  {
+   "slug": "seminole",
+   "name": "Seminole",
+   "std": 30,
+   "zero": 15,
+   "moopMin": 3900.0,
+   "moopMed": 6350.0,
+   "star4": 20,
+   "snp": 20,
+   "std26": 31,
+   "gone": 5,
+   "new": 4
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "cimarron",
+   "name": "Cimarron",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "ellis",
+   "name": "Ellis",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "harmon",
+   "name": "Harmon",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "harper",
+   "name": "Harper",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "roger-mills",
+   "name": "Roger Mills",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  },
+  {
+   "slug": "texas",
+   "name": "Texas",
+   "std": 0,
+   "zero": 0,
+   "moopMin": null,
+   "snp": 3
+  }
+ ],
+ "countiesNoOpenPlan": [
+  "Beaver",
+  "Cimarron",
+  "Ellis",
+  "Harmon",
+  "Harper",
+  "Roger Mills",
+  "Texas"
+ ],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 5.6,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 8.3,
+   "dd": 700.0,
+   "d26": 5.7,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 13.6,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 40.0,
+   "dd": 687.0,
+   "d26": 33.7,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 116.4,
+   "dd": 700.0,
+   "d26": 82.4,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 127.9,
+   "dd": 350.0,
+   "d26": 108.6,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Extra RX (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 162.8,
+   "dd": 700.0,
+   "d26": 167.3,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 208.0,
+   "dd": 300.0,
+   "d26": 121.0,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 23,
+  "ppo": 27,
+  "pffs": 2
+ },
+ "costPlans": 0
+}

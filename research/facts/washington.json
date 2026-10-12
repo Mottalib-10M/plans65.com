@@ -1,0 +1,312 @@
+{
+ "name": "Washington",
+ "slug": "washington",
+ "terr": false,
+ "counties": 39,
+ "all": 115,
+ "std": 71,
+ "mapd": 62,
+ "zero": 35,
+ "snp": 44,
+ "dsnp": 24,
+ "csnp": 16,
+ "isnp": 4,
+ "moopMin": 3150.0,
+ "moopMed": 6750.0,
+ "moopMax": 9850.0,
+ "starMax": 4.5,
+ "star4": 40,
+ "premMax": 373.0,
+ "orgs": 10,
+ "topOrg": "Kaiser Foundation Health Plan, Inc.",
+ "topOrgN": 17,
+ "orgList": [
+  [
+   "Kaiser Foundation Health Plan, Inc.",
+   17
+  ],
+  [
+   "Humana Inc.",
+   14
+  ],
+  [
+   "Devoted Health, Inc.",
+   11
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   10
+  ],
+  [
+   "CVS Health Corporation",
+   7
+  ],
+  [
+   "Cambia Health Solutions, Inc.",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "Kaiser Permanente Medicare Advantage Optimal (HMO)",
+  "o": "Kaiser Permanente",
+  "moop": 3150.0,
+  "m": 373.0
+ },
+ "cheapHigh": {
+  "n": "Humana Gold Plus H1036-321 (HMO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5900.0
+ },
+ "best": {
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 9150.0
+ },
+ "hmo": 49,
+ "ppo": 22,
+ "pffs": 0,
+ "std26": 89,
+ "pdp": 8,
+ "pdp26": 10,
+ "pdpMin": 5.3,
+ "pdpMax": 184.2,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 23.35,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 61959,
+ "st": "WA",
+ "countiesMostPlans": [
+  {
+   "slug": "pierce",
+   "name": "Pierce",
+   "std": 35,
+   "zero": 16,
+   "moopMin": 3150.0,
+   "moopMed": 7150.0,
+   "star4": 20,
+   "snp": 31,
+   "std26": 40,
+   "gone": 14,
+   "new": 9
+  },
+  {
+   "slug": "thurston",
+   "name": "Thurston",
+   "std": 32,
+   "zero": 13,
+   "moopMin": 3150.0,
+   "moopMed": 7150.0,
+   "star4": 19,
+   "snp": 28,
+   "std26": 38,
+   "gone": 15,
+   "new": 9
+  },
+  {
+   "slug": "clark",
+   "name": "Clark",
+   "std": 31,
+   "zero": 12,
+   "moopMin": 4000.0,
+   "moopMed": 7000.0,
+   "star4": 15,
+   "snp": 26,
+   "std26": 45,
+   "gone": 20,
+   "new": 6
+  },
+  {
+   "slug": "snohomish",
+   "name": "Snohomish",
+   "std": 31,
+   "zero": 12,
+   "moopMin": 3150.0,
+   "moopMed": 6900.0,
+   "star4": 20,
+   "snp": 29,
+   "std26": 42,
+   "gone": 19,
+   "new": 8
+  },
+  {
+   "slug": "king",
+   "name": "King",
+   "std": 30,
+   "zero": 11,
+   "moopMin": 3150.0,
+   "moopMed": 6950.0,
+   "star4": 19,
+   "snp": 29,
+   "std26": 37,
+   "gone": 15,
+   "new": 8
+  },
+  {
+   "slug": "kitsap",
+   "name": "Kitsap",
+   "std": 28,
+   "zero": 11,
+   "moopMin": 3950.0,
+   "moopMed": 7150.0,
+   "star4": 17,
+   "snp": 28,
+   "std26": 32,
+   "gone": 11,
+   "new": 7
+  },
+  {
+   "slug": "spokane",
+   "name": "Spokane",
+   "std": 25,
+   "zero": 11,
+   "moopMin": 3950.0,
+   "moopMed": 7150.0,
+   "star4": 17,
+   "snp": 22,
+   "std26": 32,
+   "gone": 11,
+   "new": 4
+  },
+  {
+   "slug": "cowlitz",
+   "name": "Cowlitz",
+   "std": 21,
+   "zero": 8,
+   "moopMin": 4000.0,
+   "moopMed": 7000.0,
+   "star4": 15,
+   "snp": 21,
+   "std26": 32,
+   "gone": 14,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "grays-harbor",
+   "name": "Grays Harbor",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 3150.0,
+   "snp": 9
+  },
+  {
+   "slug": "san-juan",
+   "name": "San Juan",
+   "std": 4,
+   "zero": 0,
+   "moopMin": 7000.0,
+   "snp": 14
+  },
+  {
+   "slug": "stevens",
+   "name": "Stevens",
+   "std": 4,
+   "zero": 1,
+   "moopMin": 4200.0,
+   "snp": 9
+  },
+  {
+   "slug": "klickitat",
+   "name": "Klickitat",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 4200.0,
+   "snp": 8
+  },
+  {
+   "slug": "pacific",
+   "name": "Pacific",
+   "std": 3,
+   "zero": 0,
+   "moopMin": 4200.0,
+   "snp": 15
+  },
+  {
+   "slug": "clallam",
+   "name": "Clallam",
+   "std": 1,
+   "zero": 0,
+   "moopMin": 7150.0,
+   "snp": 13
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 6.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 4.5
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 0.0,
+   "star": 3.0
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 9.3,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 37.4,
+   "dd": 687.0,
+   "d26": 22.1,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 105.5,
+   "dd": 700.0,
+   "d26": 38.4,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 127.9,
+   "dd": 350.0,
+   "d26": 108.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 184.2,
+   "dd": 300.0,
+   "d26": 110.0,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 49,
+  "ppo": 22,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

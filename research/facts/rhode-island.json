@@ -1,0 +1,269 @@
+{
+ "name": "Rhode Island",
+ "slug": "rhode-island",
+ "terr": false,
+ "counties": 5,
+ "all": 22,
+ "std": 13,
+ "mapd": 10,
+ "zero": 4,
+ "snp": 9,
+ "dsnp": 7,
+ "csnp": 1,
+ "isnp": 1,
+ "moopMin": 5000.0,
+ "moopMed": 6750.0,
+ "moopMax": 7150.0,
+ "starMax": 4.5,
+ "star4": 6,
+ "premMax": 159.0,
+ "orgs": 3,
+ "topOrg": "Blue Cross & Blue Shield of Rhode Island",
+ "topOrgN": 5,
+ "orgList": [
+  [
+   "Blue Cross & Blue Shield of Rhode Island",
+   5
+  ],
+  [
+   "CVS Health Corporation",
+   4
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   4
+  ]
+ ],
+ "lowMoop": {
+  "n": "BlueCHiP for Medicare Core (HMO)",
+  "o": "Blue Cross & Blue Shield of Rhode Island",
+  "moop": 5000.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "AARP Medicare Advantage from UHC RI-0002 (HMO-POS)",
+  "o": "UnitedHealthcare",
+  "star": 4.0,
+  "m": 0.0,
+  "moop": 6300.0
+ },
+ "best": {
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 7150.0
+ },
+ "hmo": 9,
+ "ppo": 4,
+ "pffs": 0,
+ "std26": 14,
+ "pdp": 10,
+ "pdp26": 11,
+ "pdpMin": 13.3,
+ "pdpMax": 284.7,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 114.75,
+ "pdpBench": 3,
+ "pdpZeroDed": 1,
+ "bytes": 9174,
+ "st": "RI",
+ "countiesMostPlans": [
+  {
+   "slug": "kent",
+   "name": "Kent",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5000.0,
+   "moopMed": 6750.0,
+   "star4": 6,
+   "snp": 9,
+   "std26": 14,
+   "gone": 1,
+   "new": 0
+  },
+  {
+   "slug": "providence",
+   "name": "Providence",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5000.0,
+   "moopMed": 6750.0,
+   "star4": 6,
+   "snp": 9,
+   "std26": 14,
+   "gone": 1,
+   "new": 0
+  },
+  {
+   "slug": "bristol",
+   "name": "Bristol",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "moopMed": 6525.0,
+   "star4": 6,
+   "snp": 9,
+   "std26": 13,
+   "gone": 1,
+   "new": 0
+  },
+  {
+   "slug": "newport",
+   "name": "Newport",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "moopMed": 6525.0,
+   "star4": 6,
+   "snp": 9,
+   "std26": 13,
+   "gone": 1,
+   "new": 0
+  },
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "moopMed": 6525.0,
+   "star4": 6,
+   "snp": 9,
+   "std26": 13,
+   "gone": 1,
+   "new": 0
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "kent",
+   "name": "Kent",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5000.0,
+   "snp": 9
+  },
+  {
+   "slug": "providence",
+   "name": "Providence",
+   "std": 13,
+   "zero": 4,
+   "moopMin": 5000.0,
+   "snp": 9
+  },
+  {
+   "slug": "bristol",
+   "name": "Bristol",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "snp": 9
+  },
+  {
+   "slug": "newport",
+   "name": "Newport",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "snp": 9
+  },
+  {
+   "slug": "washington",
+   "name": "Washington",
+   "std": 12,
+   "zero": 3,
+   "moopMin": 5000.0,
+   "snp": 9
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 13.3,
+   "dd": 700.0,
+   "d26": 16.4,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 21.3,
+   "dd": 700.0,
+   "d26": 21.7,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Value Plus (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 25.5,
+   "dd": 700.0,
+   "d26": 20.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 26.1,
+   "dd": 700.0,
+   "d26": 8.4,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 107.3,
+   "dd": 687.0,
+   "d26": 73.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 122.2,
+   "dd": 700.0,
+   "d26": 38.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 146.3,
+   "dd": 350.0,
+   "d26": 138.6,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 158.6,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 239.8,
+   "dd": 300.0,
+   "d26": 155.1,
+   "star": 3.0
+  },
+  {
+   "n": "Blue MedicareRx Premier (PDP)",
+   "o": "Blue MedicareRx",
+   "d": 284.7,
+   "dd": 0.0,
+   "d26": 238.6,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 9,
+  "ppo": 4,
+  "pffs": 0
+ },
+ "costPlans": 0
+}

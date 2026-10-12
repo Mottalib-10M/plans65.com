@@ -1,0 +1,312 @@
+{
+ "name": "South Carolina",
+ "slug": "south-carolina",
+ "terr": false,
+ "counties": 46,
+ "all": 97,
+ "std": 68,
+ "mapd": 54,
+ "zero": 37,
+ "snp": 29,
+ "dsnp": 11,
+ "csnp": 12,
+ "isnp": 6,
+ "moopMin": 5900.0,
+ "moopMed": 9250.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 35,
+ "premMax": 138.0,
+ "orgs": 8,
+ "topOrg": "Humana Inc.",
+ "topOrgN": 20,
+ "orgList": [
+  [
+   "Humana Inc.",
+   20
+  ],
+  [
+   "CVS Health Corporation",
+   11
+  ],
+  [
+   "Health Care Service Corporation",
+   10
+  ],
+  [
+   "BlueCross BlueShield of South Carolina (BCBSSC)",
+   7
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   6
+  ],
+  [
+   "Centene Corporation",
+   6
+  ]
+ ],
+ "lowMoop": {
+  "n": "BlueCross Blue Basic (PPO)",
+  "o": "Blue Cross Blue Shield of South Carolina",
+  "moop": 5900.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "DEVOTED CORE 001 SC (HMO)",
+  "o": "Devoted Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 5900.0
+ },
+ "best": {
+  "n": "Clover Health LiveHealthy Giveback (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 23,
+ "ppo": 44,
+ "pffs": 1,
+ "std26": 69,
+ "pdp": 8,
+ "pdp26": 11,
+ "pdpMin": 5.3,
+ "pdpMax": 235.3,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 50.2,
+ "pdpBench": 1,
+ "pdpZeroDed": 0,
+ "bytes": 42274,
+ "st": "SC",
+ "countiesMostPlans": [
+  {
+   "slug": "greenville",
+   "name": "Greenville",
+   "std": 51,
+   "zero": 27,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 29,
+   "snp": 27,
+   "std26": 51,
+   "gone": 4,
+   "new": 4
+  },
+  {
+   "slug": "spartanburg",
+   "name": "Spartanburg",
+   "std": 51,
+   "zero": 27,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 29,
+   "snp": 27,
+   "std26": 50,
+   "gone": 3,
+   "new": 4
+  },
+  {
+   "slug": "pickens",
+   "name": "Pickens",
+   "std": 49,
+   "zero": 26,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 28,
+   "snp": 27,
+   "std26": 50,
+   "gone": 4,
+   "new": 3
+  },
+  {
+   "slug": "york",
+   "name": "York",
+   "std": 48,
+   "zero": 25,
+   "moopMin": 5900.0,
+   "moopMed": 9250.0,
+   "star4": 29,
+   "snp": 24,
+   "std26": 48,
+   "gone": 3,
+   "new": 3
+  },
+  {
+   "slug": "anderson",
+   "name": "Anderson",
+   "std": 47,
+   "zero": 26,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 28,
+   "snp": 27,
+   "std26": 49,
+   "gone": 6,
+   "new": 4
+  },
+  {
+   "slug": "berkeley",
+   "name": "Berkeley",
+   "std": 47,
+   "zero": 25,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 27,
+   "snp": 22,
+   "std26": 47,
+   "gone": 3,
+   "new": 3
+  },
+  {
+   "slug": "colleton",
+   "name": "Colleton",
+   "std": 47,
+   "zero": 25,
+   "moopMin": 5900.0,
+   "moopMed": 9250.0,
+   "star4": 28,
+   "snp": 22,
+   "std26": 44,
+   "gone": 3,
+   "new": 6
+  },
+  {
+   "slug": "dorchester",
+   "name": "Dorchester",
+   "std": 47,
+   "zero": 25,
+   "moopMin": 5900.0,
+   "moopMed": 9100.0,
+   "star4": 27,
+   "snp": 23,
+   "std26": 47,
+   "gone": 3,
+   "new": 3
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "clarendon",
+   "name": "Clarendon",
+   "std": 33,
+   "zero": 17,
+   "moopMin": 6300.0,
+   "snp": 16
+  },
+  {
+   "slug": "marlboro",
+   "name": "Marlboro",
+   "std": 33,
+   "zero": 15,
+   "moopMin": 5900.0,
+   "snp": 18
+  },
+  {
+   "slug": "beaufort",
+   "name": "Beaufort",
+   "std": 32,
+   "zero": 15,
+   "moopMin": 5900.0,
+   "snp": 19
+  },
+  {
+   "slug": "florence",
+   "name": "Florence",
+   "std": 32,
+   "zero": 16,
+   "moopMin": 5900.0,
+   "snp": 17
+  },
+  {
+   "slug": "chesterfield",
+   "name": "Chesterfield",
+   "std": 30,
+   "zero": 13,
+   "moopMin": 5900.0,
+   "snp": 17
+  },
+  {
+   "slug": "darlington",
+   "name": "Darlington",
+   "std": 28,
+   "zero": 13,
+   "moopMin": 6300.0,
+   "snp": 16
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 4.8,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 7.3,
+   "dd": 700.0,
+   "d26": 9.7,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 14.7,
+   "dd": 700.0,
+   "d26": 10.1,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 15.5,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 84.9,
+   "dd": 687.0,
+   "d26": 65.6,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 168.9,
+   "dd": 350.0,
+   "d26": 145.6,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 234.2,
+   "dd": 300.0,
+   "d26": 139.2,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 235.3,
+   "dd": 700.0,
+   "d26": 122.1,
+   "star": 3.0
+  }
+ ],
+ "planTypes": {
+  "hmo": 23,
+  "ppo": 44,
+  "pffs": 1
+ },
+ "costPlans": 0
+}

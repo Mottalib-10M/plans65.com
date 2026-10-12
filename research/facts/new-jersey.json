@@ -1,0 +1,336 @@
+{
+ "name": "New Jersey",
+ "slug": "new-jersey",
+ "terr": false,
+ "counties": 21,
+ "all": 71,
+ "std": 56,
+ "mapd": 48,
+ "zero": 25,
+ "snp": 15,
+ "dsnp": 5,
+ "csnp": 7,
+ "isnp": 3,
+ "moopMin": 4150.0,
+ "moopMed": 9750.0,
+ "moopMax": 9850.0,
+ "starMax": 5.0,
+ "star4": 38,
+ "premMax": 149.0,
+ "orgs": 10,
+ "topOrg": "CVS Health Corporation",
+ "topOrgN": 16,
+ "orgList": [
+  [
+   "CVS Health Corporation",
+   16
+  ],
+  [
+   "Humana Inc.",
+   11
+  ],
+  [
+   "UnitedHealth Group, Inc.",
+   9
+  ],
+  [
+   "Clover Health Holdings, Inc.",
+   8
+  ],
+  [
+   "Devoted Health, Inc.",
+   3
+  ],
+  [
+   "Independence Health Group, Inc.",
+   2
+  ]
+ ],
+ "lowMoop": {
+  "n": "HumanaChoice Giveback H5216-116 (PPO)",
+  "o": "Humana",
+  "moop": 4150.0,
+  "m": 0.0
+ },
+ "cheapHigh": {
+  "n": "Clover Health Classic (HMO)",
+  "o": "Clover Health",
+  "star": 4.5,
+  "m": 0.0,
+  "moop": 6000.0
+ },
+ "best": {
+  "n": "Clover Health Choice (PPO)",
+  "o": "Clover Health",
+  "star": 5.0,
+  "m": 0.0,
+  "moop": 9850.0
+ },
+ "hmo": 23,
+ "ppo": 33,
+ "pffs": 0,
+ "std26": 72,
+ "pdp": 11,
+ "pdp26": 12,
+ "pdpMin": 5.3,
+ "pdpMax": 217.9,
+ "pdpMinName": "Wellcare Value Script (PDP)",
+ "pdpMed": 120.5,
+ "pdpBench": 2,
+ "pdpZeroDed": 0,
+ "bytes": 41636,
+ "st": "NJ",
+ "countiesMostPlans": [
+  {
+   "slug": "camden",
+   "name": "Camden",
+   "std": 41,
+   "zero": 17,
+   "moopMin": 4150.0,
+   "moopMed": 9400.0,
+   "star4": 23,
+   "snp": 13,
+   "std26": 44,
+   "gone": 10,
+   "new": 7
+  },
+  {
+   "slug": "burlington",
+   "name": "Burlington",
+   "std": 39,
+   "zero": 16,
+   "moopMin": 4150.0,
+   "moopMed": 9350.0,
+   "star4": 23,
+   "snp": 14,
+   "std26": 45,
+   "gone": 12,
+   "new": 6
+  },
+  {
+   "slug": "gloucester",
+   "name": "Gloucester",
+   "std": 39,
+   "zero": 16,
+   "moopMin": 4150.0,
+   "moopMed": 9350.0,
+   "star4": 23,
+   "snp": 13,
+   "std26": 40,
+   "gone": 12,
+   "new": 11
+  },
+  {
+   "slug": "mercer",
+   "name": "Mercer",
+   "std": 37,
+   "zero": 16,
+   "moopMin": 4150.0,
+   "moopMed": 9400.0,
+   "star4": 23,
+   "snp": 13,
+   "std26": 47,
+   "gone": 15,
+   "new": 5
+  },
+  {
+   "slug": "union",
+   "name": "Union",
+   "std": 37,
+   "zero": 17,
+   "moopMin": 4500.0,
+   "moopMed": 9350.0,
+   "star4": 25,
+   "snp": 15,
+   "std26": 44,
+   "gone": 13,
+   "new": 6
+  },
+  {
+   "slug": "atlantic",
+   "name": "Atlantic",
+   "std": 36,
+   "zero": 13,
+   "moopMin": 4150.0,
+   "moopMed": 9250.0,
+   "star4": 25,
+   "snp": 10,
+   "std26": 47,
+   "gone": 14,
+   "new": 3
+  },
+  {
+   "slug": "monmouth",
+   "name": "Monmouth",
+   "std": 35,
+   "zero": 16,
+   "moopMin": 6750.0,
+   "moopMed": 9400.0,
+   "star4": 24,
+   "snp": 14,
+   "std26": 44,
+   "gone": 13,
+   "new": 4
+  },
+  {
+   "slug": "morris",
+   "name": "Morris",
+   "std": 35,
+   "zero": 16,
+   "moopMin": 6750.0,
+   "moopMed": 9400.0,
+   "star4": 23,
+   "snp": 15,
+   "std26": 40,
+   "gone": 10,
+   "new": 5
+  }
+ ],
+ "countiesFewestPlans": [
+  {
+   "slug": "salem",
+   "name": "Salem",
+   "std": 32,
+   "zero": 14,
+   "moopMin": 4150.0,
+   "snp": 9
+  },
+  {
+   "slug": "middlesex",
+   "name": "Middlesex",
+   "std": 31,
+   "zero": 12,
+   "moopMin": 4500.0,
+   "snp": 11
+  },
+  {
+   "slug": "sussex",
+   "name": "Sussex",
+   "std": 30,
+   "zero": 12,
+   "moopMin": 6750.0,
+   "snp": 9
+  },
+  {
+   "slug": "ocean",
+   "name": "Ocean",
+   "std": 29,
+   "zero": 11,
+   "moopMin": 6900.0,
+   "snp": 14
+  },
+  {
+   "slug": "warren",
+   "name": "Warren",
+   "std": 29,
+   "zero": 13,
+   "moopMin": 6750.0,
+   "snp": 11
+  },
+  {
+   "slug": "hunterdon",
+   "name": "Hunterdon",
+   "std": 28,
+   "zero": 11,
+   "moopMin": 6750.0,
+   "snp": 7
+  }
+ ],
+ "countiesNoOpenPlan": [],
+ "pdpList": [
+  {
+   "n": "Wellcare Value Script (PDP)",
+   "o": "Wellcare",
+   "d": 5.3,
+   "dd": 700.0,
+   "d26": 22.8,
+   "star": 3.0
+  },
+  {
+   "n": "Wellcare Classic (PDP)",
+   "o": "Wellcare",
+   "d": 24.3,
+   "dd": 700.0,
+   "d26": 28.2,
+   "star": 3.0
+  },
+  {
+   "n": "Humana Basic Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 28.3,
+   "dd": 700.0,
+   "d26": 4.4,
+   "star": 4.5
+  },
+  {
+   "n": "Humana Value Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 65.3,
+   "dd": 687.0,
+   "d26": 35.6,
+   "star": 4.5
+  },
+  {
+   "n": "HealthSpring Assurance Rx (PDP)",
+   "o": "Blue Cross and Blue Shield of IL, NM, OK, TX",
+   "d": 105.8,
+   "dd": 700.0,
+   "d26": null,
+   "star": 2.5
+  },
+  {
+   "n": "SilverScript Choice (PDP)",
+   "o": "Aetna Medicare",
+   "d": 120.5,
+   "dd": 700.0,
+   "d26": 97.4,
+   "star": 2.5
+  },
+  {
+   "n": "Horizon Medicare Blue Rx Standard (PDP)",
+   "o": "Horizon Blue Cross Blue Shield of New Jersey",
+   "d": 130.3,
+   "dd": 700.0,
+   "d26": 72.3,
+   "star": 2.5
+  },
+  {
+   "n": "Humana Premier Rx Plan (PDP)",
+   "o": "Humana",
+   "d": 131.2,
+   "dd": 350.0,
+   "d26": 111.9,
+   "star": 4.5
+  },
+  {
+   "n": "AARP Medicare Rx Saver from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 138.5,
+   "dd": 700.0,
+   "d26": 77.4,
+   "star": 3.0
+  },
+  {
+   "n": "AARP Medicare Rx Preferred from UHC (PDP)",
+   "o": "UnitedHealthcare",
+   "d": 210.7,
+   "dd": 300.0,
+   "d26": 118.9,
+   "star": 3.0
+  },
+  {
+   "n": "Horizon Medicare Blue Rx Enhanced (PDP)",
+   "o": "Horizon Blue Cross Blue Shield of New Jersey",
+   "d": 217.9,
+   "dd": 300.0,
+   "d26": 139.1,
+   "star": 2.5
+  }
+ ],
+ "planTypes": {
+  "hmo": 23,
+  "ppo": 33,
+  "pffs": 0
+ },
+ "costPlans": 0
+}
