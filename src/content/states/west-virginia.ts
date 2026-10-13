@@ -19,7 +19,7 @@ ${h.mini('starsSep')}
 <h2>PPOs in the hollows</h2>
 <p>With ${s.ppo} PPOs among ${s.std} open plans, West Virginia leans toward plans that keep paying out of network, at a higher share. That fits a state where the nearest specialist may be across the line in Ohio, Kentucky, Pennsylvania or Virginia. Kanawha County, around Charleston, lists ${kan.std} plans, ${kan.zero} at $0 with drugs; ${top.slice(0, 4).map((c) => c.name).join(', ')} share the longest list, and ${thin.slice(0, 3).map((c) => `${c.name} (${c.std})`).join(', ')} the shortest.</p>
 <h3>Regional PPOs</h3>
-<p>Regional PPOs cover a whole Medicare Advantage region, which can span several states, with a single plan. The state's lowest cap comes from one of them, ${s.lowMoop!.n}. A regional plan can be the simplest choice for someone who receives care on both sides of a state line, provided the hospitals used are in its network.</p>
+<p>Regional PPOs cover a whole Medicare Advantage region, which can span several states, with a single plan and one set of rules everywhere in it. The state's lowest cap comes from one of them, ${s.lowMoop!.n}. A regional plan can be the simplest choice for someone who receives care on both sides of a state line, provided the hospitals used are in its network.</p>
 <h3>Changes for 2027</h3>
 <p>Open plans fell by ${s.std26 - s.std} and stand-alone drug plans from ${s.pdp26} to ${s.pdp}. West Virginia lists ${s.snp} special needs plans, ${s.dsnp} for people with Medicaid. Neighbors: ${h.a('state:ohio', 'Ohio')}, ${h.a('state:kentucky', 'Kentucky')}, ${h.a('state:virginia', 'Virginia')}, ${h.a('state:pennsylvania', 'Pennsylvania')}.</p>
 `,
