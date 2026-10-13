@@ -34,7 +34,7 @@ const cRows = Object.entries(S.countyStats).sort((a, b) => a[1].name.localeCompa
   const has = myCounties.some((x) => x.county === slug);
   return [has ? `<a href="${route(countyId(def.slug, slug), lang)}">${c.name}</a>` : c.name, c.std, c.zero, c.moopMin === null ? 'none' : usd(c.moopMin), c.star4, c.std26 === c.std ? 'same' : `${c.std - c.std26 > 0 ? '+' : ''}${c.std - c.std26}`];
 });
-const pRows = f.pdp.map((p) => [`${p.n}<span class="block text-xs text-navy-600">${p.o} · ${p.k}</span>`, prem(p.d), prem(p.dd), p.d26 === undefined ? 'new' : prem(p.d26), starText(p.star)]);
+const pRows = f.pdp.map((p) => [`${p.n}<span class="block text-xs text-navy-600">${p.o} · ${p.k}${p.bench ? ' · Extra Help benchmark' : ''}</span>`, prem(p.d), prem(p.lis), prem(p.dd), p.d26 === undefined ? 'new' : prem(p.d26), starText(p.star)]);
 const unit = ref.st === 'LA' ? 'parish' : ref.st === 'AK' ? 'borough' : ref.st === 'PR' ? 'municipio' : 'county';
 ---
 <PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: ref.name }]}>
@@ -54,7 +54,7 @@ const unit = ref.st === 'LA' ? 'parish' : ref.st === 'AK' ? 'borough' : ref.st =
     </section>}
     {pRows.length > 0 && <section class="mt-10" data-chrome>
       <h2 class="font-serif text-2xl font-bold text-navy-900">Stand-alone Part D plans in {ref.name}</h2>
-      <Fragment set:html={table(['Plan', 'Monthly premium', 'Deductible', '2026 premium', '2027 Part D stars'], pRows, `${S.pdp} plans for 2027 (${S.pdp26} in 2026), with Original Medicare or a plan without drug coverage.`, ['l', 'r', 'r', 'r', 'r'])} />
+      <Fragment set:html={table(['Plan', 'Monthly premium', 'With full Extra Help', 'Deductible', '2026 premium', '2027 Part D stars'], pRows, `${S.pdp} plans for 2027 (${S.pdp26} in 2026), with Original Medicare or a plan without drug coverage.`, ['l', 'r', 'r', 'r', 'r', 'r'])} />
     </section>}
   </article>
 </PageLayout>
