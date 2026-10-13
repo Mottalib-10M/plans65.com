@@ -12,7 +12,7 @@ export default defineCounty({
   state: 'florida',
   county: 'palm-beach',
   title: `Medicare Advantage Plans Palm Beach 2027: ${c.star4} Rated 4+ Stars`,
-  description: `Palm Beach County 2027: ${c.star4} of ${c.std} open Medicare Advantage plans rated four stars or more, ${c.ppo} PPOs, caps from ${K.usd(c.moopMin!)}, ${c.zero} at $0 with drugs. Full list.`,
+  description: `Palm Beach County, Florida, 2027: ${c.star4} of ${c.std} open Medicare Advantage plans rated four stars or more, ${c.ppo} PPOs, caps from ${K.usd(c.moopMin!)}, ${c.zero} at $0 with drugs. The full list.`,
   intro: `Most open plans in Palm Beach County score four stars or more for 2027, and PPOs fill a larger slice of the menu than in Broward or Miami-Dade.`,
   resume: `Palm Beach County scores well on quality in 2027: ${c.star4} of its ${c.std} Medicare Advantage plans open to anyone with Parts A and B carry four stars or more in the ratings CMS released on October 8, 2026, against ${bw.star4} of ${bw.std} in Broward. The menu also leans more toward PPOs than the rest of South Florida, with ${c.ppo} PPOs and ${c.hmo} HMOs (Broward has ${bw.ppo} PPOs, Miami-Dade ${md.ppo}), which suits residents who split the year between Florida and a home up north. ${c.zero} drug-covering plans have a $0 premium; the lowest in-network cap is ${K.usd(c.moopMin!)}, with ${c.lowMoop!.n}, and the median ${K.usd(c.moopMed!)}. ${c.best!.n} pairs ${c.starMax} stars with a ${K.usd(c.best!.moop!)} cap. Humana files ${c.topOrgN} plans, and Prominence Health Plan adds a local network. There were ${c.std26} open plans in 2026; ${c.gone} IDs ended and ${c.new} are new. ${c.snp} special needs plans complete the list.`,
   body: (h) => `

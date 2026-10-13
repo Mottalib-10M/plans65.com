@@ -9,7 +9,7 @@ const d27 = K.P.partD['2027'];
 export default defineCounty({
   state: 'florida',
   county: 'broward',
-  title: `Medicare Advantage Plans Broward County 2027: Humana Files ${c.topOrgN}`,
+  title: `Medicare Advantage Plans Broward 2027: Humana Files ${c.topOrgN}`,
   description: `Broward County 2027: ${c.std} open Medicare Advantage plans, ${c.topOrgN} of them from Humana and CarePlus, caps from ${K.usd(c.moopMin!)}, and ${c.dsnp} plans for people with Medicaid. All listed.`,
   intro: `Fort Lauderdale's market is shaped by one parent company, Humana, which files ${c.topOrgN} of the ${c.std} open plans under its own name and its CarePlus brand.`,
   resume: `In Broward County, Humana Inc. files ${c.topOrgN} of the ${c.std} Medicare Advantage plans open to anyone with Parts A and B for 2027, counting the plans sold under its CarePlus brand. That share shapes the whole menu: Humana Gold Plus HMOs, CarePlus plans and a long series of Part B giveback plans sit next to smaller lines from Devoted Health, Florida Blue, UnitedHealthcare, HealthSun and Optimum. ${c.zero} drug-covering plans charge no premium, and the lowest in-network cap is ${K.usd(c.moopMin!)}, with ${c.lowMoop!.n}; the median is ${K.usd(c.moopMed!)}. ${c.star4} plans hold four stars or more for 2027, with ${c.best!.n} at ${c.starMax}. Special needs plans outnumber the open ones, ${c.snp} against ${c.std}, and ${c.dsnp} of them serve people who have Medicare and Medicaid together. The open list went from ${c.std26} plans in 2026 to ${c.std}, with ${c.gone} IDs ending and ${c.new} starting.`,
