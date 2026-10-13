@@ -21,7 +21,7 @@ export default defineCounty({
 <h3>Neighbors on the Peninsula and across the Bay</h3>
 <p>San Mateo County lists ${sm.std} open plans, Alameda ${al.std} and Santa Cruz ${scz.std}. Los Angeles, by comparison, has ${la.std}. None of the three neighbors offers a longer menu than Santa Clara's, so crossing a county line in the Bay Area rarely adds options.</p>
 <h2>Original Medicare as the other route</h2>
-<p>With so few $0 plans and a single PPO, many Santa Clara residents compare Advantage with Original Medicare plus a Medigap policy and a drug plan. Under Original Medicare, Part B costs ${K.cents(b26.premium)} a month in 2026, then the ${K.usd(b26.deductible)} deductible and 20% of approved care with no yearly limit, which is what a Medigap policy is bought to cover.</p>
+<p>With so few $0 plans and a single PPO, many Santa Clara residents compare Advantage with Original Medicare plus a Medigap policy and a drug plan. Under Original Medicare, Part B costs ${K.cents(b26.premium)} a month in 2026, then the ${K.usd(b26.deductible)} deductible and ${K.pct(b26.coinsurance, 0)} of approved care with no yearly limit, which is what a Medigap policy is bought to cover.</p>
 ${h.mini('partBYear')}
 <p>The exits at the bottom of this page show where 2026 members came from. Anyone in a closed plan has until December 7 to choose, and a special enrollment period afterward if they miss it.</p>
 `,

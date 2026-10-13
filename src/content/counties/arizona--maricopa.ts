@@ -21,7 +21,7 @@ export default defineCounty({
 <h2>Winter residents and PPOs</h2>
 <p>Part-year residents should look at where they spend the rest of the year. An HMO in Maricopa covers routine care only in its Arizona network; the ${c.ppo} PPOs pay at least part of the bill for doctors elsewhere. Your plan must be filed for the county of your permanent address, the one Social Security has on file.</p>
 <h3>Turning 65 in Phoenix</h3>
-<p>People who reach 65 here get a seven-month initial enrollment window around their birthday month, and the first Advantage plan can be chosen in it.</p>
+<p>People who reach 65 here get an initial enrollment window that surrounds their birthday month, and the first Advantage plan can be chosen in it.</p>
 ${h.mini('iep')}
 <p>Pinal County lists ${pn.std} open plans and Yavapai ${yv.std}; Arizona as a whole has ${az.std}.</p>
 `,
