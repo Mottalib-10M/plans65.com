@@ -35,7 +35,7 @@ export function IrmaaTool({ methodHref }: { methodHref?: string }) {
   return (
     <Frame>
       <Form>
-        <NumberField id="ir-magi" label={`Modified AGI on your ${r.magiYear} tax return`} value={magi} onChange={setMagi} unit="$" max={50000000} help="Line 11 of Form 1040 plus tax-exempt interest" />
+        <NumberField id="ir-magi" label={`Modified AGI on your ${r.magiYear} tax return`} value={magi} onChange={setMagi} unit="$" max={50000000} help="Form 1040 line 11 + tax-free interest" className="sm:col-span-2" />
         <Choice id="ir-f" label="Filing status" value={fil} onChange={setFil} options={FIL as unknown as Array<{ value: E.Filing; label: string }>} />
         <Choice id="ir-y" label="Premium year" value={year} onChange={setYear} options={yearOpts as unknown as Array<{ value: '2026' | '2027'; label: string }>} />
       </Form>
@@ -164,7 +164,7 @@ export function MedigapTool({ methodHref }: { methodHref?: string }) {
   return (
     <Frame>
       <Form>
-        <NumberField id="mg-g" label="Plan G quote, per month" value={g} onChange={setG} unit="$" max={5000} help="From your state’s insurers: prices vary by age, ZIP and sex" />
+        <NumberField id="mg-g" label="Plan G quote, per month" value={g} onChange={setG} unit="$" max={5000} help="Quote from an insurer in your state" className="sm:col-span-2" />
         <NumberField id="mg-h" label="High-deductible G quote, per month" value={hd} onChange={setHd} unit="$" max={5000} />
         <NumberField id="mg-s" label="Medicare-approved Part B services a year" value={svc} onChange={setSvc} unit="$" max={5000000} />
         <NumberField id="mg-a" label="Hospital admissions a year" value={adm} onChange={setAdm} max={20} />
