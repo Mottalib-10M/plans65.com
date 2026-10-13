@@ -53,22 +53,23 @@
   "m": 373.0
  },
  "cheapHigh": {
-  "n": "Humana Gold Plus H1036-321 (HMO)",
+  "n": "Humana Gold Plus H5619-174 (HMO)",
   "o": "Humana",
-  "star": 4.5,
+  "star": 4.0,
   "m": 0.0,
   "moop": 5900.0
  },
  "best": {
-  "n": "Humana USAA Honor Giveback (PPO)",
-  "o": "Humana",
+  "n": "Kaiser Permanente Medicare Advantage Key Thurston (HMO)",
+  "o": "Kaiser Permanente",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9150.0
+  "moop": 6750.0
  },
  "hmo": 49,
  "ppo": 22,
  "pffs": 0,
+ "cost": 0,
  "std26": 89,
  "pdp": 8,
  "pdp26": 10,

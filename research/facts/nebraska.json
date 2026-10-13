@@ -18,15 +18,15 @@
  "star4": 13,
  "premMax": 169.0,
  "orgs": 8,
- "topOrg": "CVS Health Corporation",
+ "topOrg": "Medica Holding Company",
  "topOrgN": 7,
  "orgList": [
   [
-   "CVS Health Corporation",
+   "Medica Holding Company",
    7
   ],
   [
-   "Medica Holding Company",
+   "CVS Health Corporation",
    7
   ],
   [
@@ -38,11 +38,11 @@
    4
   ],
   [
-   "Blue Cross Blue Shield of Nebraska",
+   "Devoted Health, Inc.",
    3
   ],
   [
-   "Devoted Health, Inc.",
+   "Blue Cross Blue Shield of Nebraska",
    3
   ]
  ],
@@ -60,15 +60,16 @@
   "moop": 4400.0
  },
  "best": {
-  "n": "AARP Medicare Advantage Patriot No Rx SI-MA2 (PPO)",
-  "o": "UnitedHealthcare",
+  "n": "Humana Gold Plus H0028-053 (HMO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 7150.0
+  "moop": 4400.0
  },
  "hmo": 11,
  "ppo": 19,
  "pffs": 0,
+ "cost": 4,
  "std26": 37,
  "pdp": 9,
  "pdp26": 11,

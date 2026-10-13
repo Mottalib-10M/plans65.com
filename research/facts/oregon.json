@@ -60,15 +60,16 @@
   "moop": 4450.0
  },
  "best": {
-  "n": "Kaiser Permanente Senior Advantage Value (HMO-POS)",
+  "n": "Kaiser Permanente Senior Advantage Value Lane (HMO-POS)",
   "o": "Kaiser Permanente",
   "star": 4.5,
   "m": 0.0,
-  "moop": 6750.0
+  "moop": 4450.0
  },
  "hmo": 33,
  "ppo": 36,
  "pffs": 0,
+ "cost": 0,
  "std26": 80,
  "pdp": 8,
  "pdp26": 10,

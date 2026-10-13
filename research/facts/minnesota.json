@@ -34,11 +34,11 @@
    6
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "University of Wisconsin Hospitals and Clincs Autho",
    5
   ],
   [
-   "University of Wisconsin Hospitals and Clincs Autho",
+   "UnitedHealth Group, Inc.",
    5
   ],
   [
@@ -53,22 +53,23 @@
   "m": 252.0
  },
  "cheapHigh": {
-  "n": "Gundersen MN Quartz Med Advantage Basic D (w/Rx) (HMO)",
-  "o": "Quartz Medicare Advantage (HMO)",
-  "star": 4.5,
+  "n": "Blue Cross Medicare Advantage Essential (PPO)",
+  "o": "Blue Cross and Blue Shield of Minnesota",
+  "star": 4.0,
   "m": 0.0,
   "moop": 7150.0
  },
  "best": {
-  "n": "Gundersen MN Quartz Med Advantage Basic D (w/Rx) (HMO)",
-  "o": "Quartz Medicare Advantage (HMO)",
+  "n": "HealthPartners Journey Smart (PPO)",
+  "o": "HealthPartners",
   "star": 4.5,
   "m": 0.0,
-  "moop": 7150.0
+  "moop": 9850.0
  },
  "hmo": 5,
  "ppo": 35,
  "pffs": 0,
+ "cost": 13,
  "std26": 69,
  "pdp": 9,
  "pdp26": 11,

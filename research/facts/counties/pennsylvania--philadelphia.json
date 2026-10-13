@@ -37,11 +37,11 @@
    8
   ],
   [
-   "Thomas Jefferson University",
+   "Health Care Service Corporation",
    5
   ],
   [
-   "Health Care Service Corporation",
+   "Thomas Jefferson University",
    5
   ]
  ],
@@ -68,6 +68,7 @@
  "hmo": 32,
  "ppo": 31,
  "pffs": 0,
+ "cost": 0,
  "std26": 66,
  "zero26": 28,
  "gone": 9,

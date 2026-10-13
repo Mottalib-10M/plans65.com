@@ -142,7 +142,7 @@ def county_stats(ids, plans):
         'lowMoop': (lambda q: {'n': q['n'], 'o': q['o'], 'moop': q['moop'], 'm': q['m']} if q else None)(min((p for p in std if p['moop'] is not None), key=lambda p: (p['moop'], p['m'] or 0), default=None)),
         'cheapHigh': (lambda q: {'n': q['n'], 'o': q['o'], 'star': q['star'], 'm': q['m'], 'moop': q['moop']} if q else None)(min((p for p in mapd if isinstance(p['star'], float) and p['star'] >= 4), key=lambda p: (p['m'] or 0, p['moop'] or 9e9), default=None)),
         'best': (lambda q: {'n': q['n'], 'o': q['o'], 'star': q['star'], 'm': q['m'], 'moop': q['moop']} if q else None)(max((p for p in std if isinstance(p['star'], float)), key=lambda p: (p['star'], -(p['m'] or 0)), default=None)),
-        'hmo': types.get('HMO', 0) + types.get('HMO-POS', 0), 'ppo': types.get('PPO', 0) + types.get('Regional PPO', 0), 'pffs': types.get('PFFS', 0),
+        'hmo': types.get('HMO', 0) + types.get('HMO-POS', 0), 'ppo': types.get('PPO', 0) + types.get('Regional PPO', 0), 'pffs': types.get('PFFS', 0), 'cost': types.get('Cost', 0),
     }
 
 

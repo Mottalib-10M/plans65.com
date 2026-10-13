@@ -60,15 +60,16 @@
   "moop": 3800.0
  },
  "best": {
-  "n": "Aetna Medicare Eagle (PPO)",
-  "o": "Aetna Medicare",
+  "n": "DEVOTED CHOICE GIVEBACK EXTRAS 042 TN (PPO)",
+  "o": "Devoted Health",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9850.0
+  "moop": 7400.0
  },
  "hmo": 57,
  "ppo": 48,
  "pffs": 0,
+ "cost": 0,
  "std26": 93,
  "pdp": 11,
  "pdp26": 12,

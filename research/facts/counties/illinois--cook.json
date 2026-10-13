@@ -37,11 +37,11 @@
    6
   ],
   [
-   "Devoted Health, Inc.",
+   "Centene Corporation",
    5
   ],
   [
-   "Centene Corporation",
+   "Devoted Health, Inc.",
    5
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 2150.0
  },
  "best": {
-  "n": "DEVOTED CHOICE 010 IL (PPO)",
-  "o": "Devoted Health",
+  "n": "Humana USAA Honor Giveback (PPO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5400.0
+  "moop": 6000.0
  },
  "hmo": 25,
  "ppo": 22,
  "pffs": 1,
+ "cost": 0,
  "std26": 58,
  "zero26": 39,
  "gone": 14,

@@ -60,15 +60,16 @@
   "moop": 1899.0
  },
  "best": {
-  "n": "DEVOTED CORE 098 AZ (HMO)",
-  "o": "Devoted Health",
+  "n": "Humana Gold Plus H0028-074 (HMO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 6050.0
+  "moop": 2550.0
  },
  "hmo": 65,
  "ppo": 25,
  "pffs": 0,
+ "cost": 0,
  "std26": 84,
  "pdp": 9,
  "pdp26": 10,

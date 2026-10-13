@@ -34,11 +34,11 @@
    12
   ],
   [
-   "Henry Ford Health System",
+   "CVS Health Corporation",
    10
   ],
   [
-   "CVS Health Corporation",
+   "Henry Ford Health System",
    10
   ],
   [
@@ -69,6 +69,7 @@
  "hmo": 60,
  "ppo": 70,
  "pffs": 1,
+ "cost": 0,
  "std26": 148,
  "pdp": 11,
  "pdp26": 12,

@@ -30,11 +30,11 @@
    11
   ],
   [
-   "Devoted Health, Inc.",
+   "CVS Health Corporation",
    9
   ],
   [
-   "CVS Health Corporation",
+   "Devoted Health, Inc.",
    9
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 2875.0
  },
  "best": {
-  "n": "Humana Gold Plus H1951-049 (HMO)",
+  "n": "Humana USAA Honor Giveback (HMO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4500.0
+  "moop": 4900.0
  },
  "hmo": 40,
  "ppo": 30,
  "pffs": 0,
+ "cost": 0,
  "std26": 71,
  "pdp": 8,
  "pdp26": 10,

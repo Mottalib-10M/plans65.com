@@ -41,7 +41,7 @@
    3
   ],
   [
-   "LMC Family Holdings, LLC",
+   "DOCTORS HEALTHCARE PLANS, INC.",
    2
   ]
  ],
@@ -68,6 +68,7 @@
  "hmo": 26,
  "ppo": 15,
  "pffs": 0,
+ "cost": 0,
  "std26": 46,
  "zero26": 31,
  "gone": 10,

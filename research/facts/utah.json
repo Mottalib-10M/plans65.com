@@ -34,11 +34,11 @@
    5
   ],
   [
-   "Intermountain Health Care, Inc.",
+   "Devoted Health, Inc.",
    3
   ],
   [
-   "Devoted Health, Inc.",
+   "Intermountain Health Care, Inc.",
    3
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 4700.0
  },
  "best": {
-  "n": "Humana USAA Honor Giveback (PPO)",
+  "n": "Humana Value Choice (PPO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9150.0
+  "moop": 5000.0
  },
  "hmo": 10,
  "ppo": 23,
  "pffs": 0,
+ "cost": 0,
  "std26": 38,
  "pdp": 8,
  "pdp26": 10,

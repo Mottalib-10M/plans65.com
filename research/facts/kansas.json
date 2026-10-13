@@ -60,15 +60,16 @@
   "moop": 2800.0
  },
  "best": {
-  "n": "Humana Total Complete Giveback (HMO-POS)",
+  "n": "Humana Value Choice (PPO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4200.0
+  "moop": 4400.0
  },
  "hmo": 21,
  "ppo": 35,
  "pffs": 4,
+ "cost": 0,
  "std26": 68,
  "pdp": 12,
  "pdp26": 12,

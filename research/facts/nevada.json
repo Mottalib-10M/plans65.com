@@ -60,15 +60,16 @@
   "moop": 900.0
  },
  "best": {
-  "n": "KP Medicare Value H2960 028 (HMO)",
+  "n": "KP Medicare Liberty H2960-009 (HMO)",
   "o": "Kaiser Permanente",
   "star": 5.0,
   "m": 0.0,
-  "moop": 3300.0
+  "moop": 2350.0
  },
  "hmo": 42,
  "ppo": 16,
  "pffs": 0,
+ "cost": 0,
  "std26": 64,
  "pdp": 9,
  "pdp26": 10,

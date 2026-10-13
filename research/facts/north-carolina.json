@@ -60,15 +60,16 @@
   "moop": 3400.0
  },
  "best": {
-  "n": "DEVOTED CORE 029 NC (HMO)",
-  "o": "Devoted Health",
+  "n": "Humana Gold Plus H1036-233 (HMO-POS)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4950.0
+  "moop": 9850.0
  },
  "hmo": 69,
  "ppo": 50,
  "pffs": 1,
+ "cost": 0,
  "std26": 122,
  "pdp": 11,
  "pdp26": 12,

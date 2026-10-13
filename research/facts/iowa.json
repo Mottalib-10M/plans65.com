@@ -38,11 +38,11 @@
    6
   ],
   [
-   "Humana Inc.",
+   "Trinity Health Corporation",
    5
   ],
   [
-   "Trinity Health Corporation",
+   "Humana Inc.",
    5
   ]
  ],
@@ -69,6 +69,7 @@
  "hmo": 25,
  "ppo": 15,
  "pffs": 1,
+ "cost": 10,
  "std26": 55,
  "pdp": 9,
  "pdp26": 11,

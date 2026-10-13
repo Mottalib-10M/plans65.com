@@ -30,11 +30,11 @@
    20
   ],
   [
-   "Devoted Health, Inc.",
+   "MEDICAL MUTUAL OF OHIO",
    16
   ],
   [
-   "MEDICAL MUTUAL OF OHIO",
+   "Devoted Health, Inc.",
    16
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 4200.0
  },
  "best": {
-  "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
-  "o": "Devoted Health",
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9250.0
+  "moop": 6900.0
  },
  "hmo": 92,
  "ppo": 42,
  "pffs": 0,
+ "cost": 0,
  "std26": 155,
  "pdp": 9,
  "pdp26": 10,

@@ -37,11 +37,11 @@
    6
   ],
   [
-   "CVS Health Corporation",
+   "Elevance Health, Inc.",
    5
   ],
   [
-   "Elevance Health, Inc.",
+   "CVS Health Corporation",
    5
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 1000.0
  },
  "best": {
-  "n": "Humana USAA Honor Giveback (HMO)",
-  "o": "Humana",
+  "n": "DrSelect-CFL (HMO)",
+  "o": "Doctors HealthCare Plans, Inc.",
   "star": 4.5,
   "m": 0.0,
-  "moop": 3900.0
+  "moop": 3500.0
  },
  "hmo": 33,
  "ppo": 19,
  "pffs": 0,
+ "cost": 0,
  "std26": 58,
  "zero26": 40,
  "gone": 11,

@@ -46,8 +46,8 @@
   ]
  ],
  "lowMoop": {
-  "n": "AARP Medicare Advantage Essentials ValueRx NV-5 (HMO-POS)",
-  "o": "UnitedHealthcare",
+  "n": "SCAN Costco Medicare Advantage (HMO)",
+  "o": "SCAN Health Plan",
   "moop": 900.0,
   "m": 0.0
  },
@@ -59,15 +59,16 @@
   "moop": 900.0
  },
  "best": {
-  "n": "Alignment Health Smart 008 (HMO)",
-  "o": "Alignment Health Plan",
+  "n": "AARP Medicare Advantage Patriot No Rx NV-MA01 (PPO)",
+  "o": "UnitedHealthcare",
   "star": 4.5,
   "m": 0.0,
-  "moop": 2499.0
+  "moop": 6700.0
  },
  "hmo": 27,
  "ppo": 12,
  "pffs": 0,
+ "cost": 0,
  "std26": 40,
  "zero26": 34,
  "gone": 5,

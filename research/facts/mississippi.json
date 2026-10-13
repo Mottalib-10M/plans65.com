@@ -34,11 +34,11 @@
    8
   ],
   [
-   "Centene Corporation",
+   "CVS Health Corporation",
    7
   ],
   [
-   "CVS Health Corporation",
+   "Centene Corporation",
    7
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 5400.0
  },
  "best": {
-  "n": "Humana Gold Plus H1036-327 (HMO)",
+  "n": "Humana Value Choice (PPO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5700.0
+  "moop": 6000.0
  },
  "hmo": 24,
  "ppo": 27,
  "pffs": 0,
+ "cost": 0,
  "std26": 49,
  "pdp": 9,
  "pdp26": 10,

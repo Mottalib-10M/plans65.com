@@ -18,7 +18,7 @@ export interface StateFile { st: string; name: string; terr: boolean; plans: Pla
 export interface CountyStats {
   name: string; all: number; std: number; mapd: number; zero: number; snp: number; dsnp: number; csnp: number; isnp: number;
   moopMin: number | null; moopMed: number | null; moopMax: number | null; starMax: number | null; star4: number; premMax: number | null;
-  orgs: number; topOrg: string | null; topOrgN: number; hmo: number; ppo: number; pffs: number; std26: number; zero26: number; gone: number; new: number;
+  orgs: number; topOrg: string | null; topOrgN: number; hmo: number; ppo: number; pffs: number; cost: number; std26: number; zero26: number; gone: number; new: number;
 }
 export interface StateSummary extends Omit<CountyStats, 'name' | 'zero26' | 'gone' | 'new'> {
   name: string; slug: string; terr: boolean; counties: number; std26: number; pdp: number; pdp26: number;

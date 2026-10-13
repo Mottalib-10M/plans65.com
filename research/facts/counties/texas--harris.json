@@ -29,11 +29,11 @@
    9
   ],
   [
-   "CVS Health Corporation",
+   "Health Care Service Corporation",
    6
   ],
   [
-   "Health Care Service Corporation",
+   "CVS Health Corporation",
    6
   ],
   [
@@ -41,7 +41,7 @@
    5
   ],
   [
-   "Centene Corporation",
+   "SCAN Group",
    2
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 3400.0
  },
  "best": {
-  "n": "Humana Gold Plus H0028-042 (HMO)",
-  "o": "Humana",
+  "n": "KelseyCare Advantage Freedom (HMO-POS)",
+  "o": "KelseyCare Advantage",
   "star": 4.5,
   "m": 0.0,
-  "moop": 3950.0
+  "moop": 6850.0
  },
  "hmo": 32,
  "ppo": 16,
  "pffs": 1,
+ "cost": 0,
  "std26": 69,
  "zero26": 40,
  "gone": 23,

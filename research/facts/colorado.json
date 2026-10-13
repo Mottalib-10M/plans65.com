@@ -26,11 +26,11 @@
    13
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "Devoted Health, Inc.",
    12
   ],
   [
-   "Devoted Health, Inc.",
+   "UnitedHealth Group, Inc.",
    12
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 4200.0
  },
  "best": {
-  "n": "Humana Total Complete (HMO)",
+  "n": "Humana Value Choice (PPO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4980.0
+  "moop": 6900.0
  },
  "hmo": 47,
  "ppo": 18,
  "pffs": 0,
+ "cost": 0,
  "std26": 71,
  "pdp": 8,
  "pdp26": 10,

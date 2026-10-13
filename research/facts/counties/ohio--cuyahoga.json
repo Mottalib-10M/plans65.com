@@ -25,11 +25,11 @@
    17
   ],
   [
-   "Devoted Health, Inc.",
+   "UnitedHealth Group, Inc.",
    8
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "Devoted Health, Inc.",
    8
   ],
   [
@@ -37,11 +37,11 @@
    7
   ],
   [
-   "General Catalyst Group Management Holdings LP",
+   "MEDICAL MUTUAL OF OHIO",
    6
   ],
   [
-   "MEDICAL MUTUAL OF OHIO",
+   "General Catalyst Group Management Holdings LP",
    6
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 4200.0
  },
  "best": {
-  "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
-  "o": "Devoted Health",
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9250.0
+  "moop": 6900.0
  },
  "hmo": 36,
  "ppo": 30,
  "pffs": 0,
+ "cost": 0,
  "std26": 73,
  "zero26": 36,
  "gone": 13,

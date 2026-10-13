@@ -29,11 +29,11 @@
    10
   ],
   [
-   "CVS Health Corporation",
+   "UnitedHealth Group, Inc.",
    5
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "CVS Health Corporation",
    5
   ],
   [
@@ -41,7 +41,7 @@
    4
   ],
   [
-   "Blue Cross Blue Shield of Arizona",
+   "Eternal Health of Delaware, Inc.",
    3
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 2900.0
  },
  "best": {
-  "n": "Aetna Medicare Eagle (PPO)",
-  "o": "Aetna Medicare",
+  "n": "Humana Gold Plus H0028-028 (HMO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5500.0
+  "moop": 6550.0
  },
  "hmo": 36,
  "ppo": 16,
  "pffs": 0,
+ "cost": 0,
  "std26": 52,
  "zero26": 40,
  "gone": 8,

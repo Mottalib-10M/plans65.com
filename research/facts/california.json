@@ -42,7 +42,7 @@
    29
   ],
   [
-   "CVS Health Corporation",
+   "Elevance Health, Inc.",
    21
   ]
  ],
@@ -60,15 +60,16 @@
   "moop": 199.0
  },
  "best": {
-  "n": "Kaiser Permanente Sr Advantage Inland Empire Value (HMO)",
+  "n": "Kaiser Permanente Senior Advantage Basic Kern (HMO)",
   "o": "Kaiser Permanente",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4450.0
+  "moop": 3900.0
  },
  "hmo": 243,
  "ppo": 16,
  "pffs": 0,
+ "cost": 0,
  "std26": 272,
  "pdp": 10,
  "pdp26": 12,

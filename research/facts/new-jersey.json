@@ -42,7 +42,7 @@
    3
   ],
   [
-   "Independence Health Group, Inc.",
+   "Health Care Service Corporation",
    2
   ]
  ],
@@ -60,7 +60,7 @@
   "moop": 6000.0
  },
  "best": {
-  "n": "Clover Health Choice (PPO)",
+  "n": "Clover Health Choice Giveback (PPO)",
   "o": "Clover Health",
   "star": 5.0,
   "m": 0.0,
@@ -69,6 +69,7 @@
  "hmo": 23,
  "ppo": 33,
  "pffs": 0,
+ "cost": 0,
  "std26": 72,
  "pdp": 11,
  "pdp26": 12,

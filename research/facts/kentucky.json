@@ -60,15 +60,16 @@
   "moop": 4250.0
  },
  "best": {
-  "n": "HumanaChoice H7617-004 (PPO)",
+  "n": "Humana Value Choice (PPO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 6750.0
+  "moop": 7150.0
  },
  "hmo": 39,
  "ppo": 40,
  "pffs": 1,
+ "cost": 0,
  "std26": 79,
  "pdp": 8,
  "pdp26": 10,

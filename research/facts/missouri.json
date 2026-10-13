@@ -42,7 +42,7 @@
    8
   ],
   [
-   "CoxHealth",
+   "Health Care Service Corporation",
    3
   ]
  ],
@@ -55,20 +55,21 @@
  "cheapHigh": {
   "n": "Humana Community (HMO-POS)",
   "o": "Humana",
-  "star": 4.5,
+  "star": 4.0,
   "m": 0.0,
   "moop": 2000.0
  },
  "best": {
-  "n": "Humana Value Choice (PPO)",
+  "n": "Humana Total Complete (HMO)",
   "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 4400.0
+  "moop": 2850.0
  },
  "hmo": 67,
  "ppo": 44,
  "pffs": 2,
+ "cost": 0,
  "std26": 109,
  "pdp": 9,
  "pdp26": 10,

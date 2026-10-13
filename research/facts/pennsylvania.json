@@ -60,15 +60,16 @@
   "moop": 5500.0
  },
  "best": {
-  "n": "Clover Health Choice (PPO)",
-  "o": "Clover Health",
+  "n": "Peak Advantage Vista (PPO)",
+  "o": "Peak Health",
   "star": 5.0,
   "m": 0.0,
-  "moop": 9850.0
+  "moop": 5900.0
  },
  "hmo": 135,
  "ppo": 131,
  "pffs": 1,
+ "cost": 0,
  "std26": 273,
  "pdp": 8,
  "pdp26": 12,

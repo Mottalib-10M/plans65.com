@@ -33,11 +33,11 @@
    8
   ],
   [
-   "California Physicians' Service",
+   "UnitedHealth Group, Inc.",
    6
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "Elevance Health, Inc.",
    6
   ],
   [
@@ -59,15 +59,16 @@
   "moop": 199.0
  },
  "best": {
-  "n": "Kaiser Permanente Sr Advantage LA, Orange Value (HMO)",
-  "o": "Kaiser Permanente",
+  "n": "Clever Care Longevity (HMO)",
+  "o": "Clever Care Health Plan",
   "star": 4.5,
   "m": 0.0,
-  "moop": 2900.0
+  "moop": 499.0
  },
  "hmo": 64,
  "ppo": 6,
  "pffs": 0,
+ "cost": 0,
  "std26": 74,
  "zero26": 59,
  "gone": 17,

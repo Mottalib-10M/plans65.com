@@ -35,28 +35,29 @@
   ]
  ],
  "lowMoop": {
-  "n": "MMM Balance (HMO-POS)",
+  "n": "MMM Valiente (HMO-POS)",
   "o": "Medicare y Mucho Mas (MMM)",
   "moop": 3250.0,
   "m": 0.0
  },
  "cheapHigh": {
-  "n": "MMM Balance (HMO-POS)",
+  "n": "MMM Estela (HMO-POS)",
   "o": "Medicare y Mucho Mas (MMM)",
   "star": 4.5,
   "m": 0.0,
   "moop": 3250.0
  },
  "best": {
-  "n": "MCS Classicare En Tu Hogar (HMO)",
-  "o": "MCS Classicare",
+  "n": "Ahorro Plus (HMO)",
+  "o": "Triple S Advantage",
   "star": 5.0,
   "m": 0.0,
-  "moop": 3400.0
+  "moop": 4200.0
  },
  "hmo": 31,
  "ppo": 1,
  "pffs": 0,
+ "cost": 0,
  "std26": 31,
  "pdp": 3,
  "pdp26": 3,

@@ -29,19 +29,19 @@
    6
   ],
   [
-   "Guidewell Mutual Holding Corporation",
-   5
-  ],
-  [
    "Devoted Health, Inc.",
    5
   ],
   [
-   "Universal Health Services, Inc.",
-   4
+   "Guidewell Mutual Holding Corporation",
+   5
   ],
   [
    "Elevance Health, Inc.",
+   4
+  ],
+  [
+   "Universal Health Services, Inc.",
    4
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 750.0
  },
  "best": {
-  "n": "Humana Gold Plus Giveback H1036-305 (HMO)",
-  "o": "Humana",
+  "n": "DEVOTED CORE 064 FL (HMO)",
+  "o": "Devoted Health",
   "star": 4.5,
   "m": 0.0,
-  "moop": 3850.0
+  "moop": 3900.0
  },
  "hmo": 28,
  "ppo": 21,
  "pffs": 0,
+ "cost": 0,
  "std26": 55,
  "zero26": 35,
  "gone": 10,

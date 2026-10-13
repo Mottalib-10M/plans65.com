@@ -29,11 +29,11 @@
    5
   ],
   [
-   "Devoted Health, Inc.",
+   "Guidewell Mutual Holding Corporation",
    5
   ],
   [
-   "Guidewell Mutual Holding Corporation",
+   "Devoted Health, Inc.",
    5
   ],
   [
@@ -59,15 +59,16 @@
   "moop": 750.0
  },
  "best": {
-  "n": "HealthSun HealthAdvantage Plus (HMO)",
-  "o": "HealthSun Health Plans, Inc.",
+  "n": "DrSelect-SFL (HMO)",
+  "o": "Doctors HealthCare Plans, Inc.",
   "star": 4.5,
   "m": 0.0,
-  "moop": 3450.0
+  "moop": 3000.0
  },
  "hmo": 27,
  "ppo": 17,
  "pffs": 0,
+ "cost": 0,
  "std26": 50,
  "zero26": 34,
  "gone": 9,

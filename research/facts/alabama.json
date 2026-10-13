@@ -34,11 +34,11 @@
    12
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "CVS Health Corporation",
    8
   ],
   [
-   "CVS Health Corporation",
+   "UnitedHealth Group, Inc.",
    8
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 4450.0
  },
  "best": {
-  "n": "DEVOTED CHOICE GIVEBACK EXTRAS 039 AL (PPO)",
-  "o": "Devoted Health",
+  "n": "Humana Gold Plus H4461-078 (HMO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 7700.0
+  "moop": 6360.0
  },
  "hmo": 33,
  "ppo": 32,
  "pffs": 0,
+ "cost": 0,
  "std26": 63,
  "pdp": 11,
  "pdp26": 12,

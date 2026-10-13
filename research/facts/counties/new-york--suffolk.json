@@ -17,23 +17,23 @@
  "star4": 10,
  "premMax": 216.0,
  "orgs": 7,
- "topOrg": "CVS Health Corporation",
+ "topOrg": "EmblemHealth, Inc.",
  "topOrgN": 4,
  "orgList": [
-  [
-   "CVS Health Corporation",
-   4
-  ],
   [
    "EmblemHealth, Inc.",
    4
   ],
   [
-   "Elevance Health, Inc.",
-   3
+   "CVS Health Corporation",
+   4
   ],
   [
    "Centene Corporation",
+   3
+  ],
+  [
+   "Elevance Health, Inc.",
    3
   ],
   [
@@ -41,7 +41,7 @@
    2
   ],
   [
-   "Visiting Nurse Service of New York",
+   "Humana Inc.",
    1
   ]
  ],
@@ -68,6 +68,7 @@
  "hmo": 14,
  "ppo": 4,
  "pffs": 0,
+ "cost": 0,
  "std26": 27,
  "zero26": 8,
  "gone": 12,

@@ -52,7 +52,7 @@
   "m": 185.0
  },
  "cheapHigh": {
-  "n": "Aetna Medicare Elite (PPO)",
+  "n": "Aetna Medicare Signature Extra (PPO)",
   "o": "Aetna Medicare",
   "star": 4.0,
   "m": 0.0,
@@ -68,6 +68,7 @@
  "hmo": 21,
  "ppo": 9,
  "pffs": 0,
+ "cost": 0,
  "std26": 30,
  "zero26": 8,
  "gone": 11,

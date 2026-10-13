@@ -30,7 +30,7 @@
    6
   ],
   [
-   "Johns Hopkins Healthcare LLC",
+   "LifeBridge Health, Inc.",
    5
   ],
   [
@@ -38,7 +38,7 @@
    5
   ],
   [
-   "LifeBridge Health, Inc.",
+   "Johns Hopkins Healthcare LLC",
    5
   ],
   [
@@ -53,22 +53,23 @@
   "m": 114.0
  },
  "cheapHigh": {
-  "n": "HumanaChoice H7617-044 (PPO)",
+  "n": "HumanaChoice H5216-376 (PPO)",
   "o": "Humana",
-  "star": 4.5,
+  "star": 4.0,
   "m": 0.0,
   "moop": 8050.0
  },
  "best": {
-  "n": "Kaiser Permanente Medicare Advantage Liberty (HMO)",
+  "n": "Kaiser Permanente Medicare Advantage Value 1 MD (HMO)",
   "o": "Kaiser Permanente",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5900.0
+  "moop": 8200.0
  },
  "hmo": 18,
  "ppo": 12,
  "pffs": 0,
+ "cost": 0,
  "std26": 38,
  "pdp": 9,
  "pdp26": 10,

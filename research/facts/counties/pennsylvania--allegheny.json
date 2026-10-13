@@ -33,11 +33,11 @@
    10
   ],
   [
-   "CVS Health Corporation",
+   "UnitedHealth Group, Inc.",
    6
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "CVS Health Corporation",
    6
   ],
   [
@@ -59,15 +59,16 @@
   "moop": 5500.0
  },
  "best": {
-  "n": "Complete Blue PPO Signature (PPO)",
+  "n": "Complete Blue PPO Merit (PPO)",
   "o": "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
   "star": 4.5,
   "m": 0.0,
-  "moop": 7150.0
+  "moop": 8300.0
  },
  "hmo": 29,
  "ppo": 31,
  "pffs": 0,
+ "cost": 0,
  "std26": 63,
  "zero26": 25,
  "gone": 5,

@@ -38,11 +38,11 @@
    35
   ],
   [
-   "CVS Health Corporation",
+   "Elevance Health, Inc.",
    29
   ],
   [
-   "Elevance Health, Inc.",
+   "CVS Health Corporation",
    29
   ]
  ],
@@ -60,15 +60,16 @@
   "moop": 500.0
  },
  "best": {
-  "n": "Leon MediExtra (HMO)",
+  "n": "Leon MediMore (HMO)",
   "o": "Leon Health, Inc.",
   "star": 5.0,
   "m": 0.0,
-  "moop": 1000.0
+  "moop": 3450.0
  },
  "hmo": 234,
  "ppo": 74,
  "pffs": 0,
+ "cost": 0,
  "std26": 325,
  "pdp": 11,
  "pdp26": 10,

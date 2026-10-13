@@ -41,7 +41,7 @@
    6
   ],
   [
-   "Trinity Health Corporation",
+   "CVS Health Corporation",
    5
   ]
  ],
@@ -52,22 +52,23 @@
   "m": 168.0
  },
  "cheapHigh": {
-  "n": "DEVOTED CHOICE 003 OH (PPO)",
+  "n": "DEVOTED CHOICE 001 OH (PPO)",
   "o": "Devoted Health",
   "star": 4.5,
   "m": 0.0,
   "moop": 5300.0
  },
  "best": {
-  "n": "DEVOTED CHOICE MA ONLY 002 OH (PPO)",
-  "o": "Devoted Health",
+  "n": "Aetna Medicare Eagle Giveback (PPO)",
+  "o": "Aetna Medicare",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9250.0
+  "moop": 6900.0
  },
  "hmo": 27,
  "ppo": 28,
  "pffs": 0,
+ "cost": 0,
  "std26": 62,
  "zero26": 26,
  "gone": 13,

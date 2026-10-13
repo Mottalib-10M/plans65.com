@@ -60,7 +60,7 @@
   "moop": 5900.0
  },
  "best": {
-  "n": "Clover Health LiveHealthy Giveback (PPO)",
+  "n": "Clover Health LiveHealthy (PPO)",
   "o": "Clover Health",
   "star": 5.0,
   "m": 0.0,
@@ -69,6 +69,7 @@
  "hmo": 23,
  "ppo": 44,
  "pffs": 1,
+ "cost": 0,
  "std26": 69,
  "pdp": 8,
  "pdp26": 11,

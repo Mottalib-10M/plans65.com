@@ -53,15 +53,15 @@
   "m": 0.0
  },
  "cheapHigh": {
-  "n": "HumanaChoice H5216-175 (PPO)",
-  "o": "Humana",
-  "star": 4.0,
+  "n": "AARP Medicare Advantage from UHC ME-0002 (PPO)",
+  "o": "UnitedHealthcare",
+  "star": 4.5,
   "m": 0.0,
   "moop": 7150.0
  },
  "best": {
-  "n": "Aetna Medicare Eagle Giveback (PPO)",
-  "o": "Aetna Medicare",
+  "n": "AARP Medicare Advantage Patriot No Rx ME-MA01 (PPO)",
+  "o": "UnitedHealthcare",
   "star": 4.5,
   "m": 0.0,
   "moop": 7150.0
@@ -69,6 +69,7 @@
  "hmo": 19,
  "ppo": 13,
  "pffs": 0,
+ "cost": 0,
  "std26": 36,
  "pdp": 8,
  "pdp26": 9,

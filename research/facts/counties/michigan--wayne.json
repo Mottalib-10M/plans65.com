@@ -37,11 +37,11 @@
    9
   ],
   [
-   "CVS Health Corporation",
+   "UnitedHealth Group, Inc.",
    5
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "CVS Health Corporation",
    5
   ]
  ],
@@ -68,6 +68,7 @@
  "hmo": 32,
  "ppo": 32,
  "pffs": 0,
+ "cost": 0,
  "std26": 69,
  "zero26": 34,
  "gone": 14,

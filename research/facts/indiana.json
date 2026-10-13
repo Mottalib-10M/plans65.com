@@ -60,15 +60,16 @@
   "moop": 4350.0
  },
  "best": {
-  "n": "Aetna Medicare Eagle (PPO)",
-  "o": "Aetna Medicare",
+  "n": "Humana Value Choice (PPO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5200.0
+  "moop": 7150.0
  },
  "hmo": 36,
  "ppo": 62,
  "pffs": 0,
+ "cost": 0,
  "std26": 94,
  "pdp": 8,
  "pdp26": 10,

@@ -26,11 +26,11 @@
    29
   ],
   [
-   "UnitedHealth Group, Inc.",
+   "CVS Health Corporation",
    19
   ],
   [
-   "CVS Health Corporation",
+   "UnitedHealth Group, Inc.",
    19
   ],
   [
@@ -60,15 +60,16 @@
   "moop": 2150.0
  },
  "best": {
-  "n": "Aetna Medicare Eagle (PPO)",
-  "o": "Aetna Medicare",
+  "n": "Humana Total Complete (HMO)",
+  "o": "Humana",
   "star": 4.5,
   "m": 0.0,
-  "moop": 5200.0
+  "moop": 2850.0
  },
  "hmo": 48,
  "ppo": 56,
  "pffs": 2,
+ "cost": 3,
  "std26": 127,
  "pdp": 10,
  "pdp26": 12,

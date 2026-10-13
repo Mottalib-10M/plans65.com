@@ -29,19 +29,19 @@
    7
   ],
   [
-   "CuraCor Solutions Corp.",
-   6
-  ],
-  [
    "Devoted Health, Inc.",
    6
   ],
   [
-   "Centene Corporation",
+   "CuraCor Solutions Corp.",
+   6
+  ],
+  [
+   "CVS Health Corporation",
    4
   ],
   [
-   "Health Care Service Corporation",
+   "Centene Corporation",
    4
   ]
  ],
@@ -59,15 +59,16 @@
   "moop": 3500.0
  },
  "best": {
-  "n": "Alignment Health Smart 013 (HMO)",
+  "n": "Alignment Health Platinum 012 (HMO)",
   "o": "Alignment Health Plan",
   "star": 4.5,
   "m": 0.0,
-  "moop": 6500.0
+  "moop": 3500.0
  },
  "hmo": 23,
  "ppo": 26,
  "pffs": 1,
+ "cost": 0,
  "std26": 56,
  "zero26": 29,
  "gone": 12,

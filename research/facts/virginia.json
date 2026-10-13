@@ -60,15 +60,16 @@
   "moop": 4200.0
  },
  "best": {
-  "n": "Humana USAA Honor Giveback (PPO)",
-  "o": "Humana",
+  "n": "AARP Medicare Advantage from UHC VA-0005 (PPO)",
+  "o": "UnitedHealthcare",
   "star": 4.5,
   "m": 0.0,
-  "moop": 9850.0
+  "moop": 7900.0
  },
  "hmo": 66,
  "ppo": 37,
  "pffs": 3,
+ "cost": 0,
  "std26": 103,
  "pdp": 9,
  "pdp26": 9,
