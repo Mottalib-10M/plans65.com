@@ -5,79 +5,376 @@
   "valid_from": "2026-01-01",
   "valid_to": "2027-12-31",
   "partB": {
-    "2026": { "final": true, "premium": 202.9, "deductible": 283, "coinsurance": 0.2, "immunoPremium": 121.6, "prev": { "premium": 185, "deductible": 257 }, "src": "cms_fs_2026" },
-    "2027": { "final": false, "premium": 209.5, "deductible": 292, "coinsurance": 0.2, "src": "trustees_2026" }
+    "2026": {
+      "final": true,
+      "premium": 202.9,
+      "deductible": 283,
+      "coinsurance": 0.2,
+      "immunoPremium": 121.6,
+      "prev": {
+        "premium": 185,
+        "deductible": 257
+      },
+      "src": "cms_fs_2026"
+    },
+    "2027": {
+      "final": false,
+      "premium": 209.5,
+      "deductible": 292,
+      "coinsurance": 0.2,
+      "src": "trustees_2026"
+    }
   },
   "partA": {
-    "2026": { "final": true, "deductible": 1736, "coin61": 434, "coinLR": 868, "snf": 217, "premiumFull": 565, "premiumReduced": 311, "src": "cms_fs_2026" },
-    "2027": { "final": false, "deductible": 1788, "coin61": 447, "coinLR": 894, "snf": 223.5, "premiumFull": 600, "premiumReduced": 330, "src": "trustees_2026" }
+    "2026": {
+      "final": true,
+      "deductible": 1736,
+      "coin61": 434,
+      "coinLR": 868,
+      "snf": 217,
+      "premiumFull": 565,
+      "premiumReduced": 311,
+      "src": "cms_fs_2026"
+    },
+    "2027": {
+      "final": false,
+      "deductible": 1788,
+      "coin61": 447,
+      "coinLR": 894,
+      "snf": 223.5,
+      "premiumFull": 600,
+      "premiumReduced": 330,
+      "src": "trustees_2026"
+    }
   },
   "irmaa": {
     "2026": {
-      "final": true, "magiYear": 2024, "src": "cms_fs_2026", "src2": "ssa_poms_irmaa",
-      "single": [109000, 137000, 171000, 205000, 500000],
-      "joint": [218000, 274000, 342000, 410000, 750000],
-      "separate": [109000, 391000],
-      "partB": [0, 81.2, 202.9, 324.6, 446.3, 487.0],
-      "partD": [0, 14.5, 37.5, 60.4, 83.3, 91.0]
+      "final": true,
+      "magiYear": 2024,
+      "src": "cms_fs_2026",
+      "src2": "ssa_poms_irmaa",
+      "single": [
+        109000,
+        137000,
+        171000,
+        205000,
+        500000
+      ],
+      "joint": [
+        218000,
+        274000,
+        342000,
+        410000,
+        750000
+      ],
+      "separate": [
+        109000,
+        391000
+      ],
+      "partB": [
+        0,
+        81.2,
+        202.9,
+        324.6,
+        446.3,
+        487.0
+      ],
+      "partD": [
+        0,
+        14.5,
+        37.5,
+        60.4,
+        83.3,
+        91.0
+      ]
     },
     "2025": {
-      "final": true, "magiYear": 2023, "src": "ssa_poms_irmaa",
-      "single": [106000, 133000, 167000, 200000, 500000],
-      "joint": [212000, 266000, 334000, 400000, 750000],
-      "separate": [106000, 394000],
-      "partBTotal": [185.0, 259.0, 370.0, 480.9, 591.9, 628.9]
+      "final": true,
+      "magiYear": 2023,
+      "src": "ssa_poms_irmaa",
+      "single": [
+        106000,
+        133000,
+        167000,
+        200000,
+        500000
+      ],
+      "joint": [
+        212000,
+        266000,
+        334000,
+        400000,
+        750000
+      ],
+      "separate": [
+        106000,
+        394000
+      ],
+      "partBTotal": [
+        185.0,
+        259.0,
+        370.0,
+        480.9,
+        591.9,
+        628.9
+      ]
     },
     "2027": {
-      "final": false, "magiYear": 2025, "src": "trustees_2026",
-      "partB": [0, 83.7, 209.4, 335.1, 460.7, 502.6],
+      "final": false,
+      "magiYear": 2025,
+      "src": "trustees_2026",
+      "partB": [
+        0,
+        83.7,
+        209.4,
+        335.1,
+        460.7,
+        502.6
+      ],
       "_note": "Trustees' projected adjustment amounts (Table V.E3). Income thresholds for 2027 are indexed to CPI-U and published by CMS with the final premiums; they are not projected here."
     }
   },
   "partD": {
-    "2026": { "final": true, "deductible": 615, "oopCap": 2100, "nbbp": 38.99, "src": "ann_2027", "srcNbbp": "trustees_2026" },
-    "2027": { "final": true, "deductible": 700, "oopCap": 2400, "nbbp": 41.33, "namba": 296.05, "deMinimis": 2, "coinsurance": 0.25, "insulinMonthly": 35, "src": "ann_2027", "srcNbbp": "cms_namba_2027",
-      "avgPdpPremium": 36.0, "avgPdpPremium26": 35.09, "avgMapdDrugPremium": 7.0, "avgMapdDrugPremium26": 11.32, "avgMaPremium": 12.0, "avgMaPremium26": 14.37, "srcAvg": "cms_pr_2027",
-      "lisCopayGeneric": 5.8, "lisCopayOther": 14.4, "lisCopayGenericLow": 1.65, "lisCopayOtherLow": 5.0,
-      "lisResources2026": 18090, "lisResources2026Couple": 36100 }
+    "2026": {
+      "final": true,
+      "deductible": 615,
+      "oopCap": 2100,
+      "nbbp": 38.99,
+      "src": "ann_2027",
+      "srcNbbp": "trustees_2026"
+    },
+    "2027": {
+      "final": true,
+      "deductible": 700,
+      "oopCap": 2400,
+      "nbbp": 41.33,
+      "namba": 296.05,
+      "deMinimis": 2,
+      "coinsurance": 0.25,
+      "insulinMonthly": 35,
+      "src": "ann_2027",
+      "srcNbbp": "cms_namba_2027",
+      "avgPdpPremium": 36.0,
+      "avgPdpPremium26": 35.09,
+      "avgMapdDrugPremium": 7.0,
+      "avgMapdDrugPremium26": 11.32,
+      "avgMaPremium": 12.0,
+      "avgMaPremium26": 14.37,
+      "srcAvg": "cms_pr_2027",
+      "lisCopayGeneric": 5.8,
+      "lisCopayOther": 14.4,
+      "lisCopayGenericLow": 1.65,
+      "lisCopayOtherLow": 5.0,
+      "lisResources2026": 18090,
+      "lisResources2026Couple": 36100
+    }
   },
   "medigap": {
-    "hdDeductible": { "2025": 2870, "2026": 2950, "2027": 3050 },
-    "src": "cms_medigap_hd_2027"
+    "hdDeductible": {
+      "2025": 2870,
+      "2026": 2950,
+      "2027": 3050
+    },
+    "src": "cms_medigap_hd_2027",
+    "kOop2026": 8000,
+    "lOop2026": 4000,
+    "nOfficeCopay": 20,
+    "nErCopay": 50,
+    "srcChart": "medigap_compare"
   },
   "periods": {
-    "aep": { "start": "2026-10-15", "end": "2026-12-07", "effective": "2027-01-01" },
-    "maOep": { "start": "2027-01-01", "end": "2027-03-31" },
-    "gep": { "startMonth": 1, "endMonth": 3 },
+    "aep": {
+      "start": "2026-10-15",
+      "end": "2026-12-07",
+      "effective": "2027-01-01"
+    },
+    "maOep": {
+      "start": "2027-01-01",
+      "end": "2027-03-31"
+    },
+    "gep": {
+      "startMonth": 1,
+      "endMonth": 3
+    },
     "partBPenaltyPerYear": 0.1,
     "partDPenaltyPerMonth": 0.01,
     "partDGapDays": 63,
     "medigapOpenMonths": 6
   },
   "stars": {
-    "contractsRated": 508, "avgMapd": 3.99, "avgMapd26": 4.01, "fiveStarContracts": 15,
-    "pdpContracts": 41, "avgPdp": 3.22, "avgPdp26": 3.01, "src": "cms_stars_fs_2027", "released": "2026-10-08"
+    "contractsRated": 508,
+    "avgMapd": 3.99,
+    "avgMapd26": 4.01,
+    "fiveStarContracts": 15,
+    "pdpContracts": 41,
+    "avgPdp": 3.22,
+    "avgPdp26": 3.01,
+    "src": "cms_stars_fs_2027",
+    "released": "2026-10-08"
   },
-  "market": { "maPlans2026": 5553, "maPlans2027": 5532, "maEnrollment2027": 34000000, "maShare2027": 0.474, "src": "cms_pr_2027" },
+  "market": {
+    "maPlans2026": 5553,
+    "maPlans2027": 5532,
+    "maEnrollment2027": 34000000,
+    "maShare2027": 0.474,
+    "src": "cms_pr_2027"
+  },
   "sources": {
-    "cms_landscape": { "url": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage", "label": { "en": "CMS, Prescription drug coverage: CY2027 Landscape (202609.1) and CY2026 Landscape files, data last updated 09/22/2026" } },
-    "cms_fs_2026": { "url": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles", "label": { "en": "CMS fact sheet, 2026 Medicare Parts A & B Premiums and Deductibles (November 14, 2025)" } },
-    "ssa_poms_irmaa": { "url": "https://secure.ssa.gov/poms.nsf/lnx/0601101020", "label": { "en": "SSA POMS HI 01101.020, IRMAA Sliding Scale Tables (effective 12/02/2025)" } },
-    "ann_2027": { "url": "https://www.cms.gov/files/document/2027-announcement.pdf", "label": { "en": "CMS, Announcement of CY 2027 Medicare Advantage Capitation Rates and Part C and Part D Payment Policies (April 6, 2026), Attachment V" } },
-    "cms_namba_2027": { "url": "https://www.cms.gov/files/document/july-28-2026-parts-c-d-announcement.pdf", "label": { "en": "CMS memo, Annual Release of Part D National Average Monthly Bid Amount and Other Part C & D Bid Information (July 28, 2026)" } },
-    "cms_pr_2027": { "url": "https://www.cms.gov/newsroom/press-releases/medicare-advantage-medicare-prescription-drug-programs-expected-remain-stable-2027", "label": { "en": "CMS press release, Medicare Advantage and Medicare Prescription Drug Programs Expected to Remain Stable in 2027 (September 28, 2026)" } },
-    "trustees_2026": { "url": "https://www.cms.gov/files/document/2026-medicare-trustees-report.pdf", "label": { "en": "2026 Annual Report of the Boards of Trustees of the Medicare trust funds, Tables V.E1 to V.E3 (projections)" } },
-    "cms_stars_fs_2027": { "url": "https://www.cms.gov/files/document/fact-sheet-2027-ma-part-d-star-ratings-october-8-2026.pdf", "label": { "en": "CMS fact sheet, 2027 Medicare Advantage and Part D Star Ratings (October 8, 2026)" } },
-    "cms_stars_data": { "url": "https://www.cms.gov/medicare/health-drug-plans/part-c-d-performance-data", "label": { "en": "CMS, Part C and D Performance Data: 2027 Star Ratings Data Tables (Oct 8 2026)" } },
-    "cms_medigap_hd_2027": { "url": "https://www.cms.gov/files/document/cy-2027-medigap-high-deductible-options-fjg.pdf", "label": { "en": "CMS, Deductible Amount for Medigap High Deductible Options F, G and J for Calendar Year 2027 (October 2026)" } },
-    "medigap_compare": { "url": "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits", "label": { "en": "Medicare.gov, Compare Medigap plan benefits" } },
-    "cfr_422_62": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-B/section-422.62", "label": { "en": "42 CFR 422.62, Election of coverage under an MA plan (annual, open and special election periods)" } },
-    "cfr_423_38": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-B/section-423.38", "label": { "en": "42 CFR 423.38, Enrollment periods for Part D" } },
-    "cfr_407_14": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.14", "label": { "en": "42 CFR 407.14, Initial enrollment period" } },
-    "cfr_407_15": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.15", "label": { "en": "42 CFR 407.15, General enrollment period" } },
-    "cfr_408_22": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-408/subpart-B/section-408.22", "label": { "en": "42 CFR 408.22, Increased Part B premiums for late enrollment" } },
-    "cfr_423_286": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-F/section-423.286", "label": { "en": "42 CFR 423.286, Part D premiums and the late enrollment penalty" } },
-    "cfr_423_137": { "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-C/section-423.137", "label": { "en": "42 CFR 423.137, Medicare Prescription Payment Plan" } },
-    "usc_1320b10": { "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section1320b-10", "label": { "en": "42 U.S.C. §1320b-10, Prohibition of misuse of symbols, emblems or names in reference to Social Security or Medicare" } }
+    "cms_landscape": {
+      "url": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage",
+      "label": {
+        "en": "CMS, Prescription drug coverage: CY2027 Landscape (202609.1) and CY2026 Landscape files, data last updated 09/22/2026"
+      }
+    },
+    "cms_fs_2026": {
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles",
+      "label": {
+        "en": "CMS fact sheet, 2026 Medicare Parts A & B Premiums and Deductibles (November 14, 2025)"
+      }
+    },
+    "ssa_poms_irmaa": {
+      "url": "https://secure.ssa.gov/poms.nsf/lnx/0601101020",
+      "label": {
+        "en": "SSA POMS HI 01101.020, IRMAA Sliding Scale Tables (effective 12/02/2025)"
+      }
+    },
+    "ann_2027": {
+      "url": "https://www.cms.gov/files/document/2027-announcement.pdf",
+      "label": {
+        "en": "CMS, Announcement of CY 2027 Medicare Advantage Capitation Rates and Part C and Part D Payment Policies (April 6, 2026), Attachment V"
+      }
+    },
+    "cms_namba_2027": {
+      "url": "https://www.cms.gov/files/document/july-28-2026-parts-c-d-announcement.pdf",
+      "label": {
+        "en": "CMS memo, Annual Release of Part D National Average Monthly Bid Amount and Other Part C & D Bid Information (July 28, 2026)"
+      }
+    },
+    "cms_pr_2027": {
+      "url": "https://www.cms.gov/newsroom/press-releases/medicare-advantage-medicare-prescription-drug-programs-expected-remain-stable-2027",
+      "label": {
+        "en": "CMS press release, Medicare Advantage and Medicare Prescription Drug Programs Expected to Remain Stable in 2027 (September 28, 2026)"
+      }
+    },
+    "trustees_2026": {
+      "url": "https://www.cms.gov/files/document/2026-medicare-trustees-report.pdf",
+      "label": {
+        "en": "2026 Annual Report of the Boards of Trustees of the Medicare trust funds, Tables V.E1 to V.E3 (projections)"
+      }
+    },
+    "cms_stars_fs_2027": {
+      "url": "https://www.cms.gov/files/document/fact-sheet-2027-ma-part-d-star-ratings-october-8-2026.pdf",
+      "label": {
+        "en": "CMS fact sheet, 2027 Medicare Advantage and Part D Star Ratings (October 8, 2026)"
+      }
+    },
+    "cms_stars_data": {
+      "url": "https://www.cms.gov/medicare/health-drug-plans/part-c-d-performance-data",
+      "label": {
+        "en": "CMS, Part C and D Performance Data: 2027 Star Ratings Data Tables (Oct 8 2026)"
+      }
+    },
+    "cms_medigap_hd_2027": {
+      "url": "https://www.cms.gov/files/document/cy-2027-medigap-high-deductible-options-fjg.pdf",
+      "label": {
+        "en": "CMS, Deductible Amount for Medigap High Deductible Options F, G and J for Calendar Year 2027 (October 2026)"
+      }
+    },
+    "medigap_compare": {
+      "url": "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits",
+      "label": {
+        "en": "Medicare.gov, Compare Medigap plan benefits"
+      }
+    },
+    "cfr_422_62": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-B/section-422.62",
+      "label": {
+        "en": "42 CFR 422.62, Election of coverage under an MA plan (annual, open and special election periods)"
+      }
+    },
+    "cfr_423_38": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-B/section-423.38",
+      "label": {
+        "en": "42 CFR 423.38, Enrollment periods for Part D"
+      }
+    },
+    "cfr_407_14": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.14",
+      "label": {
+        "en": "42 CFR 407.14, Initial enrollment period"
+      }
+    },
+    "cfr_407_15": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.15",
+      "label": {
+        "en": "42 CFR 407.15, General enrollment period"
+      }
+    },
+    "cfr_408_22": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-408/subpart-B/section-408.22",
+      "label": {
+        "en": "42 CFR 408.22, Increased Part B premiums for late enrollment"
+      }
+    },
+    "cfr_423_286": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-F/section-423.286",
+      "label": {
+        "en": "42 CFR 423.286, Part D premiums and the late enrollment penalty"
+      }
+    },
+    "cfr_423_137": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-C/section-423.137",
+      "label": {
+        "en": "42 CFR 423.137, Medicare Prescription Payment Plan"
+      }
+    },
+    "usc_1320b10": {
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section1320b-10",
+      "label": {
+        "en": "42 U.S.C. §1320b-10, Prohibition of misuse of symbols, emblems or names in reference to Social Security or Medicare"
+      }
+    },
+    "cfr_406_10": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-406/subpart-B/section-406.10",
+      "label": {
+        "en": "42 CFR 406.10, Part A for people 65 or over entitled to Social Security or railroad benefits"
+      }
+    },
+    "cfr_406_12": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-406/subpart-B/section-406.12",
+      "label": {
+        "en": "42 CFR 406.12, Part A for people under 65 entitled to disability benefits"
+      }
+    },
+    "cfr_406_13": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-406/subpart-B/section-406.13",
+      "label": {
+        "en": "42 CFR 406.13, Part A for people with end-stage renal disease"
+      }
+    },
+    "cfr_407_10": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.10",
+      "label": {
+        "en": "42 CFR 407.10, Eligibility to enroll in Part B (age, residence, citizenship)"
+      }
+    },
+    "cfr_407_20": {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-407/subpart-B/section-407.20",
+      "label": {
+        "en": "42 CFR 407.20, Part B special enrollment period after group health plan coverage"
+      }
+    },
+    "ssa_poms_nid": {
+      "url": "https://secure.ssa.gov/poms.nsf/lnx/0601120001",
+      "label": {
+        "en": "SSA POMS HI 01120.001, New initial IRMAA determinations using information you provide (06/05/2026)"
+      }
+    },
+    "ssa_poms_lce": {
+      "url": "https://secure.ssa.gov/poms.nsf/lnx/0601120005",
+      "label": {
+        "en": "SSA POMS HI 01120.005, Life-changing events and a significant reduction in income"
+      }
+    }
   }
 }
