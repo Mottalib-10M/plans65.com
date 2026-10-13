@@ -11,8 +11,8 @@ export default defineCounty({
   state: 'new-york',
   county: 'kings',
   title: `Medicare Advantage Plans Brooklyn (Kings) 2027: ${c.std} Plans`,
-  description: `Brooklyn (Kings County) 2027: ${c.std} open Medicare Advantage plans, ${c.zero} at $0 with drugs, up from ${c.zero26}, but a median cap of ${K.usd(c.moopMed!)}. Every plan, no agent.`,
-  intro: `Brooklyn gained $0 plans for 2027 while most of the country lost them, yet half its open plans sit at the highest out-of-pocket cap filed anywhere.`,
+  description: `Brooklyn (Kings County) 2027: ${c.std} open Medicare Advantage plans, ${c.zero} at $0 with drugs, up from ${c.zero26}, but a median network cap of ${K.usd(c.moopMed!)}. Every plan, no agent.`,
+  intro: `Brooklyn gained $0 plans for 2027 while most big counties lost some, yet half its open plans sit at the highest out-of-pocket cap filed anywhere.`,
   resume: `Brooklyn, which Medicare files as Kings County, is a market of low premiums and high caps for 2027. It lists ${c.std} Medicare Advantage plans open to anyone with Parts A and B, and ${c.zero} of the drug-covering ones charge no premium, a small gain over the ${c.zero26} of 2026 at a time when most large counties lost $0 plans. The other half of the bill moves the other way: the median in-network cap is ${K.usd(c.moopMed!)}, equal to the highest cap any plan filed in the country this year, and the lowest is ${K.usd(c.moopMin!)}, with ${c.lowMoop!.n}. ${c.best!.n} holds a ${c.starMax}-star rating, the maximum, but only ${c.star4} open plans reach four stars or more. Special needs plans number ${c.snp}, and ${c.dsnp} of them serve people with both Medicare and Medicaid. The open list went from ${c.std26} to ${c.std}, with ${c.gone} IDs gone, Elderplan's among them, and ${c.new} new.`,
   body: (h) => `
 <h2>Why caps are so high in New York City</h2>
