@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-medicare-plans.example";
+export const SITE_URL = "https://plans65.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Plans65"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Medicare Advantage plan premiums and out-of-pocket limits by county", "Part D prescription drug plan deductibles and the 2027 out-of-pocket cap", "Part B premium and deductible 2026", "IRMAA income brackets", "Medigap plan rules", "Medicare enrollment periods"]};
-export const CONTACT_EMAIL = "contact@us-medicare-plans.example";
+export const CONTACT_EMAIL = "contact@plans65.com";
 export const THEME_COLOR = '#3C3B6E';
 export const LOGO_SYMBOL = '65+';
 export const BING_VERIFY_CODE = '';

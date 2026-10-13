@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-medicare-plans.example/sitemap-index.xml
+Sitemap: https://plans65.com/sitemap-index.xml
