@@ -11,7 +11,7 @@ export default defineCounty({
   state: 'nevada',
   county: 'clark',
   title: `Medicare Advantage Plans Clark County 2027: Caps From ${K.usd(c.moopMin!)}`,
-  description: `Clark County (Las Vegas) 2027: ${c.std} open Medicare Advantage plans, a median cap of ${K.usd(c.moopMed!)}, none over ${K.usd(c.premMax!)} a month, ${c.zero} at $0 with drugs. Full list.`,
+  description: `Clark County (Las Vegas) 2027: ${c.std} open Medicare Advantage plans, a median cap of ${K.usd(c.moopMed!)}, none over ${K.usd(c.premMax!)} a month, ${c.zero} at $0 with drugs. The full list, no phone.`,
   intro: `Las Vegas pairs premiums that never pass ${K.usd(c.premMax!)} a month with yearly caps that start at ${K.usd(c.moopMin!)}: cheap to hold and cheap in a bad year.`,
   resume: `Clark County's Medicare Advantage plans are inexpensive for 2027 on both sides of the bill, the monthly premium and the yearly cap. None of its ${c.std} plans open to anyone with Parts A and B charges more than ${K.usd(c.premMax!)} a month, ${c.zero} drug-covering plans charge nothing, and in-network caps start at ${K.usd(c.moopMin!)} with ${c.lowMoop!.n}. The median cap, ${K.usd(c.moopMed!)}, is a fraction of the national median of ${K.usd(K.nat.moopMed)}, and even the highest, ${K.usd(c.moopMax!)}, stays below the top caps filed elsewhere. ${c.star4} plans hold four stars or more in the 2027 ratings, with ${c.best!.n} at ${c.starMax}. The market barely changed: ${c.std26} open plans in 2026, ${c.std} now, ${c.gone} IDs gone and ${c.new} added. Humana, UnitedHealthcare and Aetna lead, and Select Health from Utah files ${c.orgList.find(([o]) => o.startsWith('Intermountain'))?.[1] ?? 0}. There are ${c.snp} special needs plans as well.`,
   body: (h) => `
