@@ -37,7 +37,7 @@ ${h.mini('capVsOriginal', { moop: ppo.moopMed })}
 <ul>
 <li>You split the year between two states: a PPO, or Original Medicare with Medigap, follows you for routine care; an HMO covers only emergencies away from home.</li>
 <li>You live near a state line and your hospital is on the other side: check that the hospital is in network, whatever the model.</li>
-<li>You need a referral-free route to a specialist you already see every month: an HMO-POS or a PPO avoids a gatekeeper visit before each appointment.</li>
+<li>You see a specialist every month and dislike asking for referrals: PPOs generally let you book a specialist directly, while most HMOs route you through your primary care doctor first.</li>
 <li>You see one primary care doctor and a few specialists of the same health system: an HMO built around that system is usually the cheapest.</li>
 <li>You want to keep a specific specialist who is in no local HMO: a PPO lets you see him or her at the out-of-network rate, which can still cost less than changing doctors in the middle of a treatment.</li>
 </ul>
