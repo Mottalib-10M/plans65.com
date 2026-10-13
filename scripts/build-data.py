@@ -218,6 +218,9 @@ summary['national'] = {
     'dsnp': sum(1 for p in allp.values() if p['snp'] == 'D'), 'csnp': sum(1 for p in allp.values() if p['snp'] == 'C'), 'isnp': sum(1 for p in allp.values() if p['snp'] == 'I'),
     'pdpDed': collections.Counter(r['dd'] for r in pdp_all.values()).most_common(),
     'starDist': collections.Counter(str(p['star']) for p in std).most_common(),
+    'byType': {t: {'n': len(g), 'moopMed': statistics.median([p['moop'] for p in g if p['moop'] is not None]) if any(p['moop'] is not None for p in g) else None,
+                   'zero': sum(1 for p in g if p['hd'] and (p['m'] or 0) == 0), 'premMed': statistics.median([p['m'] or 0 for p in g])}
+               for t, g in ((t, [p for p in std if p['t'] == t]) for t in sorted({p['t'] for p in std}))},
 }
 json.dump(summary, open(os.path.join(ROOT, 'src', 'data', 'summary.json'), 'w'), separators=(',', ':'), ensure_ascii=False)
 print('states', len(Y27), 'segments', len(allp), 'std', len(std), 'pdp', len(pdp_all), 'counties', nat_counties)

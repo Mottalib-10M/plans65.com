@@ -30,6 +30,7 @@ export const NAT = S.national as unknown as {
   segments: number; std: number; snp: number; counties: number; pdp: number; moopMax: number; moopMin: number; moopMed: number; moopAtMax: number;
   zeroMapd: number; mapd: number; segments26: number; std26: number; pdp26: number; types: Array<[string, number]>; dsnp: number; csnp: number; isnp: number;
   pdpDed: Array<[number, number]>; starDist: Array<[string, number]>;
+  byType: Record<string, { n: number; moopMed: number | null; zero: number; premMed: number }>;
 };
 
 /** The 50 states, DC and Puerto Rico get a page; the four smaller territories are in the finder only. */

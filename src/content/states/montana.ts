@@ -13,7 +13,7 @@ const [lead, leadN] = s.orgList[0];
 export default defineState({
   slug: 'montana',
   title: `Medicare Advantage Plans Montana 2027: ${s.std} Plans by County`,
-  description: `Montana Medicare Advantage for 2027: ${s.std} open plans in ${s.counties} counties, ${s.pffs} private fee-for-service, ${s.zero} at $0 with drugs. Each plan and cap listed, no agent.`,
+  description: `Montana Medicare Advantage for 2027: ${s.std} open plans in ${s.counties} counties, ${s.pffs} private fee-for-service, ${s.zero} at $0 with drugs. Each plan and cap listed, no agent call.`,
   intro: `A short menu spread over a very large map: ${s.std} open-to-all plans for ${s.counties} counties, most of them PPOs, and a plan type that has almost vanished elsewhere.`,
   resume: `Montana residents choosing a Medicare Advantage plan for 2027 pick from ${s.std} plans open to anyone with Parts A and B, down from ${s.std26} in 2026, and the county decides most of the answer. ${top[0].name} County lists ${top[0].std} of them, while ${thinList.length} eastern and northern counties, including ${thinList.slice(0, 3).join(', ')}, have only ${thinN}. Only ${s.zero} drug-covering plans charge a $0 premium, and the in-network cap on what you pay for medical care runs from ${K.usd(s.moopMin!)} to ${K.usd(s.moopMax!)}, with a median of ${K.usd(s.moopMed!)} against ${K.usd(K.nat.moopMed)} nationally. ${s.ppo} of the open plans are PPOs and ${s.hmo} are HMOs. ${s.star4} plans rate four stars or more for 2027. ${s.snp} special needs plans serve people who also have Medicaid. For anyone staying on Original Medicare, ${s.pdp} stand-alone drug plans are listed further down, starting at ${K.cents(s.pdpMin!)} a month.`,
   body: (h) => `

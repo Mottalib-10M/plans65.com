@@ -210,7 +210,16 @@
     "avgPdp": 3.22,
     "avgPdp26": 3.01,
     "src": "cms_stars_fs_2027",
-    "released": "2026-10-08"
+    "released": "2026-10-08",
+    "measuresMapd": 43,
+    "measuresMaOnly": 32,
+    "measuresPdp": 13,
+    "nonprofit4plus": 0.44,
+    "forprofit4plus": 0.34,
+    "pdp4plusContracts": 11,
+    "pdp4plusShare": 0.27,
+    "lowPerformingIcon": 4,
+    "fiveStarAlso2026": 6
   },
   "market": {
     "maPlans2026": 5553,
@@ -329,7 +338,7 @@
       }
     },
     "usc_1320b10": {
-      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section1320b-10",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap7-subchapXI-partA-sec1320b-10.htm",
       "label": {
         "en": "42 U.S.C. §1320b-10, Prohibition of misuse of symbols, emblems or names in reference to Social Security or Medicare"
       }
@@ -374,6 +383,12 @@
       "url": "https://secure.ssa.gov/poms.nsf/lnx/0601120005",
       "label": {
         "en": "SSA POMS HI 01120.005, Life-changing events and a significant reduction in income"
+      }
+    },
+    "usc_1395ss": {
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap7-subchapXVIII-partE-sec1395ss.htm",
+      "label": {
+        "en": "42 U.S.C. §1395ss (Social Security Act §1882), Medigap standards, open enrollment and guaranteed issue"
       }
     }
   }

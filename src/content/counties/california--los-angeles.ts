@@ -11,7 +11,7 @@ export default defineCounty({
   state: 'california',
   county: 'los-angeles',
   title: `Medicare Advantage Plans Los Angeles 2027: Caps From ${K.usd(c.moopMin!)}`,
-  description: `Los Angeles County lists ${c.std} open Medicare Advantage plans for 2027, ${c.zero} with drugs at $0 and a yearly cap as low as ${K.usd(c.moopMin!)}. Every plan, sorted.`,
+  description: `Los Angeles County lists ${c.std} open Medicare Advantage plans in 2027, ${c.zero} with drugs at $0 and a yearly medical cap as low as ${K.usd(c.moopMin!)}. Every plan, sorted by price.`,
   intro: `The smallest out-of-pocket cap in the whole 2027 landscape file is sold here, inside a market where almost every plan is an HMO.`,
   resume: `No county in the country has a lower out-of-pocket cap than Los Angeles for 2027: ${c.lowMoop!.n}, from ${c.lowMoop!.o}, limits in-network spending on covered medical care to ${K.usd(c.moopMin!)} for the year, the smallest MOOP (maximum out of pocket) in the CMS landscape file, where the national median is ${K.usd(K.nat.moopMed)}. Los Angeles County lists ${c.std} plans that anyone with Parts A and B can join, and ${c.zero} of the ones that include drug coverage charge no monthly premium. Half the open plans stop your costs at ${K.usd(c.moopMed!)} or less. HMOs make up ${c.hmo} of the ${c.std}; only ${c.ppo} are PPOs. ${c.star4} plans carry four stars or more for 2027, with ${c.best!.n} at ${c.starMax} stars. The 2026 file had ${c.std26} open plans here; ${c.gone} plan IDs were not filed again and ${c.new} appear for the first time.`,
   body: (h) => `
