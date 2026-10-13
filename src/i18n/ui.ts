@@ -9,6 +9,6 @@ const en = {
   footerPopular: '2027 plans by state',
   notFound: 'Nothing lives at this address. The plan finder on the home page lists every 2027 Advantage plan of every county, and the calculators price Part B, IRMAA, Part D and Medigap for your own case.',
   readMore: 'Read the full answer',
-  estimate: 'Figures read from public CMS and SSA files. A plan shown here may still change its network, its drug list or its copays: check the Evidence of Coverage of a plan before you join it. Nothing on this page is insurance advice, and we receive nothing from any plan.',
+  estimate: 'Plan figures are read from public CMS and SSA files; costs are estimates only and do not replace a plan’s Evidence of Coverage, which can change its network, drug list or copays. This is not financial or professional advice, and we receive nothing from any plan.',
 };
 export function t(_lang: Locale) { return en; }

@@ -11,7 +11,7 @@ const ny = K.state('new-york');
 const fl = K.state('florida');
 
 export const HOME = {
-  title: 'Medicare Advantage Plans 2027 by County: Every Plan, No Agent',
+  title: 'Medicare Advantage Plans 2027 by County: Every Plan Listed',
   description: `Every 2027 Medicare Advantage plan in your county with premium, drug deductible, out-of-pocket limit and stars: ${K.num(n.std)} plans from the CMS file, no ZIP or phone.`,
   h1: 'Medicare Advantage plans 2027, county by county',
   intro: `${K.num(n.std)} plans open to everyone on Parts A and B, ${K.num(n.zeroMapd)} of them at $0 with drug coverage: pick a county and every plan appears with its premium, its out-of-pocket cap and its 2027 rating.`,

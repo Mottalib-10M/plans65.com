@@ -9,7 +9,7 @@ import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('about', lang);
 const title = 'Plans65 2027: who compiles the county plan tables, and why';
-const description = 'Plans65 is published by Radif Partners, an independent company: 2027 plan tables from CMS files, no agent, no phone number, no commission from any insurer or broker.';
+const description = 'Plans65 is published by Radif Partners, an independent company: 2027 plan tables from CMS files, no agent, no phone number, no insurer or broker money.';
 const n = K.nat;
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
