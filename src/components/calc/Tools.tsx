@@ -20,7 +20,7 @@ const longDate = (iso: string) => new Date(`${iso}T00:00:00Z`).toLocaleDateStrin
 declare const __BUILD_DAY__: string;
 
 function useShared(apply: (u: URLSearchParams) => void) { useEffect(() => { const u = readParams(window.location.search); if ([...u.keys()].length) apply(u); }, []); }
-const Form = ({ children }: { children: React.ReactNode }) => <form className="grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>{children}</form>;
+const Form = ({ children }: { children: React.ReactNode }) => <form className="grid content-start grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>{children}</form>;
 const Frame = ({ children }: { children: React.ReactNode }) => <div className="rounded-xl border border-navy-200 bg-white p-4 sm:p-5"><div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]">{children}</div></div>;
 
 /* ── IRMAA ─────────────────────────────────────────────────────────────────── */
@@ -221,7 +221,7 @@ export function PeriodsTool({ methodHref }: { methodHref?: string }) {
   const left = E.daysBetween(today, aep.end);
   return (
     <Frame>
-      <form className="grid grid-cols-1 gap-x-4 gap-y-3" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start grid-cols-1 gap-x-4 gap-y-3" onSubmit={(e) => e.preventDefault()}>
         <div className="grid grid-rows-subgrid row-span-3 content-start gap-y-0">
           <label htmlFor="pe-b" className="mb-1 block text-sm font-medium text-navy-700">Your date of birth</label>
           <input id="pe-b" type="date" value={birth} min="1920-01-01" max="2010-12-31" onChange={(e) => setBirth(e.target.value)} className="h-12 w-full rounded-lg border border-navy-300 bg-white px-3 text-navy-900" />
@@ -321,7 +321,7 @@ export function CompareTool({ init, states, methodHref }: { init: CompareInit; s
   return (
     <div className="rounded-xl border border-navy-200 bg-white p-4 sm:p-5">
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]">
-        <form className="grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+        <form className="grid content-start grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
           <SelectField id="cp-st" label="State" value={d.st} onChange={(v) => void load(v)} options={states.map((s) => ({ value: s.st, label: s.name }))} />
           <SelectField id="cp-c" label="County" value={d.county} onChange={(v) => void load(d.st, v)} options={d.counties.map((c) => ({ value: c.s, label: c.n }))} />
           <SelectField id="cp-a" label="Plan A" value={a} onChange={setA} options={opts} />
