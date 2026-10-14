@@ -75,7 +75,7 @@ export default function PlanFinder({ init, states, lock = 'none', mode = 'ma', m
   return (
     <div className="rounded-xl border border-navy-200 bg-white p-4 sm:p-5">
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]">
-        <form className="grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+        <form className="grid content-start grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
           {lock === 'none' && <SelectField id={`${idPrefix}-st`} label="State" value={d.st} onChange={(v) => void load(v)} options={states.map((s) => ({ value: s.st, label: s.name }))} />}
           {mode !== 'pdp' && lock !== 'county' && <SelectField id={`${idPrefix}-c`} label={d.st === 'LA' ? 'Parish' : 'County'} value={d.county} onChange={(v) => void load(d.st, v)} options={d.counties.map((c) => ({ value: c.s, label: c.n }))} help={d.counties.length ? `${d.counties.length} with at least one plan` : 'No Advantage plan filed in this state'} />}
           {mode !== 'pdp' && <>
