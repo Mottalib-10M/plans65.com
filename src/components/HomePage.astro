@@ -15,7 +15,6 @@ import { GUIDES, STATE_PAGES, stateId } from '../lib/pages';
 import { STATE_LIST, stateSummary, P } from '../lib/data';
 import { usd, num, day } from '../lib/fmt';
 import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
-import { LAST_UPDATED } from '../data/site-config';
 const lang = 'en';
 const x = HOME;
 const path = route('home', lang);
@@ -29,7 +28,7 @@ const aep = P.periods.aep;
   <header class="mb-4">
     <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{x.h1}</h1>
     <p class="mt-2 text-base text-navy-700 sm:text-lg">{x.intro}</p>
-    <p class="mt-1 text-sm text-navy-600">CMS landscape file of September 2026 and star ratings of October 8, 2026, checked <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">How the data is read</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    <p class="mt-1 text-sm text-navy-600">CMS landscape file of September 2026 and star ratings of October 8, 2026 · <a href={route('method', lang)} class="underline">How the data is read</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
   <div data-outil data-chrome><Tool kind="finder" idPrefix="home" /></div>
   <p class="my-4 rounded-lg border-l-4 border-accent-600 bg-accent-50 px-4 py-3 text-sm text-navy-800"><strong>Open enrollment:</strong> {day(aep.start)} to {day(aep.end)} for coverage on {day(aep.effective)}. Independent site, not affiliated with the government or any insurer; no agent will call you.</p>
